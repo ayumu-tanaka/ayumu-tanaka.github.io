@@ -12,10 +12,9 @@ RESEARCH
   
 **Research Interest**  
 International Trade; Foreign Direct Investment; Natural disasters  
-​  
-**Journal Articles**
 
-1.  Ayumu Tanaka. (2022). “[Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data](https://doi.org/10.1007/s10368-021-00517-2),” [**_International Economics and Economic Policy_**](https://www.springer.com/journal/10368), Vol. 19, pp. 51–78. [SharedIt link.](https://rdcu.be/cwL22)
+**Journal Articles**
+1.  Ayumu Tanaka. (2022). “[Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data](https://doi.org/10.1007/s10368-021-00517-2),” **_[International Economics and Economic Policy](https://www.springer.com/journal/10368)_**, Vol. 19, pp. 51–78. [SharedIt link.](https://rdcu.be/cwL22)
 2.  [Theresa M. Greaney](https://sites.google.com/site/greaneyecon/home) and Ayumu Tanaka. (2021). "[Foreign Ownership, Exporting and Gender Wage Gaps: Evidence from Japanese Linked Employer-Employee Data](https://doi.org/10.1016/j.jjie.2021.101151)," **_[Journal of the Japanese and International Economies](https://www.journals.elsevier.com/journal-of-the-japanese-and-international-economies)_**, Vol. 61.
 3.  [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html) and Ayumu Tanaka. (2020). "[How Does UNESCO's Convention on Cultural Diversity Affect Trade in Cultural Goods?](https://doi.org/10.1007/s10824-020-09380-6)," **_[Journal of Cultural Economics](https://link.springer.com/journal/10824)_**, Vol. 44, pp.625–660. [SharedIt link.](https://rdcu.be/cw4lh)
 4.  Ayumu Tanaka, [Banri Ito](https://sites.google.com/site/banriito/home/english), and [Ryuhei Wakasugi](https://scholar.google.co.jp/citations?user=j1e9qFUAAAAJ). (2019). "[How Do Exporters Respond to Exogenous Shocks: Evidence from Japanese Firm-Level Data](https://doi.org/10.1016/j.japwor.2019.100962)," **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, Vol. 51.
@@ -27,13 +26,11 @@ International Trade; Foreign Direct Investment; Natural disasters
 
   
 **Working Papers**
-
 1.  “[FDI, Ownership Structure, and Productivity](https://www.rieti.go.jp/jp/publications/dp/20e017.pdf),” RIETI Discussion Paper Series, No.20-E-017, March 2020 (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)). [Slides](fdi-ito-tanaka2020.pdf) 
 2.  "[Individual Preferences Toward Inward Foreign Direct Investment: A Conjoint Survey Experiment](https://dx.doi.org/10.2139/ssrn.4117608)," Available at SSRN: [https://ssrn.com/abstract=4117608](https://ssrn.com/abstract=4117608). (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 
 ​  
 **Work in Progress**
-
 1.  “Liberalization of Ownership Restrictions on Inward Foreign Direct Investment” (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
 2.  "FDI Preferences" (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 3.  "Financial Constraint and FDI" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)).
@@ -42,7 +39,6 @@ International Trade; Foreign Direct Investment; Natural disasters
 
   
 **Projects**
-
 1.  [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
 2.  RIETI's Project, "[Studies on Foreign Direct Investment and Multinationals](https://www.rieti.go.jp/en/projects/program_2020/pg-02/007.html)" (November 2020 - April 2023).
 3.  Nomura Foundation’s Research Grant for Social Science (FY 2020).
