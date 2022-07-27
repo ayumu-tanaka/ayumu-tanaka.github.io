@@ -13,7 +13,7 @@ Ayumu Tanaka, Ph.D.
 
  * ​[CV](cv_tanaka.pdf) [PDF]
 
-* [researchmap](https://researchmap.jp/ayumu-tanaka)
+* [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
 
 **Current Position**  
 2021- Associate Professor, College of Economics, Aoyama Gakuin University, Tokyo, Japan  
