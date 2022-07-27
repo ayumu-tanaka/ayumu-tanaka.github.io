@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+![river](river.jpg)
+
 [researchmap](https://researchmap.jp/ayumu-tanaka)
 
 You can use the [editor on GitHub](https://github.com/ayumu-tanaka/ayumu-tanaka.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
