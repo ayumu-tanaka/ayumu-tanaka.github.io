@@ -1,7 +1,7 @@
 ## Welcome to My Pages​
 
 
-![river](river.jpg)
+
 
 
 *   [CV](/cv.md)
