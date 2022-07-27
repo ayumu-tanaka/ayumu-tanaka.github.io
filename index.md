@@ -6,8 +6,8 @@
 
 *   [HOME](/)
 *   [CV](/cv.md)
-*   [Research](/research.html)
-*   [Japanese](/japanese.html)
+*   [Research](/research.md)
+*   [Japanese](/japanese.md)
 
 
 **Office Address**   
