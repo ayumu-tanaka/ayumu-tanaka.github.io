@@ -41,8 +41,7 @@ International Trade; Foreign Direct Investment; Natural disasters
 **Projects**
 1.  [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
 2.  RIETI's Project, "[Studies on Foreign Direct Investment and Multinationals](https://www.rieti.go.jp/en/projects/program_2020/pg-02/007.html)" (November 2020 - April 2023).
-3.  Nomura Foundation’s Research Grant for Social Science (FY 2020).
-4.  Nomura Foundation’s Research Grant for Gender Parity (with [Theresa M. Greaney](https://sites.google.com/site/greaneyecon/), October 2020 - September 2023).
+3.  Nomura Foundation’s Research Grant for Gender Parity (October 2020 - September 2023).
 
   
 **Book**  
@@ -53,6 +52,6 @@ Review of International Economics (2011), Japanese Economic Review (2013), Japan
   
 **Links**  
 [https://orcid.org/0000-0001-9858-9236](https://orcid.org/0000-0001-9858-9236)  
-[​Scopus](https://www.scopus.com/authid/detail.uri?authorId=55792392300) | [Google Scholar](https://scholar.google.co.jp/citations?user=7o9PsBoAAAAJ&hl=en)  
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=55792392300) | [Google Scholar](https://scholar.google.co.jp/citations?user=7o9PsBoAAAAJ&hl=en)  
 [IDEAS](http://ideas.repec.org/f/pta352.html) | [EconPapers](http://econpapers.repec.org/RAS/pta352.htm) | [ResearchGate](https://www.researchgate.net/profile/Ayumu_Tanaka/) | [Academia.edu](https://publons.com/researcher/4668250/ayumu-tanaka/) | [Publons](https://publons.com/researcher/4668250/ayumu-tanaka/) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4610439)
 
