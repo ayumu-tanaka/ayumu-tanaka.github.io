@@ -1,4 +1,4 @@
-[HOME](/) | [CV](/cv.md) | [Research](/research.md) | [Japanese](/japanese.md) 
+[HOME](/index.md) | [CV](/cv.md) | [Research](/research.md) | [Japanese](/japanese.md) 
 
 [](#)
 
