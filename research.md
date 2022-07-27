@@ -28,7 +28,7 @@ International Trade; Foreign Direct Investment; Natural disasters
   
 **Working Papers**
 
-1.  “[FDI, Ownership Structure, and Productivity](https://www.rieti.go.jp/jp/publications/dp/20e017.pdf),” RIETI Discussion Paper Series, No.20-E-017, March 2020 (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)). [Slides](https://ayumutanaka.weebly.com/uploads/1/3/2/9/132932448/fdi-ito-tanaka2020.pdf) 
+1.  “[FDI, Ownership Structure, and Productivity](https://www.rieti.go.jp/jp/publications/dp/20e017.pdf),” RIETI Discussion Paper Series, No.20-E-017, March 2020 (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)). [Slides](fdi-ito-tanaka2020.pdf) 
 
 ​  
 **Work in Progress**
