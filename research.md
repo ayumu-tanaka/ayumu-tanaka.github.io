@@ -28,7 +28,7 @@ International Trade; Foreign Direct Investment; Natural disasters
 **Working Papers**
 1.  “[FDI, Ownership Structure, and Productivity](https://www.rieti.go.jp/jp/publications/dp/20e017.pdf),” RIETI Discussion Paper Series, No.20-E-017, March 2020 (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)). [Slides](fdi-ito-tanaka2020.pdf) 
 2.  "[Individual Preferences Toward Inward Foreign Direct Investment: A Conjoint Survey Experiment](https://dx.doi.org/10.2139/ssrn.4117608)," Available at SSRN: [https://ssrn.com/abstract=4117608](https://ssrn.com/abstract=4117608). (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
-3. "[Why Do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-Level Data](https://www.rieti.go.jp/en/publications/summary/22010005.html)," RIETI Discussion Paper Series, 22-E-002, January 2022. (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
+3. "[Why Do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-Level Data](https://www.rieti.go.jp/en/publications/summary/22010005.html)," RIETI Discussion Paper Series, No.22-E-002, January 2022. (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 
   
 **Work in Progress**
