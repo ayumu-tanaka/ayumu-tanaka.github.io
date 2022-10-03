@@ -33,7 +33,7 @@ International Trade; Foreign Direct Investment; Natural disasters
   
 **Work in Progress**
 1.  "Financial Constraint and FDI" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)).
-2.  “Liberalization of Ownership Restrictions on Inward Foreign Direct Investment” (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
+2.  "Liberalization of Ownership Restrictions on Inward Foreign Direct Investment" (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
 3.  "FDI Preferences" (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 4.  "FDI Spillover through the Transactions" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)).
 
