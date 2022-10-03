@@ -25,7 +25,10 @@ layout: default
 　　　田中 鮎夢 　　  
 電話: 03-3409-7830 (教務課代表番号)  
 
+**Office Address**   
+College of Economics, Aoyama Gakuin University  
+4-4-25 Shibuya, Shibuya-ku, Tokyo 150-8366, JAPAN  
 
-***お詫び*** 
+**お詫び** 
 メールには返信致しません。2017年〜新規の仕事のご依頼は原則お断りしております。  
 取材等はお断りしております。対面の会合等はお断りしております。
