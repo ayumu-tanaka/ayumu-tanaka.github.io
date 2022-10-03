@@ -9,8 +9,7 @@ layout: default
 田中 鮎夢
 -----
 
-  
-  
+
 **略歴**  
 [PDF](/cv_tanaka.pdf)  
 [researchmap](https://researchmap.jp/ayumu-tanaka)
