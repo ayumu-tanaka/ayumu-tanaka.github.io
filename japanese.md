@@ -26,7 +26,7 @@ layout: default
 電話: 03-3409-7830 (教務課代表番号)  
 
 **お詫び**   
-College of Economics, Aoyama Gakuin University  
+メールには返信致しません。  
 4-4-25 Shibuya, Shibuya-ku, Tokyo 150-8366, JAPAN  
 
 **お詫び** 
