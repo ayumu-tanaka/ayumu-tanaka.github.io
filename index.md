@@ -5,7 +5,7 @@ layout: default
 
 ## Welcome to My Pages
 
-I have studied the impact of globalization on inequality and the internationalization of Japanese firms, using firm-level data. I have also studied the impact of natural disasters on plants and trade in cultural goods.
+I have studied the internationalization of Japanese firms and the impact of globalization on inequality, using Japanese micro data. I have also studied trade in cultural goods and the impact of natural disasters on manufacturing establishments.
 
 
 *   [CV](/cv.md)
