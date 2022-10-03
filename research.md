@@ -27,14 +27,14 @@ International Trade; Foreign Direct Investment; Natural disasters
 
   
 **Working Papers**
-1.  "[Individual Preferences Toward Inward Foreign Direct Investment: A Conjoint Survey Experiment](https://dx.doi.org/10.2139/ssrn.4117608)," Available at SSRN: [https://ssrn.com/abstract=4117608](https://ssrn.com/abstract=4117608). (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
+1.  "[Individual Preferences Toward Inward Foreign Direct Investment: A Conjoint Survey Experiment](https://dx.doi.org/10.2139/ssrn.4117608)," Available at SSRN: [https://ssrn.com/abstract=4221913](https://ssrn.com/abstract=4221913). (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 2. "[Why Do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-Level Data](https://www.rieti.go.jp/en/publications/summary/22010005.html)," RIETI Discussion Paper Series, No.22-E-002, January 2022. (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 
   
 **Work in Progress**
-1.  “Liberalization of Ownership Restrictions on Inward Foreign Direct Investment” (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
-2.  "FDI Preferences" (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
-3.  "Financial Constraint and FDI" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)).
+1.  "Financial Constraint and FDI" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)).
+2.  “Liberalization of Ownership Restrictions on Inward Foreign Direct Investment” (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
+3.  "FDI Preferences" (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
 4.  "FDI Spillover through the Transactions" (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)).
 
   
