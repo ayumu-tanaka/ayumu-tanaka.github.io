@@ -14,7 +14,7 @@ RESEARCH
 International Trade; Foreign Direct Investment; Natural disasters  
 
 **Journal Articles**
-1.  Tadashi Ito and Ayumu Tanaka. (2022). “[FDI, Ownership Structure, and Productivity](https://doi.org/10.1016/j.japwor.2022.101158),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, forthcoming.  
+1.  Tadashi Ito and Ayumu Tanaka. (2022). “[FDI, Ownership Structure, and Productivity](https://doi.org/10.1016/j.japwor.2022.101158),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, forthcoming.  [Share Link](https://authors.elsevier.com/c/1fv4U3Hgy9TCGn)
 2.  Ayumu Tanaka. (2022). “[Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data](https://doi.org/10.1007/s10368-021-00517-2),” **_[International Economics and Economic Policy](https://www.springer.com/journal/10368)_**, Vol. 19, pp. 51–78. [SharedIt link.](https://rdcu.be/cwL22)
 3.  [Theresa M. Greaney](https://sites.google.com/site/greaneyecon/home) and Ayumu Tanaka. (2021). "[Foreign Ownership, Exporting and Gender Wage Gaps: Evidence from Japanese Linked Employer-Employee Data](https://doi.org/10.1016/j.jjie.2021.101151)," **_[Journal of the Japanese and International Economies](https://www.journals.elsevier.com/journal-of-the-japanese-and-international-economies)_**, Vol. 61.
 4.  [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html) and Ayumu Tanaka. (2020). "[How Does UNESCO's Convention on Cultural Diversity Affect Trade in Cultural Goods?](https://doi.org/10.1007/s10824-020-09380-6)," **_[Journal of Cultural Economics](https://link.springer.com/journal/10824)_**, Vol. 44, pp.625–660. [SharedIt link.](https://rdcu.be/cw4lh)
