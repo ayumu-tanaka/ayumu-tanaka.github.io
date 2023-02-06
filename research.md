@@ -44,8 +44,9 @@ International Trade; Foreign Direct Investment; Natural disasters
 1.  [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
 2.  RIETI's Project, "[Studies on Foreign Direct Investment and Multinationals](https://www.rieti.go.jp/en/projects/program_2020/pg-02/007.html)" (November 2020 - April 2023).
 3.  Nomura Foundation’s Research Grant for Gender Parity (October 2020 - September 2023).
+4.  Zengin Foundation for Studies on Economics and Finance's Grant-in-aid (No. 2210, January 2023 - March 2025) (with Tadashi Ito and Michael Ryan)
 
-  
+
 **Book**  
 Ryuhei Wakasugi ed. (2014). "_[Internationalization of Japanese Firms: Evidence from Firm-level Data](https://dx.doi.org/10.1007/978-4-431-54532-3)_," Springer (173pages).  
   
