@@ -11,7 +11,8 @@ CV
 
 Ayumu Tanaka, Ph.D.
 
-![2021](2021.png "Ayumu Tanaka")
+<img src="2021.png" width="5cm">
+<!-- ![2021](2021.png "Ayumu Tanaka")-->
 
  * ​[CV](cv_tanaka.pdf) [PDF]
 
