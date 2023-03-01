@@ -9,7 +9,6 @@ layout: default
 CV
 --------
 
-<img src="2021.png" width="20%">
 
 Ayumu Tanaka, Ph.D.
 
