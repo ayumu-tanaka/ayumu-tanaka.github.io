@@ -9,10 +9,9 @@ layout: default
 CV
 --------
 
-
 Ayumu Tanaka, Ph.D.
 
-* ​[CV](cv_tanaka.pdf) [PDF]
+* [CV](cv_tanaka.pdf) [PDF]
 
 * [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
 
