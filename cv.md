@@ -9,13 +9,13 @@ layout: default
 CV
 --------
 
+<img src="2021.png" width="20%">
+
 Ayumu Tanaka, Ph.D.
 
 * ​[CV](cv_tanaka.pdf) [PDF]
 
 * [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
-
-<img src="2021.png" width="30%">
 
 **Current Position**  
 2021- Associate Professor, College of Economics, Aoyama Gakuin University, Tokyo, Japan  
