@@ -13,8 +13,6 @@ RESEARCH
 **Research Interest**  
 International Trade; Foreign Direct Investment; Natural disasters  
 
- (2023)
-
 **Journal Articles**
 1.  [Banri Ito](https://sites.google.com/site/banriito/home/english), Ayumu Tanaka, and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)). (2023). “[Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data](https://doi.org/10.1016/j.japwor.2023.101187),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, forthcoming.
 2.  Ayumu Tanaka. (2023). “[Geographic concentration of foreign visitors: evidence from Japan](https://doi.org/10.1007/s42495-022-00099-0),” **_[International Journal of Economic Policy Studies](https://link.springer.com/journal/42495)_**, Vol. 17, pp.211–222. [SharedIt link.](https://rdcu.be/c1Io7)
