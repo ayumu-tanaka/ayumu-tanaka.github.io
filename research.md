@@ -13,11 +13,11 @@ RESEARCH
 **Research Interest**  
 International Trade; Foreign Direct Investment; Natural disasters  
 
-
+ (2023)
 
 **Journal Articles**
 1.  [Banri Ito](https://sites.google.com/site/banriito/home/english), Ayumu Tanaka, and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)). (2023). “[Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data](https://doi.org/10.1016/j.japwor.2023.101187),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, forthcoming.
-2.  Ayumu Tanaka. (2022). “[Geographic concentration of foreign visitors: evidence from Japan](https://doi.org/10.1007/s42495-022-00099-0),” **_[International Journal of Economic Policy Studies](https://link.springer.com/journal/42495)_**. [SharedIt link.](https://rdcu.be/c1Io7)
+2.  Ayumu Tanaka. (2023). “[Geographic concentration of foreign visitors: evidence from Japan](https://doi.org/10.1007/s42495-022-00099-0),” **_[International Journal of Economic Policy Studies](https://link.springer.com/journal/42495)_**, VOl. 17, pp.211–222. [SharedIt link.](https://rdcu.be/c1Io7)
 3.  Tadashi Ito and Ayumu Tanaka. (2022). “[FDI, Ownership Structure, and Productivity](https://doi.org/10.1016/j.japwor.2022.101158),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, Vol. 64.
 4.  Ayumu Tanaka. (2022). “[Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data](https://doi.org/10.1007/s10368-021-00517-2),” **_[International Economics and Economic Policy](https://www.springer.com/journal/10368)_**, Vol. 19, pp. 51–78. [SharedIt link.](https://rdcu.be/cwL22)
 5.  [Theresa M. Greaney](https://sites.google.com/site/greaneyecon/home) and Ayumu Tanaka. (2021). "[Foreign Ownership, Exporting and Gender Wage Gaps: Evidence from Japanese Linked Employer-Employee Data](https://doi.org/10.1016/j.jjie.2021.101151)," **_[Journal of the Japanese and International Economies](https://www.journals.elsevier.com/journal-of-the-japanese-and-international-economies)_**, Vol. 61.
