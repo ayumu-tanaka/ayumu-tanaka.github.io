@@ -30,7 +30,7 @@ International Trade; Foreign Direct Investment; Natural disasters
   
 **Working Papers**
 1.  "Individual Preferences Toward Inward Foreign Direct Investment: A Conjoint Survey Experiment," Available at SSRN: [https://ssrn.com/abstract=4221913](https://ssrn.com/abstract=4221913). (with [Banri Ito](https://sites.google.com/site/banriito/home/english) and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html)).
-2.  "Partial ownership, Financial Constraint, and FDI" RIETI Discussion Paper Series, No.23-E-XX, March 2023. (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)). 
+2.  ["Partial ownership, Financial Constraint, and FDI"](https://www.rieti.go.jp/en/publications/summary/23030016.html), RIETI Discussion Paper Series, No.23-E-020, March 2023. (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)). 
 
 **Work in Progress**
 1.  "Liberalization of Ownership Restrictions on Inward Foreign Direct Investment" (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
