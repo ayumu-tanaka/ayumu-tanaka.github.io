@@ -9,6 +9,8 @@ layout: default
 CV
 --------
 
+<img src="piri_chan.jpg" width="50%"> 
+
 Ayumu Tanaka, Ph.D.
 
 * [CV](cv_tanaka.pdf) [PDF]
