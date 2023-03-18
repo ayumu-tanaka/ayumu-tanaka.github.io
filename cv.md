@@ -9,7 +9,6 @@ layout: default
 CV
 --------
 
-<img src="piri_chan.png" width="15%"> 
 
 Ayumu Tanaka, Ph.D.
 
@@ -32,4 +31,6 @@ Ph.D. in Economics, Kyoto University, 2010
 M.A. in Economics, Kyoto University, 2007  
 B.A. in Economics, Kyoto University, 2005  
 
+
+<img src="piri_chan.png" width="15%"> 
 
