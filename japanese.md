@@ -28,6 +28,8 @@ layout: default
 **日本語書籍**
 - 伊藤萬里・田中鮎夢『現実からまなぶ国際経済学』（有斐閣、2023）
   -  [井堀利宏先生からの書評](https://weekly-economist.mainichi.jp/articles/20230418/se1/00m/020/010000c)
+- 田中鮎夢『新々貿易理論とは何か: 企業の異質性と21世紀の国際経済』（ミネルヴァ書房、2015）
+  -  [遠藤正寛先生からの書評](https://www.rieti.go.jp/jp/about/Highlight_59/Highlight_59.pdf) [PDF]
 
 **お詫び**   
 メールには返信致しません。<br>
