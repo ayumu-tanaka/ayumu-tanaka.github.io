@@ -11,7 +11,7 @@ RESEARCH
 
   
 **Research Interest**  
-International Trade; Foreign Direct Investment; Natural disasters  
+International Trade; Foreign Direct Investment; Natural Disasters; Cultural Economics  
 
 **Journal Articles**
 1.  [Banri Ito](https://sites.google.com/site/banriito/home/english), Ayumu Tanaka, and [Naoto Jinji](http://www.econ.kyoto-u.ac.jp/~jinji/index_e.html). (2023). “[Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data](https://doi.org/10.1016/j.japwor.2023.101187),” **_[Japan and the World Economy](https://www.sciencedirect.com/journal/japan-and-the-world-economy)_**, forthcoming.
