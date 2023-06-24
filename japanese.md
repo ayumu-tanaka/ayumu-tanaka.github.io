@@ -34,5 +34,5 @@ layout: default
 取材等はお断りしております。対面の会合等は控えております。<br>
 
 **研究メモ**
-- [R](/Notes/R.md)
+- [R](/notes/R.md)
 
