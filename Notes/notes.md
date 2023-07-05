@@ -10,7 +10,7 @@
 - stataRunをインストール。StataMPに変更。
 - shift+command+aでRun All
 
-## VS code
+# VS code
 ## ２画面表示
 - Command + Shift + n
 
