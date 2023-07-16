@@ -35,4 +35,4 @@ layout: default
 
 **[研究メモ](Notes/notes.md)**
 
-
+**[講義資料](teaching/readme.md)**
