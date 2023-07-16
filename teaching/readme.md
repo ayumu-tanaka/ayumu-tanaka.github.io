@@ -5,4 +5,11 @@
 - [Posit Cloud](https://posit.cloud/content/5709691)
 - [R課題](https://rpubs.com/ayumu/1023208)
 - [期末レポート](https://rpubs.com/ayumu/jijo2023_report)
+- [課題資料](https://drive.google.com/drive/folders/1EcYoT1YKLeUUGBdKy_exUWp5WhKn6CCN?usp=sharing)
+
+## 2023年度「公共地域政策論（国際）」
+- [Posit Cloud](https://posit.cloud/content/6101619)
+- [R課題](https://rpubs.com/ayumu/1054736)
+- [期末レポート](https://rpubs.com/ayumu/1055113)
+- [課題資料](https://drive.google.com/drive/folders/1M-1ZTKMhmwpeyJY_dsZI6WHUTQrQfCn2?usp=sharing)
 
