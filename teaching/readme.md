@@ -9,7 +9,7 @@
 - [課題資料](https://drive.google.com/drive/folders/1EcYoT1YKLeUUGBdKy_exUWp5WhKn6CCN?usp=sharing)
 - データ
     - [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en)
-    - [IMF Data](https://data.imf.org/)
+    - [IMF Data](https://data.imf.org/): Coordinated Direct Investment Survey (CDIS)を使っています。
 
 ## 2023年度「公共地域政策論（国際）」
 - [Posit Cloud](https://posit.cloud/content/6101619)
