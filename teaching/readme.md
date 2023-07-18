@@ -14,7 +14,7 @@
 ## 2023年度「公共地域政策論（国際）」
 - [Posit Cloud](https://posit.cloud/content/6101619)
 - [Posit Cloudデータ](2023policy.zip)
-- [RPubs R課題](https://rpubs.com/ayumu/1054736)
+- [RPubs R課題](https://rpubs.com/ayumu/policy)
 - [RPubs 期末レポート雛形](https://rpubs.com/ayumu/1055113)
 - [課題資料](https://drive.google.com/drive/folders/1M-1ZTKMhmwpeyJY_dsZI6WHUTQrQfCn2?usp=sharing)
 
