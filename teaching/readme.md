@@ -18,3 +18,14 @@
 - [RPubs 期末レポート雛形](https://rpubs.com/ayumu/1055113)
 - [課題資料](https://drive.google.com/drive/folders/1M-1ZTKMhmwpeyJY_dsZI6WHUTQrQfCn2?usp=sharing)
 
+
+## 過去の資料
+
+- [世界経済論（2022前期）](https://rpubs.com/ayumu/916734)
+- [世界経済論（2022後期）](https://rpubs.com/ayumu/949456)
+- [伝統的な重力方程式の推定](https://rpubs.com/ayumu/985463)
+- [経済金融事情（国際）（2022前期）](https://rpubs.com/ayumu/916735)
+- [公共地域政策論（国際）（2022前期）](https://rpubs.com/ayumu/914338)
+- [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
+- [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
+
