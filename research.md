@@ -33,7 +33,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 **Working Papers**
 
 1.  ["Partial Ownership, Financial Constraint, and FDI,"](https://www.rieti.go.jp/en/publications/summary/23030016.html) RIETI Discussion Paper Series, No.23-E-020, March 2023. (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html) and [Michael Ryan](https://sites.google.com/site/mryanwmu/)). [[Current draft](research/Partial_Ownership_After_Proofreading.pdf)]  [[Online appendix](research/Partial_Ownership_Online_Appendix.pdf)]
-2.  ["Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage,"](https://www.rieti.go.jp/en/publications/summary/23030024.html) RIETI Discussion Paper Series, No.23-E-026, March 2023. (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)).
+1.  ["Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage,"](https://www.rieti.go.jp/en/publications/summary/23030024.html) RIETI Discussion Paper Series, No.23-E-026, March 2023. (with [Tadashi Ito](https://www.univ.gakushuin.ac.jp/iss/en/program/faculty/t011.html)).
 
 **Work in Progress**
 1.  "Liberalization of Ownership Restrictions on Inward Foreign Direct Investment" (with [Michael Ryan](https://sites.google.com/site/mryanwmu/))
@@ -42,8 +42,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Projects**
 1.  [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
-2.  Nomura Foundation’s Research Grant for Gender Parity (October 2020 - September 2023).
-3.  Zengin Foundation for Studies on Economics and Finance's Grant-in-aid (No. 2210, January 2023 - March 2025) (with Tadashi Ito and Michael Ryan)
+1.  Nomura Foundation’s Research Grant for Gender Parity (October 2020 - September 2023).
+1.  Zengin Foundation for Studies on Economics and Finance's Grant-in-aid (No. 2210, January 2023 - March 2025) (with Tadashi Ito and Michael Ryan)
 
 
 **Book**  
