@@ -29,3 +29,8 @@
 - [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
+## 参考にしてほしいサイト
+- 矢内勇生先生（高知工科大学）[統計学2](https://yukiyanai.github.io/stat2/)
+- 奥村晴彦先生（三重大学）[統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
+- Xie, Yihui [knitr: Rによる美麗で柔軟そして高速な動的レポート生成](https://gedevan-aleksizde.github.io/knitr-doc-ja/index.html)
+
