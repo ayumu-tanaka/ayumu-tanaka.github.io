@@ -1,7 +1,7 @@
 # 講義資料
 
 
-## 2023年度「経済・金融事情」
+## 2023年度「経済・金融事情（国際）」
 - [Posit Cloud](https://posit.cloud/content/5709691)
 - [Posit Cloudデータ](2023jijou.zip)
 - [RPubs R課題](https://rpubs.com/ayumu/1023208)
@@ -30,9 +30,9 @@
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
 ## 参考にしてほしいサイト
-- 矢内勇生先生[統計学2](https://yukiyanai.github.io/stat2/)
-- 奥村晴彦先生[統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
-- Xie, Yihui先生 [knitr: Rによる美麗で柔軟そして高速な動的レポート生成](https://gedevan-aleksizde.github.io/knitr-doc-ja/index.html)
-- Kosuke Imai先生[Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
-- Kosuke Imai先生[Quantitative Social Science: An Introduction. Package](https://kosukeimai.github.io/qss-package/)
+- 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
+- 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
+- Kazutan.R [R Markdown入門](https://kazutan.github.io/kazutanR/Rmd_intro.html)
+- Kosuke Imai [Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
+- Kosuke Imai [Quantitative Social Science: An Introduction. Package](https://kosukeimai.github.io/qss-package/)
 
