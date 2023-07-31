@@ -30,7 +30,9 @@
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
 ## 参考にしてほしいサイト
-- 矢内勇生先生（高知工科大学）[統計学2](https://yukiyanai.github.io/stat2/)
-- 奥村晴彦先生（三重大学）[統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
-- Xie, Yihui [knitr: Rによる美麗で柔軟そして高速な動的レポート生成](https://gedevan-aleksizde.github.io/knitr-doc-ja/index.html)
+- 矢内勇生先生[統計学2](https://yukiyanai.github.io/stat2/)
+- 奥村晴彦先生[統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
+- Xie, Yihui先生 [knitr: Rによる美麗で柔軟そして高速な動的レポート生成](https://gedevan-aleksizde.github.io/knitr-doc-ja/index.html)
+- Kosuke Imai先生[Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
+- Kosuke Imai先生[Quantitative Social Science: An Introduction. Package](https://kosukeimai.github.io/qss-package/)
 
