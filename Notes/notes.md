@@ -1,5 +1,4 @@
 # R
-
 ## data.table
 - 大規模データの読み込み
 - [https://okumuralab.org/~okumura/stat/datatable.html](https://okumuralab.org/~okumura/stat/datatable.html)
