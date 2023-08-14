@@ -19,6 +19,8 @@
 		postfoot("\tabnotes{6}{ Notes: Robust standard errors are clustered by the host country. * 10\% level, ** 5\% level, and *** 1\% level.}") ///
 	  sfmt(3) ///
 		star(* 0.1 ** 0.05 *** 0.01) nonotes eqlabels(" ")
+```
+- https://www.hargaden.com/enda/long-or-multiple-line-notes-in-esttab-with-automatic-wrapping/
 
 # VS code
 ## ２画面表示
