@@ -15,8 +15,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Journal Articles**
 
-1. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**. [[SSRN](https://ssrn.com/abstract=4221913)]
-1.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, forthcoming.
+1. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**, Vol.88. [[SSRN](https://ssrn.com/abstract=4221913)]
+1.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, Vol. 66.
 1.  Ayumu Tanaka. (2023). “Geographic Concentration of Foreign Visitors: Evidence from Japan,” **_[International Journal of Economic Policy Studies](https://doi.org/10.1007/s42495-022-00099-0)_**, Vol. 17, pp.211–222. [[SharedIt link](https://rdcu.be/c1Io7)]
 1.  Tadashi Ito and Ayumu Tanaka. (2022). “FDI, Ownership Structure, and Productivity,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2022.101158)_**, Vol. 64.
 1.  Ayumu Tanaka. (2022). “Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data,” **_[International Economics and Economic Policy](https://doi.org/10.1007/s10368-021-00517-2)_**, Vol. 19, pp. 51–78. [[SharedIt link](https://rdcu.be/cwL22)]
