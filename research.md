@@ -25,9 +25,13 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 1.  Ayumu Tanaka, Banri Ito, and Ryuhei Wakasugi. (2019). "How Do Exporters Respond to Exogenous Shocks: Evidence from Japanese Firm-Level Data," **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2019.100962)_**, Vol. 51.
 1.  Ayumu Tanaka. (2017). "Foreign Direct Investment and Temporary Workers in Japan," **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2016.10.004)_**, Vol. 48, pp.87–99.
 1.  Banri Ito and Ayumu Tanaka. (2016). "External R&D, Productivity, and Export: Evidence from Japanese Firms," **_[Review of World Economics](https://dx.doi.org/10.1007/s10290-015-0240-y)_**, Vol. 152, No.3, pp.577–596. [[SharedIt link](https://rdcu.be/cw4lp)]
+1.  Ryuhei Wakasugi and Ayumu Tanaka. (2015) "Recovery of the Supply Chain after the 2011 Mega-quake in Japan,” **_[Millennial Asia](http://doi.org/10.1177%2F0976399614563221)_**, Vol.6, No.1, pp. 1–18. 
 1.  Ayumu Tanaka. (2015). "The Impacts of Natural Disasters on Plants' Growth: Evidence from the Great Hanshin-Awaji (Kobe) Earthquake," **_[Regional Science and Urban Economics](https://dx.doi.org/10.1016/j.regsciurbeco.2014.11.002)_**, Vol. 50, pp.31–41. 
 1.  Ayumu Tanaka. (2013). "The Causal Effects of Exporting on Domestic Workers: A Firm-Level Analysis using Japanese Data," **_[Japan and the World Economy](https://dx.doi.org/10.1016/j.japwor.2013.06.003)_**, Vol. 28, pp.13-23.
 1.  Ayumu Tanaka. (2012). "Firm Productivity and the Number of FDI Destinations: Evidence from a Non-parametric Test," **_[Economics Letters](https://dx.doi.org/10.1016/j.econlet.2012.04.079)_**, Vol. 117, No.1, pp.1-3. 
+1.  Ryuhei Wakasugi and Ayumu Tanaka. (2012). "Productivity Heterogeneity and Internationalization: Evidence from Japanese Firms,” **_[Millennial Asia](http://doi.org/10.1177%2F097639961200300103)_**, Vol.3, No.1, pp.45–70.  
+1.  Ryuhei Wakasugi and Ayumu Tanaka. (2010). "Activities of Japanese Multinationals with Productivity Heterogeneity,” **_[The International Economy](http://doi.org/10.5652/internationaleconomy.ie2010.08.w.t)_**, No. 14, pp. 128–142. 
+
 
 
 **Working Papers**
