@@ -36,7 +36,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Working Papers**
 
-1.  "Partial Ownership, Financial Constraint, and FDI," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030016.html), No.23-E-020, March 2023. (with Tadashi Ito and Michael Ryan). [[Current draft](research/Partial_Ownership_After_Proofreading.pdf)]  [[Online appendix](research/Partial_Ownership_Online_Appendix.pdf)]
+1.  "Partial Ownership, Financial Constraint, and FDI," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030016.html), No.23-E-020, March 2023. (with Tadashi Ito and Michael Ryan). _Revision in Process._[[Current draft](research/Partial_Ownership_After_Proofreading.pdf)]  [[Online appendix](research/Partial_Ownership_Online_Appendix.pdf)] [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)]  
+
 1.  "Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030024.html), No.23-E-026, March 2023. (with Tadashi Ito).
 
 **Work in Progress**
