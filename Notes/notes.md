@@ -9,6 +9,15 @@
 - stataRunをインストール。StataMPに変更。
 - shift+command+aでRun All
 
+## 相関行列のLatex形式のテーブル
+
+```
+estpost correlate price mpg rep78, matrix listwise
+esttab using correlationresults.csv, replace unstack not noobs compress b(2) nonote label
+```
+
+- [https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/](https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/)
+
 ## 複数行の注があるLatex形式のテーブル
 - 「\newcommand{\tabnotes}[2]{\bottomrule \multicolumn{#1}{@{}p{0.70\linewidth}@{}}{\footnotesize #2 }\end{tabular}\end{table}}」をLatexに加えた上で、Stataで以下のように、postfoot("\tabnotes{6}{ Notes: ABCDEFG.}")をesttabに加える。推定結果表の列数が6列でなければ、適切な列数を{}内に指定する。
 ```
@@ -20,7 +29,8 @@
 	  sfmt(3) ///
 		star(* 0.1 ** 0.05 *** 0.01) nonotes eqlabels(" ")
 ```
-- https://www.hargaden.com/enda/long-or-multiple-line-notes-in-esttab-with-automatic-wrapping/
+- [https://www.hargaden.com/enda/long-or-multiple-line-notes-in-esttab-with-automatic-wrapping/](https://www.hargaden.com/enda/long-or-multiple-line-notes-in-esttab-with-automatic-wrapping/)
+
 
 # VS code
 ## ２画面表示
