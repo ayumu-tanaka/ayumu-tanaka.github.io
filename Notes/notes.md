@@ -18,7 +18,27 @@ esttab using correlationresults.csv, replace unstack not noobs compress b(2) non
 
 - [https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/](https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/)
 
-## 複数行の注があるLatex形式のテーブル
+## 複数行の注があるLatex形式のテーブル（方法1）
+latexでthreeparttableパッケージを使用。
+```
+\usepackage{threeparttable}
+```
+esttab で以下のようにpostfootを利用。
+```
+	esttab modelA modelB   ///
+	using "../Tables/table_baseline.tex",b(3) se(3) bracket  ///
+	drop(*cty_* *indcode* *year* _cons)  ///
+	mtitle(All OECD Non-OECD All OECD Non-OECD)  compress booktab replace label  ///
+	title(Baseline fractional logit results \label{baseline}) ///
+postfoot("\hline\hline \end{tabular} \begin{tablenotes} \footnotesize \item Notes: Robust standard errors are clustered by parent firm. Dep. var.: Parent firms' ownership ratio of foreign subsidiaries ($ t $). Columns (1)--(5) are estimated by the fractional logit model. Host countries' log GDP, log per capita GDP, level of IPR protection, and financial development are included in the estimation. * 10\% level, ** 5\% level, and *** 1\% level. \end{tablenotes} \end{table}")   /// 
+	scalars( "N Obs." "NA N of Subsidiaries" "NP N of Parent firms" "NB N of Banks"   "NC N of Countries"  "ymean Mean of Dep. Var." "FEC Country FE" "FEI Parent Industry FE" "FEY Year FE") sfmt(3) ///
+	star(* 0.1 ** 0.05 *** 0.01) nonotes eqlabels(" ") ///
+	mgroups("Baseline" "Extended model", pattern(1 0 0  1 0 0) ///
+	prefix(\multicolumn{@span}{c}{) suffix(}) span erepeat(\cmidrule(lr){@span})) 
+```
+
+
+## 複数行の注があるLatex形式のテーブル（方法2）
 - 「\newcommand{\tabnotes}[2]{\bottomrule \multicolumn{#1}{@{}p{0.70\linewidth}@{}}{\footnotesize #2 }\end{tabular}\end{table}}」をLatexに加えた上で、Stataで以下のように、postfoot("\tabnotes{6}{ Notes: ABCDEFG.}")をesttabに加える。推定結果表の列数が6列でなければ、適切な列数を{}内に指定する。
 ```
 	esttab model1 using "../Tables/TableXX_reg2018.tex",b(3) se(3) bracket ///
