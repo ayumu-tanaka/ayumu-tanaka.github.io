@@ -63,4 +63,15 @@ postfoot("\hline\hline \end{tabular} \begin{tablenotes} \footnotesize \item Note
 - hold down Option and drag the cursor.
 - Hold down Command (⌘) and click
 
+# 日本語論文の設定
+
+latexmkrcという名前のファイルに以下の内容をコピー。
+```
+$latex = 'uplatex';
+$bibtex = 'upbibtex';
+$dvipdf = 'dvipdfmx %O -o %D %S';
+$makeindex = 'mendex -U %O -o %D %S';
+$pdf_mode = 3; 
+```
+- [Overleafを使った日本語論文の作成](https://qiita.com/fujino-fpu/items/d92d185da730e25743cb)
 
