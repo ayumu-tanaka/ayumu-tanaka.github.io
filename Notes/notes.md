@@ -65,6 +65,15 @@ postfoot("\hline\hline \end{tabular} \begin{tablenotes} \footnotesize \item Note
 
 # 日本語論文の設定
 
+ドキュメントクラスは以下のいずれかにする
+```
+\documentclass{jsarticle}
+```
+
+```
+\documentclass[uplatex]{jsarticle}
+```
+
 latexmkrcという名前のファイルに以下の内容をコピー。
 ```
 $latex = 'uplatex';
