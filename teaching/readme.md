@@ -35,5 +35,6 @@
 - 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
 - Kazutan.R [R Markdown入門](https://kazutan.github.io/kazutanR/Rmd_intro.html)
 - Kosuke Imai [Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
-- Kosuke Imai [Quantitative Social Science: An Introduction. Package](https://kosukeimai.github.io/qss-package/)
+    - Kosuke Imai [Quantitative Social Science: An Introduction. Package](https://kosukeimai.github.io/qss-package/)
+    -  [Tidyverse version](https://press.princeton.edu/student-resources/quantitative-social-science-tidyverse)
 
