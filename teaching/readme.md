@@ -30,6 +30,10 @@
 - [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
+## Overleaf 
+- [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+
+
 ## 参考にしてほしいサイト
 - 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
 - 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
