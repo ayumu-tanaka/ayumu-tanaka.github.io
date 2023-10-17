@@ -4,6 +4,27 @@
 - [https://okumuralab.org/~okumura/stat/datatable.html](https://okumuralab.org/~okumura/stat/datatable.html)
 - [http://kohske.github.io/ESTRELA/201410/index.html](http://kohske.github.io/ESTRELA/201410/index.html)
 
+## here
+- パッケージhereは、相対パスを使うためのもの。
+- Posit Cloudでは、hereはルートディレクトリーを"/cloud/project"と認識。
+- 例えば、"/cloud/project/qss/INTRO/UNpop.csv"を読み込む時は、以下のようにする。
+
+```
+#データの読み込み例
+library(here)
+a <- read.csv(here("qss", "INTRO", "UNpop.csv"))
+```
+
+- 作業ディレクトリ自体をサブフォルダ"/cloud/project/qss/INTRO"に変更するには、以下のようにする。
+
+```
+#作業ディレクトリの変更
+library(here)
+setwd(here("qss", "INTRO"))
+getwd()
+```
+
+
 # Stata
 ## Stata VS codeからの実行
 - stataRunをインストール。StataMPに変更。
