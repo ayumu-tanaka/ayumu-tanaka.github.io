@@ -18,8 +18,16 @@ a <- read.csv(here("qss", "INTRO", "UNpop.csv"))
 - 作業ディレクトリ自体をサブフォルダ"/cloud/project/qss/INTRO"に変更するには、以下のようにする。
 
 ```
-#作業ディレクトリの変更
+#作業ディレクトリの変更(1)
 library(here)
+setwd(here("qss", "INTRO"))
+getwd()
+```
+
+```
+#作業ディレクトリの変更(2)
+library(here)
+i_am("qss/INTRO/chap01.Rmd") #Rマークダウンがある場所をルートディレクトリからの相対パスとして表現
 setwd(here("qss", "INTRO"))
 getwd()
 ```
