@@ -81,33 +81,25 @@ gen month=month(date)
 format month %tm
 ```
 
-参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
+- 参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
 
 - 曜日を日付から取り出すときは、dow関数を用いる。
-
 ```
 gen week_days = dow(daily_date )
 ```
-
-参考）[How to find the day of the week](https://www.statalist.org/forums/forum/general-stata-discussion/general/1487487-how-to-find-the-day-of-the-week)
+- 参考）[How to find the day of the week](https://www.statalist.org/forums/forum/general-stata-discussion/general/1487487-how-to-find-the-day-of-the-week)
 
 - 作成した時間変数をif 関数で指定するときには時間関数が必要。
 - 例) m==2021m7を指定したいときは、tm関数を用いてif関数で指定
-
 ```
 browse if m==tm(2021m7)
 ```
-
 - 例) ymd==13sep2021を指定したいときは、td関数を用いてif関数で指定
-
 ```
 browse if ymd==td(13sep2021)
 ```
-
-[参考Statalist](https://www.stata.com/statalist/archive/2011-08/msg00363.html)
-
+- 参考) [Statalist](https://www.stata.com/statalist/archive/2011-08/msg00363.html)
 - 移動平均など計算する際に便利なように欠けている日付を埋める
-
 ```
 tsfill, full
 ```
@@ -119,12 +111,33 @@ tsfill, full
 gen ym = ym(year, m)   
 format ym %tm
 ```
+- 参考) [Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
+- 参考) [チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
 
-[Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
+### weekly data
 
-[チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
+- Stataで2020/9/2~2020/9/8といった週次データを扱うには、まず~の手前の2020/9/2を取り出す。
+```
+split Week, parse("~") limit(1) gen(startdate)
+```
+- その上で、日変数を作成する。
+```
+gen ymd=date(startdate1,"YMD")
+format ymd %td
+```
+- さらに週変数を作成する
+```
+gen w=wofd(ymd)
+format w %tw
+```
+参考）[How to get a substring that ends before a certain symbol](https://stackoverflow.com/questions/25029862/how-to-get-a-substring-that-ends-before-a-certain-symbol)
 
+- 時系列認証はweeklyでは"repeated time values in sample"となる可能性があるので、dailyでやる方が無難
+```
+tsset ymd
+```
 
+参考）[How to declare weekly data as time series data in Stata 15](https://www.statalist.org/forums/forum/general-stata-discussion/general/1481482-how-to-declare-weekly-data-as-time-series-data-in-stata-15)
 
 ### Stata: Excelのシリアル値形式の日付の変換
 - Excelのシリアル値形式の日付（1900年1月1日からの日数=シリアル値、例：42776）をStataで通常の日付表示（例：12feb2017）に変換する。
