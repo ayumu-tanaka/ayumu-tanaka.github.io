@@ -81,13 +81,13 @@ gen month=month(date)
 format month %tm
 ```
 
-- 参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
+参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
 
 - 曜日を日付から取り出すときは、dow関数を用いる。
 ```
 gen week_days = dow(daily_date )
 ```
-- 参考）[How to find the day of the week](https://www.statalist.org/forums/forum/general-stata-discussion/general/1487487-how-to-find-the-day-of-the-week)
+参考）[How to find the day of the week](https://www.statalist.org/forums/forum/general-stata-discussion/general/1487487-how-to-find-the-day-of-the-week)
 
 - 作成した時間変数をif 関数で指定するときには時間関数が必要。
 - 例) m==2021m7を指定したいときは、tm関数を用いてif関数で指定
@@ -98,7 +98,8 @@ browse if m==tm(2021m7)
 ```
 browse if ymd==td(13sep2021)
 ```
-- 参考) [Statalist](https://www.stata.com/statalist/archive/2011-08/msg00363.html)
+参考) [Statalist](https://www.stata.com/statalist/archive/2011-08/msg00363.html)
+
 - 移動平均など計算する際に便利なように欠けている日付を埋める
 ```
 tsfill, full
@@ -111,8 +112,9 @@ tsfill, full
 gen ym = ym(year, m)   
 format ym %tm
 ```
-- 参考) [Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
-- 参考) [チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
+参考) [Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
+
+参考) [チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
 
 ### weekly data
 
