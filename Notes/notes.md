@@ -142,6 +142,23 @@ tsset ymd
 
 参考）[How to declare weekly data as time series data in Stata 15](https://www.statalist.org/forums/forum/general-stata-discussion/general/1481482-how-to-declare-weekly-data-as-time-series-data-in-stata-15)
 
+### Stata: 年齢や日数計算
+
+* 東京で初めてコロナが確認されてからの年数
+```
+display age(td(25jan2020), td(27dec2021))
+```
+* 東京で初めてコロナが確認されてからの月数
+```
+display datediff(td(24jan2020), td(27dec2021), "month")
+```
+* 東京で初めてコロナが確認されてからの日数
+```
+display datediff(td(24jan2020), td(27dec2021), "day")
+```
+ 
+参考）[New date and time functions](https://www.stata.com/new-in-stata/date-time-functions/)
+
 ### Stata: Excelのシリアル値形式の日付の変換
 - Excelのシリアル値形式の日付（1900年1月1日からの日数=シリアル値、例：42776）をStataで通常の日付表示（例：12feb2017）に変換する。
 ```
