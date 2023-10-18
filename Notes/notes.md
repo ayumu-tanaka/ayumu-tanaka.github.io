@@ -34,6 +34,23 @@ getwd()
 
 
 # Stata
+## Stataの時間処理
+
+### Stata: Excelのシリアル値形式の日付の変換
+- Excelのシリアル値形式の日付（1900年1月1日からの日数=シリアル値、例：42776）をStataで通常の日付表示（例：12feb2017）に変換する。
+```
+generate stata`var' = `var' + td(30dec1899)
+format stata`var' %td
+```
+[Format dates from serial number to date format](https://www.statalist.org/forums/forum/general-stata-discussion/general/1610701-format-dates-from-serial-number-to-date-format)
+
+- さらに日付から年を取り出すには、以下のようなコマンドを使う
+```
+gen year_of_birth = year(month_year_of_birth)
+```
+[Convert date into years](https://www.statalist.org/forums/forum/general-stata-discussion/general/1355783-convert-date-into-years)
+
+
 ## Stata VS codeからの実行
 - stataRunをインストール。StataMPに変更。
 - shift+command+aでRun All
