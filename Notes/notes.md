@@ -52,7 +52,7 @@ gen ymd=date(公表_年月日,"YMD")
 format ymd %td  
 
 *Month　月次  
-gen m = **mofd**(ymd)  
+gen m = mofd(ymd)  
 format m %tm  
 
 *Days 経過日数1  
@@ -72,7 +72,7 @@ g cdays=days-21937
 g m=monthly(ym,"YM")  
 format m %tm  
 
-gen date = **dofm**(m)  
+gen date = dofm(m)  
 format date %d  
 
 gen yr=year(date)  
