@@ -36,6 +36,96 @@ getwd()
 # Stata
 ## Stataの時間処理
 
+### Stata: 日付、年月の処理
+- 例えば、東京都のCovid-19データでは、公表_年月日が「2020-01-24」として記録されている。
+- ここから、年、月、日を取り出すStataコードは以下の通り。なお、Stataでは、1960年1月1日を日付の起点としている。
+
+```
+insheet using https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv,clear  
+
+**YEAR 年次  
+gen y=substr(公表_年月日,1,4)  
+destring y,replace  
+
+*Date　日付  
+gen ymd=date(公表_年月日,"YMD")  
+format ymd %td  
+
+*Month　月次  
+gen m = **mofd**(ymd)  
+format m %tm  
+
+*Days 経過日数1  
+gen days=date(公表_年月日,"YMD")  
+label variable days "days since 01jan1960"  
+
+*Days since the first Covid　経過日数2  
+g cdays=days-21937
+```
+参考）[Changing Daily Data into Monthly Data](https://www.statalist.org/forums/forum/general-stata-discussion/general/1395273-changing-daily-data-into-monthly-data)
+
+- 逆に"2020m1"のような月次データから年、月を取り出す際は、
+- まず、monthly関数で文字列2020m1"を時間に変換し、
+- いったんdofm関数で日付変数を作成する：
+
+```
+g m=monthly(ym,"YM")  
+format m %tm  
+
+gen date = **dofm**(m)  
+format date %d  
+
+gen yr=year(date)  
+
+gen month=month(date)  
+format month %tm
+```
+
+参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
+
+- 曜日を日付から取り出すときは、dow関数を用いる。
+
+```
+gen week_days = dow(daily_date )
+```
+
+参考）[How to find the day of the week](https://www.statalist.org/forums/forum/general-stata-discussion/general/1487487-how-to-find-the-day-of-the-week)
+
+- 作成した時間変数をif 関数で指定するときには時間関数が必要。
+- 例) m==2021m7を指定したいときは、tm関数を用いてif関数で指定
+
+```
+browse if m==tm(2021m7)
+```
+
+- 例) ymd==13sep2021を指定したいときは、td関数を用いてif関数で指定
+
+```
+browse if ymd==td(13sep2021)
+```
+
+[参考Statalist](https://www.stata.com/statalist/archive/2011-08/msg00363.html)
+
+- 移動平均など計算する際に便利なように欠けている日付を埋める
+
+```
+tsfill, full
+```
+
+** 年、月別の変数から月別の変数を生成する。**
+
+```
+*年(2020)と月(1)から年月(2020m1)作成  
+gen ym = ym(year, m)   
+format ym %tm
+```
+
+[Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
+
+[チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
+
+
+
 ### Stata: Excelのシリアル値形式の日付の変換
 - Excelのシリアル値形式の日付（1900年1月1日からの日数=シリアル値、例：42776）をStataで通常の日付表示（例：12feb2017）に変換する。
 ```
