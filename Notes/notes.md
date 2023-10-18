@@ -41,7 +41,8 @@ getwd()
 - ここから、年、月、日を取り出すStataコードは以下の通り。なお、Stataでは、1960年1月1日を日付の起点としている。
 
 ```
-insheet using https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv,clear  
+*insheet using https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv,clear  
+insheet using https://ayumu-tanaka.github.io/Notes/130001_tokyo_covid19_patients.csv,clear
 
 **YEAR 年次  
 gen y=substr(公表_年月日,1,4)  
