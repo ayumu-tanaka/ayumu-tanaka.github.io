@@ -32,6 +32,7 @@
 
 ## Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+- 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
 
 
 ## 参考にしてほしいサイト
