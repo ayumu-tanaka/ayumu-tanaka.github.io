@@ -34,6 +34,30 @@ getwd()
 
 
 # Stata
+
+## 国名から国名コード（ISO3など）の変数作成
+### 例1
+```
+ssc install kountry
+use "kountry.dta",clear
+
+*ISO2桁コードからISO3桁コード（_ISO3C_）の生成
+kountry CountryISOCode,from(iso2c) to(iso3c)
+
+*ISO2桁コードから国名（NAMES_STD）の生成
+kountry CountryISOCode,from(iso2c)
+```
+### 例2
+```
+ssc install kountry
+
+kountry Country, from(other) stuck //国名コード番号_ISO3N_ 作成
+rename _ISO3N_ ison
+kountry ison, from(iso3n) to(iso3c) //国名コード番号から国名コード作成
+rename _ISO3C_ countrycode
+```
+[kountry: A Stata utility for merging cross-country data from multiple sources](https://www.stata-journal.com/article.html?article=dm0038)
+
 ## Stataの時間処理
 
 ### Stata: 日付、年月の処理
