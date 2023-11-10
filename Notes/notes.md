@@ -35,6 +35,120 @@ getwd()
 
 # Stata
 
+## graph combine / grc1leg: 複数のグラフの結合。
+
+legendが同じ時は、grc1legが便利。それ以外は、graph combineで良い。
+
+コード例
+```
+ grc1leg "StataGraph/AMCE_task1.gph" /// 
+ "StataGraph/AMCE_nfalse0.gph" /// 
+ ,rows(1) cols(2) title("") legendfrom(StataGraph/AMCE_task1.gph)
+```
+
+コード例
+```
+ graph combine "StataGraph/AMCE_task1.gph" /// 
+ "StataGraph/AMCE_nfalse0.gph" /// 
+ ,rows(1) cols(2) title("") 
+```
+
+Stata: 複数のグラフでlegendが同じ時
+
+一つだけlegendを表示するには、grc1legをインストールする必要あり。
+
+optionのlegendfrom(../Figures/Unmatched/eventdd_procure_employment.gph)でどのグラフのlegendを使うか指定する。
+
+新しいgrc1leg2もあるよう。
+
+公式のgr combineではできない。
+
+コード例
+```
+*net install grc1leg,from( http://www.stata.com/users/vwiggins/) 
+
+grc1leg "../Figures/Unmatched/eventdd_procure_employment.gph" /// 
+ "../Figures/Unmatched/eventdd_procure_sales.gph" /// 
+ "../Figures/Unmatched/eventdd_procure_productivity.gph" /// 
+ "../Figures/matched/eventdd_procure_employment_psmatch.gph" /// 
+ "../Figures/matched/eventdd_procure_sales_psmatch.gph" /// 
+ "../Figures/matched/eventdd_procure_productivity_psmatch.gph" /// 
+ ,rows(3) cols(3) title("Transaction type: Procure") legendfrom(../Figures/Unmatched/eventdd_procure_employment.gph)
+```
+
+[https://www.techtips.surveydesign.com.au/post/combining-graphs-and-including-a-common-legend-in-stata](https://www.techtips.surveydesign.com.au/post/combining-graphs-and-including-a-common-legend-in-stata)
+
+[https://www.statalist.org/forums/forum/general-stata-discussion/general/1654767-combined-graphs-with-a-single-legend-update-of-grc1leg2-to-version-2-11](https://www.statalist.org/forums/forum/general-stata-discussion/general/1654767-combined-graphs-with-a-single-legend-update-of-grc1leg2-to-version-2-11)
+
+
+## texで４つのグラフを配置
+
+### コード例1)
+```
+\begin{figure}[htbp]
+    \begin{tabular}{cc}
+         \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig/Fig04_KOR_all.jpg}
+        \subcaption{Korea}
+        \label{KOR}
+      \end{minipage} &
+      \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig/Fig04_USA_all.jpg}
+        \subcaption{USA}
+        \label{USA}
+      \end{minipage} 
+    \end{tabular}
+\caption{Evolving distribution of Japanese firms' ownership ratio in Korea and USA, 1990--2018. \label{fig:distribution}}
+
+\footnotesize{Source: Authors' compilation based on Toyo Keizai Inc.'s OJC data.}
+
+\footnotesize{Notes: The line inside the box indicates the median, while the lower and upper hinges of the box indicate the 25th and 75th percentiles, respectively. The lower and upper adjacent lines of the whiskers show the lower and upper adjacent values that are the furthest observations that are within 1.5 times the interquartile range. The dots indicate the outside values.}
+
+  \end{figure}
+```
+
+### コード例2)
+```
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+    \begin{tabular}{cc}
+      \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig2_trend_average_ratio.eps}
+        \subcaption{All}
+        \label{composite}
+      \end{minipage} &
+      \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig2_trend_average_ratio_CHN.eps}
+        \subcaption{China}
+        \label{Gradation}
+      \end{minipage} \\
+   
+      \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig2_trend_average_ratio_THA.eps}
+        \subcaption{Thailand}
+        \label{fill}
+      \end{minipage} &
+      \begin{minipage}[t]{0.45\hsize}
+        \centering
+        \includegraphics[width = 6 cm]{fig2_trend_average_ratio_USA.eps}
+        \subcaption{USA}
+        \label{transform}
+      \end{minipage} 
+    \end{tabular}
+\caption{Number of new foreign subsidiaries and their average ownership ratio in manufacturing, 1989--2016. \label{fig:trend3}}
+
+\footnotesize{Source: Authors' compilation based on Toyo Keizai Inc.'s OJC data.}
+  \end{figure}
+
+%des03_trend.do, des04_trend_by_country.do
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
 ## 国名から国名コード（ISO3など）の変数作成
 ### 例1
 ```
