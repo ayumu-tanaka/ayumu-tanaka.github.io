@@ -81,9 +81,9 @@ grc1leg "../Figures/Unmatched/eventdd_procure_employment.gph" ///
 [https://www.statalist.org/forums/forum/general-stata-discussion/general/1654767-combined-graphs-with-a-single-legend-update-of-grc1leg2-to-version-2-11](https://www.statalist.org/forums/forum/general-stata-discussion/general/1654767-combined-graphs-with-a-single-legend-update-of-grc1leg2-to-version-2-11)
 
 
-## texで４つのグラフを配置
+## texで複数のグラフを配置
 
-### コード例1)
+### コード例1)２つのグラフ
 ```
 \begin{figure}[htbp]
     \begin{tabular}{cc}
@@ -109,7 +109,7 @@ grc1leg "../Figures/Unmatched/eventdd_procure_employment.gph" ///
   \end{figure}
 ```
 
-### コード例2)
+### コード例2)４つのグラフ
 ```
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htbp]
