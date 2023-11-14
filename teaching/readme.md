@@ -33,6 +33,8 @@
 ## Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
 - 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
+- [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
+- [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
 
 
 ## 参考にしてほしいサイト
