@@ -30,14 +30,18 @@
 - [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
-## Overleaf 
+
+
+
+## 参考にしてほしいサイト
+
+### Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
 - 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
 - [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
 - [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
 
-
-## 参考にしてほしいサイト
+### R
 - 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
 - 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
 - Kazutan.R [R Markdown入門](https://kazutan.github.io/kazutanR/Rmd_intro.html)
