@@ -40,6 +40,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 1.  "Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030024.html), No.23-E-026, March 2023. (with Tadashi Ito).
 
+1.  “Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023.
+
 **Work in Progress**
 1.  "Liberalization of Ownership Restrictions on Inward Foreign Direct Investment" (with Michael Ryan)
 
