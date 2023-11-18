@@ -38,13 +38,14 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 1.  "Partial Ownership, Financial Constraint, and FDI," [_SocArXiv_](https://doi.org/10.31235/osf.io/9djup), October 2023. (with Tadashi Ito and Michael Ryan). _Resubmitted._ [[Current draft](research/Partial_Ownership_After_Proofreading.pdf)]  [[Online appendix](research/Partial_Ownership_Online_Appendix.pdf)] [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] 
 
-1.  "Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030024.html), No.23-E-026, March 2023. (with Tadashi Ito).
+1. "Affiliate Ownership Structure Responses to FDI Liberalization Policies" (with Michael Ryan)
 
 1.  “Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023.
 
-**Work in Progress**
-1.  "Liberalization of Ownership Restrictions on Inward Foreign Direct Investment" (with Michael Ryan)
+1.  "Inward Foreign Direct Investment, Transactions, and Domestic Firms' Performance: Evidence from firm-to-firm transaction linkage," [RIETI Discussion Paper Series](https://www.rieti.go.jp/en/publications/summary/23030024.html), No.23-E-026, March 2023. (with Tadashi Ito).
 
+**Work in Progress**
+1.  "Research on foreign direct investment using the global database of listed firms" (with Michael Ryan)
 
 
 **Projects**
