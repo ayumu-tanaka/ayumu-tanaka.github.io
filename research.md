@@ -42,7 +42,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 1. "Affiliate Ownership Structure Responses to FDI Liberalization Policies" (with Michael Ryan)
 
-1.  “Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023.
+1.  “Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Submitted._
 
 
 **Work in Progress**
