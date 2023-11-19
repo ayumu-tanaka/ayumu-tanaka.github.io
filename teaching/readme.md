@@ -41,6 +41,9 @@
 - [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
 - [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
 
+### Stata
+- [dtable](https://youtu.be/NGLJig-nfZU?si=OU0btKgVf-rgKZP2)
+
 ### R
 - 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
 - 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
