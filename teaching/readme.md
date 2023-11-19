@@ -43,6 +43,7 @@
 
 ### Stata
 - [dtable](https://youtu.be/NGLJig-nfZU?si=OU0btKgVf-rgKZP2)
+- [Customizable tables in Stata 17: Cross-tabulations](https://youtu.be/4eg0hCAI304?si=-EYhdO4SmGkssE_b)
 
 ### R
 - 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
