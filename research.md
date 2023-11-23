@@ -43,7 +43,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 
 **Work in Progress**
-1.  "Research on FDI, ownership, and global firms" (with Michael Ryan)
+1.  "Research using a database on listed firms" (with Michael Ryan)
 
 
 **Projects**
