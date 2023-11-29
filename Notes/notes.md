@@ -39,7 +39,7 @@ getwd()
 
 ```
 sysuse auto,clear
-describe, replace
+describe, replace clear
 export excel using varlist.xlsx,replace first(variables)
 ```
 [Exporting variable names and corresponding labels](https://www.statalist.org/forums/forum/general-stata-discussion/general/1335719-exporting-variable-names-and-corresponding-labels)
