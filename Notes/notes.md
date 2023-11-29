@@ -35,6 +35,29 @@ getwd()
 
 # Stata
 
+## 変数ラベル使って変数名変更
+
+- エクセルで読み込んだ列1990 2000などの変数名はB, C, Dなどとなる。
+- これをyear1990,year2000に変更する
+
+```
+foreach v of varlist B C{
+local x : variable label `v' //変数B,Cの変数ラベル(1990,2000)をローカルxに保存
+rename `v' year`x' //変数B,Cの変数名をyear1990,year2000に変更
+}
+```
+* 参考：[Rename variable with its own label](https://www.statalist.org/forums/forum/general-stata-discussion/general/1367292-rename-variable-with-its-own-label)
+
+
+## 変数名使って変数ラベル変更
+```
+ds
+foreach v of varlist `r(varlist)' {
+lab var `v' "`v'"
+}
+```
+
+
 ## 変数名リストをExcelに出力
 
 ```
