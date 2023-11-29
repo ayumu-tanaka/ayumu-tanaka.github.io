@@ -35,6 +35,16 @@ getwd()
 
 # Stata
 
+## 変数名リストをExcelに出力
+
+```
+sysuse auto,clear
+describe, replace
+export excel using varlist.xlsx,replace first(variables)
+```
+[Exporting variable names and corresponding labels](https://www.statalist.org/forums/forum/general-stata-discussion/general/1335719-exporting-variable-names-and-corresponding-labels)
+
+
 ## 文字列n.a.を除き、変数を数値化
 
 ```
