@@ -35,6 +35,16 @@ getwd()
 
 # Stata
 
+## 文字列n.a.を除き、変数を数値化
+
+```
+ds , has(type string) //文字列を含む変数を特定
+foreach var of varlist `r(varlist)' {
+replace `var' = "" if `var' == "n.a."
+replace `var' = "" if `var' == "n.s."
+}
+```
+
 ## graph combine / grc1leg: 複数のグラフの結合。
 
 legendが同じ時は、grc1legが便利。それ以外は、graph combineで良い。
