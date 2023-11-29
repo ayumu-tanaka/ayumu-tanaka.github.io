@@ -44,6 +44,7 @@ replace `var' = "" if `var' == "n.a."
 replace `var' = "" if `var' == "n.s."
 }
 ```
+参考) [Replacing "NA" with missing](https://www.statalist.org/forums/forum/general-stata-discussion/general/1566228-replacing-na-with-missing)
 
 ## graph combine / grc1leg: 複数のグラフの結合。
 
