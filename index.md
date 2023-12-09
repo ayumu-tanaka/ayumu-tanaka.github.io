@@ -12,8 +12,8 @@ I am an Associate Professor in the Colledge of Economics at Aoyama Gakuin Univer
 
 *   [CV](/cv.md)
 *   [Research](/research.md)
+*   [Photos](photos/photos.md)
 *   [Japanese](/japanese.md)
-
 
 
 **Office Address**   
