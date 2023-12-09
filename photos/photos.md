@@ -15,7 +15,7 @@
 
 <img src="2023_09_morning_glory.png" alt="Morning Glory" width="40%">
 
-## Cat (_Neko_) in September 2023.
+## _Neko_ in September 2023.
 
 <img src="2023_09_cat.png" alt="cat" width="30%">
 
