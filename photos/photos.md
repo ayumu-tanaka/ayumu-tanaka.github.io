@@ -17,7 +17,7 @@
 
 ## Cat (_Neko_) in September 2023.
 
-<img src="2023_09_cat.png" alt="cat" width="40%">
+<img src="2023_09_cat.png" alt="cat" width="30%">
 
 
 ## Angelonia (_Angeronia_) in May 2023.
