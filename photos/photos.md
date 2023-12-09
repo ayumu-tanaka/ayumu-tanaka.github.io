@@ -3,4 +3,4 @@
 
 ## Calibrachoa. November, 2023
 
-<img src="Calibrachoa.png" alt="Calibrachoa" width="50%">
+<img src="Calibrachoa.png" alt="Calibrachoa" width="40%">
