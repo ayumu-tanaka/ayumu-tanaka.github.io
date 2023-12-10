@@ -20,10 +20,26 @@
 <img src="2023_09_cat.png" alt="cat" width="30%">
 
 
+## Morning Glory (_Asagao_) in August 2023.
+
+<img src="2023_08_morning_glory.png" alt="Morning Glory" width="40%">
+
+
 ## Angelonia (_Angeronia_) in May 2023.
 
 <img src="2023_05_Angelonia.png" alt="Angelonia" width="40%">
 
+
+## Geranium (_Zeraniumu_) in June 2023.
+
+<img src="2023_06_Geranium.png" alt="Geranium" width="40%">
+
+
 ## Geranium (_Zeraniumu_) in May 2023.
 
 <img src="2023_05_Geranium.png" alt="Angelonia" width="40%">
+
+
+## Tulip in April 2023.
+
+<img src="2023_04_14_Tulip.png" alt="Tulip" width="40%">
