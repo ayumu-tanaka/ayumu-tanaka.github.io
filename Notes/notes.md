@@ -307,6 +307,15 @@ format ym %tm
 ```
 参考) [Generating Monthly variable from Year and Month separate Variables.](https://www.statalist.org/forums/forum/general-stata-discussion/general/1582789-generating-monthly-variable-from-year-and-month-separate-variables)
 
+** 月次変数の作成例 **
+
+```
+g ym1="2018m01"
+g ym=monthly(ym,"YM")
+format ym %tm
+drop ym1
+```
+
 参考) [チート・シート](https://surveydesign.com.au/docs/stata/stata-dates-and-times-cheat-sheet.pdf)
 
 ### weekly data
