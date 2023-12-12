@@ -8,6 +8,8 @@
 - 自動的に文献リストが生成される。
 - 参考) [4.5 参考文献と引用](https://gedevan-aleksizde.github.io/rmarkdown-cookbook/bibliography.html)
 
+例）
+
 ```
 ---
 title: "Bibtexの練習"
@@ -19,6 +21,8 @@ bibliography: ref.bib
 ---
 
 @joseph2022effect はハイチの研究
+
+# 参考文献
 ```
 
 
