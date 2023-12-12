@@ -1,4 +1,27 @@
 # R
+
+## R MarkdownでのBibTexの使用
+
+- 冒頭に、「bibliography: ref.bib」と書き入れておく。
+- 「ref.bib」ファイルに文献情報を記載しておく。
+- 本文で文献を引用するときは、「@joseph2022effect」のように「@key」とする。
+- 自動的に文献リストが生成される。
+- 参考) [4.5 参考文献と引用](https://gedevan-aleksizde.github.io/rmarkdown-cookbook/bibliography.html)
+
+```
+---
+title: "Bibtexの練習"
+author: "田中鮎夢"
+date: "2023-12-12"
+output:
+  html_document: default
+bibliography: ref.bib
+---
+
+@joseph2022effect はハイチの研究
+```
+
+
 ## data.table
 - 大規模データの読み込み
 - [https://okumuralab.org/~okumura/stat/datatable.html](https://okumuralab.org/~okumura/stat/datatable.html)
