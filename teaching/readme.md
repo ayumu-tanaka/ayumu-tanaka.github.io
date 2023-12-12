@@ -5,7 +5,6 @@
 - [RPubs 第2章「因果関係」](https://rpubs.com/ayumu21/qss02)
 
 ## 2023年度「経済・金融事情（国際）」
-<-- - [Posit Cloud](https://posit.cloud/content/5709691) -->
 - [Posit Cloudデータ](2023jijou.zip) [zip]
 - [RPubs R課題](https://rpubs.com/ayumu/1023208)
 - [RPubs 期末レポート雛形](https://rpubs.com/ayumu/jijo2023_report)
@@ -15,7 +14,6 @@
     - [IMF Data](https://data.imf.org/): Coordinated Direct Investment Survey (CDIS)を使っています。
 
 ## 2023年度「公共地域政策論（国際）」
-<-- - [Posit Cloud](https://posit.cloud/content/6101619) -->
 - [Posit Cloudデータ](2023policy.zip)  [zip]
 - [RPubs R課題](https://rpubs.com/ayumu/policy)
 - [RPubs 期末レポート雛形](https://rpubs.com/ayumu/1055113)
