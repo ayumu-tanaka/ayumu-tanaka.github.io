@@ -1,5 +1,16 @@
 # R
 
+## Excelデータの読み込み、書き出し
+
+```
+library(readxl)
+ABCD <- read_excel("ABCD.xlsx")
+
+library("openxlsx")
+write.xlsx(ABCD, "ABCD.xlsx")
+```
+
+
 ## 特定の文字列の言語の識別
 
 ```
