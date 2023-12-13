@@ -6,6 +6,7 @@
 library(cld3)
 detect_language("日本語")
 ```
+- 言語コードは、[cld3](https://github.com/google/cld3#readme)に記載あり。
 
 ## 特定の文字の前後の文字列の切り出し
 
