@@ -1,5 +1,17 @@
 # R
 
+## 特定の文字の前後の文字列の切り出し
+
+[特定の文字の前後を抜き出す](https://rpubs.com/dfirr/1029033)
+
+例)
+「stringr」パッケージを用いて、「//」の後の文字列を切り出す。
+```
+library(stringr)
+JPN <- str_split_i("The Antique: Secret of the Old Books // ビブリア古書堂の事件手帖", "//", i = -1)
+```
+
+
 ## R MarkdownでのBibTexの使用
 
 - 冒頭に、「bibliography: ref.bib」と書き入れておく。
