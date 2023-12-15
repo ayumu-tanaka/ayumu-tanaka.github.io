@@ -1,6 +1,7 @@
 # 講義資料
 
 ## 2023年度「基礎演習」
+テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
 - [RPubs 第1章「イントロ」](https://rpubs.com/ayumu21/qss01)
 - [RPubs 第2章「因果関係」](https://rpubs.com/ayumu21/qss02)
 
