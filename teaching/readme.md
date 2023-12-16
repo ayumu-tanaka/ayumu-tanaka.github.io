@@ -44,8 +44,8 @@
 - [財務省貿易統計](https://www.customs.go.jp/toukei/info/) &rarr; 無料。日本の国別・財別の貿易データ。csvファイル形式。
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
 - [観光庁、宿泊旅行統計調査](https://www.mlit.go.jp/kankocho/siryou/toukei/shukuhakutoukei.html) &rarr; 無料。
-- [Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
-
+- [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
+- [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。 
 
 ## 参考にしてほしいサイト
 
