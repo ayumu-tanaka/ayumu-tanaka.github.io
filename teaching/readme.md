@@ -40,6 +40,7 @@
 - [CEPII, Gravity](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8) 無料。２国間の距離、言語の共通性など重力方程式に必須の変数の定番データベース。
 - [World Bank Enterprise Surveys (WBES)](https://www.enterprisesurveys.org/en/enterprisesurveys) 無料。研究計画の登録必要。世界各国の企業へのアンケート調査。
 - [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) 無料。世界各国の市民対象のアンケート調査。
+- [Nikkei, NEEDS-FinancialQUEST](https://www.agulin.aoyama.ac.jp/opac/gateway/link/740?lang=0) 青学学内から無料。日本の上場企業の財務データ。
 
 
 ## 参考にしてほしいサイト
