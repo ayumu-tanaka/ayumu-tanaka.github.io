@@ -34,7 +34,7 @@
 
 
 ## 卒論・修士論文などの研究に使えるデータ
-- [World Bank, World Development Indicators](https://datatopics.worldbank.org/world-development-indicators/): 無料。世界各国のGDPなどの基本変数。
+- [World Bank, World Development Indicators](https://datatopics.worldbank.org/world-development-indicators/) &rarr; 無料。世界各国のGDPなどの基本変数。
 - [Penn World Table (PWT)](https://www.rug.nl/ggdc/productivity/pwt/?lang=en) 無料。世界各国のGDPなどの基本変数。
 - [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) 有料。国連貿易統計を研究用に加工済みの２国間の貿易データ。
 - [CEPII, Gravity](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8) 無料。２国間の距離、言語の共通性など重力方程式に必須の変数の定番データベース。
