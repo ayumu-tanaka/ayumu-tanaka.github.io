@@ -42,6 +42,8 @@
 - [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) 無料。世界各国の市民対象のアンケート調査。
 - [Nikkei, NEEDS-FinancialQUEST](https://www.agulin.aoyama.ac.jp/opac/gateway/link/740?lang=0) 青学学内から無料。日本の上場企業の財務データ。
 - [財務省貿易統計](https://www.customs.go.jp/toukei/info/) 無料。日本の国別・財別の貿易データ。csvファイル形式。
+- [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) 無料。
+- [観光庁、宿泊旅行統計調査] (https://www.mlit.go.jp/kankocho/siryou/toukei/shukuhakutoukei.html) 無料。
 
 
 ## 参考にしてほしいサイト
