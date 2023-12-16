@@ -532,7 +532,6 @@ $makeindex = 'mendex -U %O -o %D %S';
 $pdf_mode = 3; 
 ```
 
-% if page.update %}最終更新日: {{ page.update }} {% endif %}
 
 - [Overleafを使った日本語論文の作成](https://qiita.com/fujino-fpu/items/d92d185da730e25743cb)
 
