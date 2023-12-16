@@ -124,8 +124,19 @@ rename `v' year`x' //変数B,Cの変数名をyear1990,year2000に変更
 ```
 * 参考：[Rename variable with its own label](https://www.statalist.org/forums/forum/general-stata-discussion/general/1367292-rename-variable-with-its-own-label)
 
+## 文字列n.a.を除き、変数を数値化(1)
 
-## 変数の"n.a."という文字列を削除して、変数を数値変数に変換
+```
+ds , has(type string) //文字列を含む変数を特定
+foreach var of varlist `r(varlist)' {
+replace `var' = "" if `var' == "n.a."
+replace `var' = "" if `var' == "n.s."
+}
+```
+参考) [Replacing "NA" with missing](https://www.statalist.org/forums/forum/general-stata-discussion/general/1566228-replacing-na-with-missing)
+
+
+## 文字列n.a.を除き、変数を数値化(2)
 ```
 * 文字列変数のリストr(varlist)を取得
 ds , has(type string)
@@ -155,16 +166,6 @@ export excel using varlist.xlsx,replace first(variables)
 [Exporting variable names and corresponding labels](https://www.statalist.org/forums/forum/general-stata-discussion/general/1335719-exporting-variable-names-and-corresponding-labels)
 
 
-## 文字列n.a.を除き、変数を数値化
-
-```
-ds , has(type string) //文字列を含む変数を特定
-foreach var of varlist `r(varlist)' {
-replace `var' = "" if `var' == "n.a."
-replace `var' = "" if `var' == "n.s."
-}
-```
-参考) [Replacing "NA" with missing](https://www.statalist.org/forums/forum/general-stata-discussion/general/1566228-replacing-na-with-missing)
 
 ## graph combine / grc1leg: 複数のグラフの結合。
 
