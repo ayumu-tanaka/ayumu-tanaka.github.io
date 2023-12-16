@@ -48,6 +48,11 @@
 - [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。 
 - [ミネソタ大学、IPUMS (国際標準化された国勢調査のデータ 社会科学と健康研究)](https://international.ipums.org/international/) &rarr; 無料。
 - [Find Economic Articles with Data](https://ejd.econ.mathematik.uni-ulm.de) &rarr; 基本的に無料。経済論文で使われているデータ。
+- [Mario Larch's Regional Trade Agreements Database](https://www.ewf.uni-bayreuth.de/en/research/RTA-data/index.html) &rarr; 無料。RTAデータベース。
+- [WTO Database on RTAs](https://rtais.wto.org/UI/PublicMaintainRTAHome.aspx) &rarr; 無料。RTAデータベース。
+- [JETRO, 世界のFTAデータベース](https://www.jetro.go.jp/theme/wto-fta/ftalist/) &rarr; 無料。RTAデータベース。
+
+
 
 
 ## 参考にしてほしいサイト
