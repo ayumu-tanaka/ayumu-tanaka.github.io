@@ -1,3 +1,9 @@
+# 研究メモ
+
+- [R](#R)
+- [Stata](#Stata)
+
+<a id="R"></a>
 # R
 
 ## Excelデータの読み込み、書き出し
@@ -90,7 +96,7 @@ setwd(here("qss", "INTRO"))
 getwd()
 ```
 
-
+<a id="Stata"></a>
 # Stata
 
 ## 会社名、企業名検索
@@ -115,6 +121,17 @@ rename `v' year`x' //変数B,Cの変数名をyear1990,year2000に変更
 }
 ```
 * 参考：[Rename variable with its own label](https://www.statalist.org/forums/forum/general-stata-discussion/general/1367292-rename-variable-with-its-own-label)
+
+
+## 変数の"n.a."という文字列を削除して、変数を数値変数に変換
+```
+* 文字列変数のリストr(varlist)を取得
+ds , has(type string)
+* 文字列変数の"n.a."という文字列を削除して、変数を数値変数に変換
+foreach var of varlist `r(varlist)' {
+destring `var', ignore("n.a.") replace
+}
+```
 
 
 ## 変数名使って変数ラベル変更
