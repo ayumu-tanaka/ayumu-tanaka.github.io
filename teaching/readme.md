@@ -1,6 +1,6 @@
 # 講義資料
 
-[過去の資料](#過去の資料) | [LaTeX/Stata/R](#LaTeX/Stata/R) | [データ](#データ)
+[過去の資料](#過去の資料) | [LaTeX, Stata, R](#LaTeX/Stata/R) | [データ](#データ)
 
 
 ## 2023年度「基礎演習」
@@ -37,7 +37,7 @@
 
 
 <a id="LaTeX/Stata/R"></a>
-## LaTeX/Stata/R
+## LaTeX, Stata, R
 
 ### LaTeX/Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
