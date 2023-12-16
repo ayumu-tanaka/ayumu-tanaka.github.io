@@ -1,8 +1,6 @@
 # 研究メモ
 
-- [R](#R)
-- [Stata](#Stata)
-- [Overleaf](#Overleaf)
+[R](#R) | [Stata](#Stata) | [Overleaf](#Overleaf)
 
 
 <a id="R"></a>
