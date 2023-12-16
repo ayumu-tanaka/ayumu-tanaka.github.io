@@ -33,6 +33,30 @@
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
 
+## 参考にしてほしいサイト
+
+### LaTeX/Overleaf 
+- [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+- 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
+- [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
+- [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
+
+### Stata
+- [dtable](https://youtu.be/NGLJig-nfZU?si=OU0btKgVf-rgKZP2)
+- [Customizable tables in Stata 17: Cross-tabulations](https://youtu.be/4eg0hCAI304?si=-EYhdO4SmGkssE_b)
+
+### R
+- 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
+- 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
+- Kazutan.R [R Markdown入門](https://kazutan.github.io/kazutanR/Rmd_intro.html)
+- Kosuke Imai [Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
+    - [Package](https://kosukeimai.github.io/qss-package/)
+    - [Tidyverse version](https://press.princeton.edu/student-resources/quantitative-social-science-tidyverse)
+    - [qsslearnr: Interactive Tutorials for Quantitative Social Science](https://github.com/mattblackwell/qsslearnr) 
+- Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
+
+
+
 ## 卒論・修士論文などの研究に使えるデータ
 ### 経済一般
 - [World Bank, World Development Indicators](https://datatopics.worldbank.org/world-development-indicators/) &rarr; 無料。世界各国のGDPなどの基本変数。
@@ -64,28 +88,5 @@
 - [WTO tariff data base: Tariff Download Facility](http://tariffdata.wto.org/) &rarr; 無料。MFN関税率̶。
 - [FedEX WorldTariffオンラインデータベース](https://ftn.fedex.com/wtonline/jsp/wtoMainUL.jsp?) &rarr; 無料。特恵関税率など。
 - [Global Trade Alert](https://www.globaltradealert.org) &rarr; 無料。貿易政策を監視。
-
-
-## 参考にしてほしいサイト
-
-### LaTeX/Overleaf 
-- [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
-- 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
-- [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
-- [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
-
-### Stata
-- [dtable](https://youtu.be/NGLJig-nfZU?si=OU0btKgVf-rgKZP2)
-- [Customizable tables in Stata 17: Cross-tabulations](https://youtu.be/4eg0hCAI304?si=-EYhdO4SmGkssE_b)
-
-### R
-- 矢内勇生 [統計学2](https://yukiyanai.github.io/stat2/)
-- 奥村晴彦 [統計・データ解析](https://oku.edu.mie-u.ac.jp/~okumura/stat/)
-- Kazutan.R [R Markdown入門](https://kazutan.github.io/kazutanR/Rmd_intro.html)
-- Kosuke Imai [Quantitative Social Science: An Introduction. Student Resources](https://press.princeton.edu/student-resources/quantitative-social-science)
-    - [Package](https://kosukeimai.github.io/qss-package/)
-    - [Tidyverse version](https://press.princeton.edu/student-resources/quantitative-social-science-tidyverse)
-    - [qsslearnr: Interactive Tutorials for Quantitative Social Science](https://github.com/mattblackwell/qsslearnr) 
-- Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
 
 
