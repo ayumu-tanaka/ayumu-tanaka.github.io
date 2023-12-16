@@ -1,5 +1,8 @@
 # 講義資料
 
+[過去の資料](#過去の資料) | [LaTeX/Stata/R](#LaTeX/Stata/R) | [データ](#データ)
+
+
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
 - [RPubs 第1章「イントロ」](https://rpubs.com/ayumu21/qss01)
@@ -20,7 +23,7 @@
 - [RPubs 期末レポート雛形](https://rpubs.com/ayumu/1055113)
 - [課題資料](https://drive.google.com/drive/folders/1M-1ZTKMhmwpeyJY_dsZI6WHUTQrQfCn2?usp=sharing)
 
-
+<a id="過去の資料"></a>
 ## 過去の資料
 
 - [世界経済論（2022前期）](https://rpubs.com/ayumu/916734)
@@ -33,7 +36,8 @@
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
 
-## 参考にしてほしいサイト
+<a id="LaTeX/Stata/R"></a>
+## LaTeX/Stata/R
 
 ### LaTeX/Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
@@ -56,6 +60,7 @@
 - Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
 
 
+<a id="データ"></a>
 
 ## 卒論・修士論文などの研究に使えるデータ
 ### 経済一般
