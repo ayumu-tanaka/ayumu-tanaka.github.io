@@ -46,7 +46,9 @@
 - [観光庁、宿泊旅行統計調査](https://www.mlit.go.jp/kankocho/siryou/toukei/shukuhakutoukei.html) &rarr; 無料。
 - [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
 - [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。 
-- [ミネソタ大学、IPUMS (国際標準化された国勢調査のデータ 社会科学と健康研究)](https://international.ipums.org/international/)
+- [ミネソタ大学、IPUMS (国際標準化された国勢調査のデータ 社会科学と健康研究)](https://international.ipums.org/international/) &rarr; 無料。
+- [Find Economic Articles with Data](https://ejd.econ.mathematik.uni-ulm.de) &rarr; 基本的に無料。経済論文で使われているデータ。
+
 
 ## 参考にしてほしいサイト
 
