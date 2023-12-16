@@ -41,6 +41,7 @@
 - [World Bank Enterprise Surveys (WBES)](https://www.enterprisesurveys.org/en/enterprisesurveys) 無料。研究計画の登録必要。世界各国の企業へのアンケート調査。
 - [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) 無料。世界各国の市民対象のアンケート調査。
 - [Nikkei, NEEDS-FinancialQUEST](https://www.agulin.aoyama.ac.jp/opac/gateway/link/740?lang=0) 青学学内から無料。日本の上場企業の財務データ。
+- [財務省貿易統計](https://www.customs.go.jp/toukei/info/) 無料。日本の国別・財別の貿易データ。csvファイル形式。
 
 
 ## 参考にしてほしいサイト
