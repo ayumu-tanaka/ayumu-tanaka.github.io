@@ -78,7 +78,7 @@
 - [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) &rarr; 有料。国連貿易統計を研究用に加工済みの２国間の貿易データ。
 - [CEPII, Gravity](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8) &rarr; 無料。２国間の距離、言語の共通性など重力方程式に必須の変数の定番データベース。
 - [財務省貿易統計](https://www.customs.go.jp/toukei/info/) &rarr; 無料。日本の国別・財別の貿易データ。csvファイル形式。
-- [観光庁、宿泊旅行統計調査](https://www.mlit.go.jp/kankocho/siryou/toukei/shukuhakutoukei.html) &rarr; 無料。
+
   
 ### 外国直接投資
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
@@ -93,5 +93,13 @@
 - [WTO tariff data base: Tariff Download Facility](http://tariffdata.wto.org/) &rarr; 無料。MFN関税率̶。
 - [FedEX WorldTariffオンラインデータベース](https://ftn.fedex.com/wtonline/jsp/wtoMainUL.jsp?) &rarr; 無料。特恵関税率など。
 - [Global Trade Alert](https://www.globaltradealert.org) &rarr; 無料。貿易政策を監視。
+
+### 観光
+- [観光庁、宿泊旅行統計調査](https://www.mlit.go.jp/kankocho/siryou/toukei/shukuhakutoukei.html) &rarr; 無料。
+- [法務省、出入国管理統計統計表](http://www.moj.go.jp/housei/toukei/toukei_ichiran_nyukan.html#a02) &rarr; 無料。
+- [日本政府観光局（JNTO)、月別・年別統計データ（訪日外国人・出国日本人）](https://www.jnto.go.jp/jpn/statistics/visitor_trends/) &rarr; 無料。
+- [The World Tourism Organization (UNWTO) Tourism Statistics](https://www.e-unwto.org/toc/unwtotfb/current) &rarr; 無料。
+- [The World Bank, International tourism, number of arrivals](https://data.worldbank.org/indicator/st.int.arvl) &rarr; 無料。
+- [OECD, Tourism Statistics](https://www.oecd.org/cfe/tourism/tourism-statistics.htm) &rarr; 無料。
 
 
