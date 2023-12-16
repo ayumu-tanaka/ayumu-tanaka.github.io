@@ -75,7 +75,7 @@
 - [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) &rarr; 無料。世界各国の市民対象のアンケート調査。
   
 ### 貿易
-- [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) &rarr; 有料。国連貿易統計を研究用に加工済みの２国間の貿易データ。
+- [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) &rarr; かつては国連貿易統計の有料プラン加入が必要だったが、現在は無料のよう。国連貿易統計を研究用に加工済みの２国間の貿易データ。
 - [CEPII, Gravity](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8) &rarr; 無料。２国間の距離、言語の共通性など重力方程式に必須の変数の定番データベース。
 - [財務省貿易統計](https://www.customs.go.jp/toukei/info/) &rarr; 無料。日本の国別・財別の貿易データ。csvファイル形式。
 
