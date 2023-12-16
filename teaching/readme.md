@@ -33,8 +33,9 @@
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
 
-## 学生が研究に使えるデータ
-- [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home)
+## 卒論・修士論文などの研究に使えるデータ
+- [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) 無料
+- 
 
 ## 参考にしてほしいサイト
 
