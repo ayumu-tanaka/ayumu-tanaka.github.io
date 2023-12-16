@@ -54,14 +54,16 @@
 ### 外国直接投資
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
 - [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
-- [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。
+- [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。
 
 ### 貿易政策、RTA
 - [Mario Larch's Regional Trade Agreements Database](https://www.ewf.uni-bayreuth.de/en/research/RTA-data/index.html) &rarr; 無料。RTAデータベース。
 - [WTO Database on RTAs](https://rtais.wto.org/UI/PublicMaintainRTAHome.aspx) &rarr; 無料。RTAデータベース。
 - [JETRO, 世界のFTAデータベース](https://www.jetro.go.jp/theme/wto-fta/ftalist/) &rarr; 無料。RTAデータベース。
-
-
+- [税関 実行関税率表](http://www.customs.go.jp/tariff/index.htm) &rarr; 無料。
+- [WTO tariff data base: Tariff Download Facility](http://tariffdata.wto.org/) &rarr; 無料。MFN関税率̶。
+- [FedEX WorldTariffオンラインデータベース](https://ftn.fedex.com/wtonline/jsp/wtoMainUL.jsp?) &rarr; 無料。特恵関税率など。
+- [Global Trade Alert](https://www.globaltradealert.org) &rarr; 無料。貿易政策を監視。
 
 
 ## 参考にしてほしいサイト
