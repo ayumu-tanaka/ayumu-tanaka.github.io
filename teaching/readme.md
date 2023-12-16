@@ -65,7 +65,7 @@
 ## 卒論・修士論文などの研究に使えるデータ
 ### 経済一般
 - [World Bank, World Development Indicators](https://datatopics.worldbank.org/world-development-indicators/) &rarr; 無料。世界各国のGDPなどの基本変数。
-- [Penn World Table (PWT)](https://www.rug.nl/ggdc/productivity/pwt/?lang=en) &rarr; 無料。世界各国のGDPなどの基本変数。
+- [Penn World Table (PWT)](https://www.rug.nl/ggdc/productivity/pwt/?lang=en) &rarr; 無料。世界各国のGDP、為替レートなどの基本変数。
 - [ミネソタ大学、IPUMS (社会科学と健康研究のための国際標準化された国勢調査のデータ)](https://international.ipums.org/international/) &rarr; 無料。
 - [Find Economic Articles with Data](https://ejd.econ.mathematik.uni-ulm.de) &rarr; 基本的に無料。経済論文で使われているデータ検索。
   
