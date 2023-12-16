@@ -1,6 +1,5 @@
 # 研究メモ
 
-date: "`r Sys.Date()`"
 
 [R](#R) | [Stata](#Stata) | [Overleaf](#Overleaf)
 
