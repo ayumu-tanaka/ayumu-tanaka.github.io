@@ -2,6 +2,7 @@
 
 [過去の資料](#過去の資料) | [LaTeX, Stata, R](#LaTeX/Stata/R) | [データ](#データ)
 
+---
 
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
@@ -35,7 +36,7 @@
 - [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
 - [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
 
-
+---
 <a id="LaTeX/Stata/R"></a>
 ## LaTeX, Stata, R
 
@@ -60,6 +61,7 @@
 - Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
 
 
+---
 <a id="データ"></a>
 
 ## 卒論・修士論文などの研究に使えるデータ
