@@ -110,6 +110,7 @@ di $mpg_mean_neat
 hist mpg, title(Mean=$mpg_mean_neat)
 graph export hist.png,replace
 ```
+<img src=hist.png width=60%>
 
 ## 会社名、企業名検索
 
