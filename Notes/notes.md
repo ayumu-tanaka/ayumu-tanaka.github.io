@@ -100,6 +100,17 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## globalの数値桁数を指定して、グラフに表示する
+
+```
+sysuse auto, clear
+su mpg
+global mpg_mean_neat = strltrim("`: display %10.3f r(mean)'")
+di $mpg_mean_neat
+hist mpg, title(Mean=$mpg_mean_neat)
+graph export hist.png,replace
+```
+
 ## 会社名、企業名検索
 
 企業名変数=name、従業員数=Lのとき
