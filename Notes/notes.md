@@ -100,6 +100,17 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## 結合したグラフでX軸/Y軸のタイトルを共通にする
+
+```
+sysuse auto
+scatter mpg weight , name(g1)
+scatter mpg price , name(g2)
+graph combine g1 g2, l1(Miles per gallon) b1(Interesting predictors)
+```
+
+- 出典: [Common x and ytitle for combined graphs](https://www.statalist.org/forums/forum/general-stata-discussion/general/396778-common-x-and-ytitle-for-combined-graphs)
+
 ## globalの数値桁数を指定して、グラフに表示する
 
 ```
