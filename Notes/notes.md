@@ -100,6 +100,25 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## geoplot
+- [ベン・ジャンの公式ページ](https://github.com/benjann/geoplot)
+- [ベン・ジャンのスライド](https://www.stata.com/meeting/uk23/slides/UK23_Jann.pdf)
+
+コード例
+
+```
+ssc install geoplot, replace
+help geoplot
+local url http://fmwww.bc.edu/repec/bocode/i/
+geoframe create regions `url'Italy-RegionsData.dta, id(id) coord(xcoord ycoord) shpfile(Italy-RegionsCoordinates.dta)
+geoframe create country `url'Italy-OutlineCoordinates.dta
+geoframe create capitals `url'Italy-Capitals.dta, coord(xcoord ycoord)
+geoframe create lakes `url'Italy-Lakes.dta, feature(water)
+geoframe create rivers `url'Italy-Rivers.dta, feature(water)
+
+geoplot (area regions) (line country, lwidth(medthick)), tight
+```
+
 ## 結合したグラフでX軸/Y軸のタイトルを共通にする
 
 ```
