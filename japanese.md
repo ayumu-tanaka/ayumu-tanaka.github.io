@@ -28,9 +28,6 @@ layout: default
 **日本語書籍**  
 [PDF](/jpub.pdf)  
 
-共訳書『文化政策の経済学』冒頭から
-<img src="Throsby_chap10.png" alt="Throsby_chap10.png" width="40%">
-
 
 **お詫び**   
 2017年〜新規の仕事のご依頼は原則お断りしております。🐈<br>
