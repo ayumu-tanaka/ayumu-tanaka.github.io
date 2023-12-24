@@ -100,6 +100,29 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## アンバランスド・パネルをバランスド・パネルに変換する
+
+例）すべての年次に観測がある個体のみを残す。
+```
+* Balanced Panel
+	bys id: egen ny=count(year)
+	su ny
+	keep if ny==r(max)
+	drop ny
+```
+
+例）パッケージ（xtpattern）を使って、すべての年次に観測がある個体のみを残す。
+```
+tsset id year
+xtpattern, gen(pat)
+tab pat
+destring pat, gen(patn) ignore(.)
+su patn
+keep if patn==r(max)
+drop pat patn
+tsset id year
+```
+
 ## 個体数が多すぎてencodeで使えない場合の対処策
 
 例）以下のように企業ID（文字変数: bvdidnumber）の値の種類が多すぎると、encodeはエラーになる。
