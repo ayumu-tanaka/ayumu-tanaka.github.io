@@ -123,6 +123,14 @@ drop pat patn
 tsset id year
 ```
 
+例）欠損年次のある個体の欠損を埋める。
+```
+tsset id year
+fillin id year
+tab _fillin
+```
+
+
 ## 個体数が多すぎてencodeで使えない場合の対処策
 
 例）以下のように企業ID（文字変数: bvdidnumber）の値の種類が多すぎると、encodeはエラーになる。
