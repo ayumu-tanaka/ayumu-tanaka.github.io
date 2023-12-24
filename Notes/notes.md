@@ -100,6 +100,21 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## 個体数が多すぎてencodeで使えない場合の対処策
+
+例）以下のように企業ID（文字変数: bvdidnumber）の値の種類が多すぎると、encodeはエラーになる。
+```
+. encode bvdidnumber,gen(id)
+too many values
+```
+その場合、group()関数で企業IDから数値変数を作成できる。
+```
+* Firm ID作成
+	egen long id = group(bvdidnumber)
+	tsset id year
+```
+- [Error message: too many values when using encode command](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
+
 ## geoplot
 - [ベン・ジャンの公式ページ](https://github.com/benjann/geoplot)
 - [ベン・ジャンのスライド](https://www.stata.com/meeting/uk23/slides/UK23_Jann.pdf)
