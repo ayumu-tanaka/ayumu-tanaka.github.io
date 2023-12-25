@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+[HOME](/index.md) | [CV](/cv.md) | [Research](/research.md) | [Japanese](/japanese.md) 
+
 # 講義資料
 
 [過去の資料](#過去の資料) | [LaTeX, Stata, R](#LaTeX/Stata/R) | [データ](#データ)
