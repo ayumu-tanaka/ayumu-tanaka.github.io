@@ -9,8 +9,9 @@ layout: default
 CV
 --------
 
-
 Ayumu Tanaka, Ph.D.
+
+<img src="2022_1219_tanaka.jpg" width="30%"> 
 
 * [CV](cv_tanaka.pdf) [PDF]
 
