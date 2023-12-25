@@ -2,9 +2,6 @@
 layout: default
 ---
 
-[HOME](/index.md) | [CV](/cv.md) | [Research](/research.md) | [Japanese](/japanese.md) 
-
-
 # 研究メモ
 
 
