@@ -9,11 +9,11 @@ layout: default
 CV
 --------
 
+<img src="2022_1219_tanaka.jpg" width="20%"> 
+
 Ayumu Tanaka, Ph.D.
 
-<img src="2022_1219_tanaka.jpg" width="30%"> 
-
-* [CV](cv_tanaka.pdf) [PDF]
+* [CV](cv_tanaka.pdf) [PDF] 
 
 * [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
 
