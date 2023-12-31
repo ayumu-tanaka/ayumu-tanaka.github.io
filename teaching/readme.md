@@ -47,10 +47,10 @@ layout: default
 ### LaTeX/Overleaf 
 - [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
 - 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
-- [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
-- [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
 
 ### Stata
+- [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
+- [Stata/LaTeX workflow gallery](https://lukestein.github.io/stata-latex-workflows/gallery/)
 - [dtable](https://youtu.be/NGLJig-nfZU?si=OU0btKgVf-rgKZP2)
 - [Customizable tables in Stata 17: Cross-tabulations](https://youtu.be/4eg0hCAI304?si=-EYhdO4SmGkssE_b)
 
@@ -63,6 +63,7 @@ layout: default
     - [Tidyverse version](https://press.princeton.edu/student-resources/quantitative-social-science-tidyverse)
     - [qsslearnr: Interactive Tutorials for Quantitative Social Science](https://github.com/mattblackwell/qsslearnr) 
 - Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
+- [Library of Statistical Techniques (LOST)](https://lost-stats.github.io)
 
 
 ---
