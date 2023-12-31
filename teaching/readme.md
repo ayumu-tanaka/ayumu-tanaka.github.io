@@ -9,7 +9,8 @@ layout: default
 
 ## 大学院生への連絡
 
-- [大学院生への連絡](grad_students.pdf)
+- [大学院入学予定者への連絡](grad_students.pdf)
+- [大学院入学希望者への連絡](grad_applicants.pdf)
 
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
