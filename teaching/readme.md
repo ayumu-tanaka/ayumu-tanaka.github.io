@@ -64,6 +64,7 @@ layout: default
     - [qsslearnr: Interactive Tutorials for Quantitative Social Science](https://github.com/mattblackwell/qsslearnr) 
 - Elena Llaudet and Kosuke Imai [Data Analysis for Social Science, Student Resources](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
 - [Library of Statistical Techniques (LOST)](https://lost-stats.github.io)
+- [Causal Inference: The Mixtape](https://mixtape.scunning.com)
 
 
 ---
