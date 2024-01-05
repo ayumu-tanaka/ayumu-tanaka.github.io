@@ -104,6 +104,27 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## 変数ラベル、変数名に特定の文字列を含む変数を探す。
+- 変数ラベルの文字列の場合
+```
+ds, has(varl 文字列*)
+```
+- 変数名の文字列の場合
+```
+lookfor 文字列
+```
+
+## 特定の文字列を変数ラベルから除去する
+*文字列ABCの部分を削除
+```
+ds, has(varl 文字列*)
+foreach var in  `r(varlist)' {
+local variable_label : variable label `var'
+local variable_label : subinstr local variable_label "文字列ABC" ""
+label variable `var' "`variable_label'"
+}
+```
+
 ## アンバランスド・パネルをバランスド・パネルに変換する
 
 例）すべての年次に観測がある個体のみを残す。
