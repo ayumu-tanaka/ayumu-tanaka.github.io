@@ -125,6 +125,18 @@ label variable `var' "`variable_label'"
 }
 ```
 
+## 変数ラベルに特定の文字列を追加する
+
+```
+lookfor 文字列ABC //文字列ABCを含む変数を探す
+foreach var in  `r(varlist)' {
+local variable_label1 : variable label `var' //既存変数ラベルの保存
+local variable_label2  "`variable_label1'  追加文字列XYZ"　 //新規変数ラベルの作成
+label variable `var' "`variable_label2'" //変数ラベルの付与
+}
+```
+
+
 ## アンバランスド・パネルをバランスド・パネルに変換する
 
 例）すべての年次に観測がある個体のみを残す。
