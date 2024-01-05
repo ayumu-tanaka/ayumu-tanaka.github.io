@@ -107,8 +107,8 @@ getwd()
 ## 文字列の左から３文字目から抜き出す
 
 ```
- substr("abc**de**f",-3,2) = "de"
- usubstr("médi**an**e",-3,2) = "an"
+ substr("abc **de** f",-3,2) = "de"
+ usubstr("médi **an** e",-3,2) = "an"
 ```
 
 ## 変数ラベル、変数名に特定の文字列を含む変数を探す。
