@@ -107,8 +107,9 @@ getwd()
 ## 文字列の左から３文字目から抜き出す
 
 ```
- substr("abcdef",-3,2) = "de"
- usubstr("médiane",-3,2) = "an"
+ substr("abcdef",-3,2) = "de" 
+ usubstr("médiane",-3,2) = "an" //Unicode
+ udsubstr("東京都",2,4) = "京都"  //全角文字
 ```
 
 ## 変数ラベル、変数名に特定の文字列を含む変数を探す。
