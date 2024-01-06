@@ -15,7 +15,7 @@
 
 <img src="2023_09_morning_glory.png" alt="Morning Glory" width="40%">
 
-## _Neko_ in September 2023.
+## Neko in September 2023.
 
 <img src="2023_09_cat.png" alt="cat" width="30%">
 
@@ -48,3 +48,10 @@
 ## Tulip in March 2023.
 
 <img src="2023_03_24_Tulip.png" alt="Tulip" width="40%">
+
+
+
+## Kana-chan, Gomphrena globosa (SenNichiKou), and Catharanthus roseus (NichiNichiSou) in September 2022.
+
+<img src="2022_09_01_kana_chan.png" alt="Kana-chan" width="40%">
+
