@@ -462,6 +462,24 @@ rename _ISO3C_ countrycode
 [kountry: A Stata utility for merging cross-country data from multiple sources](https://www.stata-journal.com/article.html?article=dm0038)
 
 ## Stataの時間処理
+### 英語の月名の数値変換
+
+```
+g mnum=.
+replace mnum=1 if mname=="January"
+replace mnum=2 if mname=="February"
+replace mnum=3 if mname=="March"
+replace mnum=4 if mname=="April"
+replace mnum=5 if mname=="May"
+replace mnum=6 if mname=="June"
+replace mnum=7 if mname=="July"
+replace mnum=8 if mname=="August"
+replace mnum=9 if mname=="September"
+replace mnum=10 if mname=="October"
+replace mnum=11 if mname=="November"
+replace mnum=12 if mname=="December"
+```
+
 
 ### Stata: 日付、年月の処理
 - 例えば、東京都のCovid-19データでは、公表_年月日が「2020-01-24」として記録されている。
