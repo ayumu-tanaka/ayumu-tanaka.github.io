@@ -104,6 +104,15 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## January2013から、Januaryを抜き出す
+
+変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
+```
+g m=substr(myear, 1, strpos(myear,"2")-1)
+```
+- strpos()は、strpos("this","is") = 3　のように、第１引数において第２引数が何文字目に出現するかを返す。
+- substr()は、substr("abcdef",2,3) = "bcd"のように、第１引数において第２引数から３文字目までを取り出す。
+
 ## 文字列の抜き出し
 
 - 文字列の左から３文字目から抜き出す
