@@ -107,6 +107,7 @@ getwd()
 ## データのチェック
 
 - **assert**: 間違いがあれば、以後のプログラムを停止する
+  
 ```
 . sysuse bplong,clear
 (Fictional blood-pressure data)
@@ -124,7 +125,8 @@ r(9);
 
 ## January2013から、Januaryを抜き出す
 
-変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
+- 変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
+
 ```
 g m=substr(myear, 1, strpos(myear,"2")-1)
 ```
