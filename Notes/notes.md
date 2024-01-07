@@ -104,6 +104,24 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## データのチェック
+
+- **assert**: 間違いがあれば、以後のプログラムを停止する
+```
+. sysuse bplong,clear
+(Fictional blood-pressure data)
+
+. replace sex = 3 in 1
+(1 real change made)
+
+. assert sex == 0 | sex == 1
+1 contradiction in 240 observations
+assertion is false
+r(9);
+
+```
+
+
 ## January2013から、Januaryを抜き出す
 
 変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
