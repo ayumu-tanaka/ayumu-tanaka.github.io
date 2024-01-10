@@ -9,10 +9,14 @@ layout: default
 
 
 
+
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
 - [RPubs 第1章「イントロ」](https://rpubs.com/ayumu21/qss01)
 - [RPubs 第2章「因果関係」](https://rpubs.com/ayumu21/qss02)
+
+## 2023年度「グローバル経済A」
+- [期末レポート雛形](global_economy_report.pdf)
 
 ## 2023年度「経済・金融事情（国際）」
 - [Posit Cloudデータ](2023jijou.zip) [zip]
