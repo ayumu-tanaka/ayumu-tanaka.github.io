@@ -16,6 +16,7 @@ layout: default
 
 ## 2023年度「グローバル経済A」
 - [期末レポート雛形](global_economy_report.pdf)
+- [データ IMFv3_2018.xlsx](IMFv3_2018.xlsx)
 
 ## 2023年度「経済・金融事情（国際）」
 - [Posit Cloudデータ](2023jijou.zip) [zip]
