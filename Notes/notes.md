@@ -106,6 +106,7 @@ getwd()
 
 ## パネルデータの欠損値の穴埋め
 
+例1）
 ```
 * 欠けている月次に変数の値を埋める
 sort stock_code ym
@@ -113,6 +114,25 @@ foreach var in  ymd y  res yyyymm isin firmnameJ firmname {
 	bys stock_code: replace `var' = `var'[_n-1] if missing(`var')
 }
 ```
+
+例2)
+```
+* パネルデータで欠けている値の補完
+* 後方補完
+sort stock_code ym
+foreach var in  timing  firmnameJ firmname {
+	bys stock_code: replace `var' = `var'[_n-1] if missing(`var')
+}
+
+* 前方補完
+sort stock_code ym
+foreach var in   firmnameJ firmname {
+	while missing(`var') {
+	bys stock_code: replace `var' = `var'[_n+1] if missing(`var')
+	}
+}
+```
+
 
 ## データのチェック
 
