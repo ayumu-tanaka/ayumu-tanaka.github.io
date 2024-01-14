@@ -530,6 +530,7 @@ g cdays=days-21937
 ```
 参考）[Changing Daily Data into Monthly Data](https://www.statalist.org/forums/forum/general-stata-discussion/general/1395273-changing-daily-data-into-monthly-data)
 
+
 - 逆に"2020m1"のような月次データから年、月を取り出す際は、
 - まず、monthly関数で文字列2020m1"を時間に変換し、
 - いったんdofm関数で日付変数を作成する：
@@ -548,6 +549,22 @@ format month %tm
 ```
 
 参考）[HOW CAN I EXTRACT MONTH AND YEAR COMPONENT FROM A VARIABLE WITH %TM FORMAT?](https://stats.idre.ucla.edu/stata/faq/how-can-i-extract-month-and-year-component-from-a-variable-with-tm-format/)
+
+
+* 「2021/10」という形式から年次と月次変数を作成する
+```
+	* 「2021/10」から年と月を取り出し、数値変数化。
+	g y=substr(yyyymm,1,4)
+	g m=substr(yyyymm,6,2)
+	destring y ,replace
+	format  y %ty
+	* 「2021/10」から日付変数作成（スラッシュは自動的に無視してくれる）
+	gen ymd=date(yyyymm,"YM") 
+	format ymd %td
+	*Month　月次  
+	gen month = mofd(ymd)  
+	format month %tm  
+```
 
 - 曜日を日付から取り出すときは、dow関数を用いる。
 ```
