@@ -104,6 +104,16 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
+## パネルデータの欠損値の穴埋め
+
+```
+* 欠けている月次に変数の値を埋める
+sort stock_code ym
+foreach var in  ymd y  res yyyymm isin firmnameJ firmname {
+	bys stock_code: replace `var' = `var'[_n-1] if missing(`var')
+}
+```
+
 ## データのチェック
 
 - **assert**: 間違いがあれば、以後のプログラムを停止する
