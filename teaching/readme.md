@@ -8,7 +8,7 @@ layout: default
 [過去の資料](#過去の資料) | [LaTeX, Stata, R](#LaTeX/Stata/R) | [データ](#データ)
 
 ## 大学院進学予定者へ
-- 指導を希望する学生（入学予定者）は、合格後、[教務課](https://www.aoyama.ac.jp/admission/graduate/inquiry/)を通じて、教員にメール連絡してください。
+- 研究指導を希望する学生（入学予定者）は、合格後、[教務課](https://www.aoyama.ac.jp/admission/graduate/inquiry/)を通じて、もしくは直接教員にメール連絡してください。
 
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
