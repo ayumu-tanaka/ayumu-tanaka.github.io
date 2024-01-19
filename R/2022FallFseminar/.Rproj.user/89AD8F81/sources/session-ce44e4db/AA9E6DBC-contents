@@ -1,0 +1,65 @@
+---
+title: "Covid-19"
+author: "田中 鮎夢"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Our world in data
+```{r}
+library(readxl)
+covid2022G7 <- read_excel("covid2022G7.xlsx")
+barplot(covid2022G7$total_deaths,names.arg = covid2022G7$iso_code)
+
+
+library(readxl)
+covid2022 <- read_excel("covid2022.xlsx")
+hist(covid2022$total_deaths_per_million)
+hist(covid2022$gdp_per_capita)
+hist(covid2022$total_cases)
+
+
+
+
+```
+
+
+## 厚労省オープンデータ
+```{r}
+library(readr)
+deaths_cumulative_daily <- read_csv("deaths_cumulative_daily.csv")
+
+head(deaths_cumulative_daily)
+
+#データの観測数
+dim(deaths_cumulative_daily)
+nrow(deaths_cumulative_daily)
+
+
+death<-subset(deaths_cumulative_daily,deaths_cumulative_daily$Date=="2022/12/7"|deaths_cumulative_daily$Date=="2021/12/31"|deaths_cumulative_daily$Date=="2020/12/31")
+
+head(death)
+
+library(tidyr)
+names(death) <- paste0("pref_",names(death))
+death$date<-death$pref_Date
+death$pref_Date<-NULL
+deathlong<-pivot_longer(death, starts_with("pref_"), names_to = "pref", values_to = "death")
+deathlong<-subset(deathlong,pref!="pref_ALL")
+
+library(stringr)
+deathlong$pref<-str_sub(deathlong$pref,6,20)
+
+summary(deathlong)
+
+head(deathlong)
+
+```
+
+
+
+

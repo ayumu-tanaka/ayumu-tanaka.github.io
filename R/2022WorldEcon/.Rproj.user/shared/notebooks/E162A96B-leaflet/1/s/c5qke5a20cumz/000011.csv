@@ -1,0 +1,42 @@
+"0","library(readr)"
+"0","trade <- read_csv(""trade.csv"")"
+"1","[1mRows: [22m[34m5[39m [1mColumns: [22m[34m7[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (2): origins, destinations
+[32mdbl[39m (5): import, longitude.x, latitude.x, longitude.y, latitude.y
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","line <- read_csv(""line.csv"")"
+"1","[1mRows: [22m[34m6[39m [1mColumns: [22m[34m5[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (2): country, countryname
+[32mdbl[39m (3): import, long, lat
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","USA<-subset(line,country==""USA""|country==""JPN"")"
+"0","AUS<-subset(line,country==""AUS""|country==""JPN"")"
+"0","CHN<-subset(line,country==""CHN""|country==""JPN"")"
+"0","NZL<-subset(line,country==""NZL""|country==""JPN"")"
+"0","DEU<-subset(line,country==""DEU""|country==""JPN"")"
+"0",""
+"0",""
+"0","library(leaflet)"
+"0","x<- leaflet()"
+"0","x<- addTiles(x)"
+"0","x<-addPolylines(x,lng=USA$long,lat = USA$lat, weight=USA$import)"
+"0","x<-addPolylines(x,lng=AUS$long,lat = AUS$lat, weight=AUS$import)"
+"0","x<-addPolylines(x,lng=CHN$long,lat = CHN$lat, weight=CHN$import)"
+"0","x<-addPolylines(x,lng=NZL$long,lat = NZL$lat, weight=NZL$import)"
+"0","x<-addPolylines(x,lng=DEU$long,lat = DEU$lat, weight=DEU$import)"
+"0",""
+"0","x"

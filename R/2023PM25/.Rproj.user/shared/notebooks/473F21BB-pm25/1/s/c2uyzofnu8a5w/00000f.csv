@@ -1,0 +1,6 @@
+"0","state_id <- ACAGPM::lookup_GEOID(tract = ""9502, Abbeville, South Carolina"")"
+"0","print(state_id)"
+"1","[1]"
+"1"," ""45001950200"""
+"1","
+"

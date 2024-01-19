@@ -1,0 +1,93 @@
+---
+title: "2022後期「フレッシャーズ・セミナー」"
+author: "田中 鮎夢"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r pressure}
+library(readxl)
+time <- read_excel("time.xlsx")
+mean(time$time)
+hist(time$time)
+
+```
+
+```{r}
+library(readxl)
+time2 <- read_excel("time2.xlsx")
+
+## You can use the below code to generate the graph.
+## Don't forget to replace the 'df' with the name
+## of your dataframe
+
+# You need the following package(s):
+library("ggplot2")
+
+# The code below will generate the graph:
+graph <- ggplot(time2, aes(x = school, y = work)) +
+  geom_point()+
+  geom_smooth(se = FALSE, method = 'lm') +
+  theme_bw()
+graph
+
+# If you want the plot to be interactive,
+# you need the following package(s):
+library("plotly")
+ggplotly(graph)
+
+# If you would like to save your graph, you can use:
+ggsave('my_graph.pdf', graph, width = 14, height = 14, units = 'cm')
+```
+
+## 確率密度関数の一例
+
+教科書p.70 例題2
+
+```{r}
+x=seq(0,1,0.01)
+y=6*(x-x^2)
+plot(x,y)
+
+```
+
+# 標準正規分布
+
+```{r}
+x=seq(-5,5,0.01)
+y=(1/sqrt(2*pi))*exp(-(x^2/2))
+plot(x,y)
+
+curve(dnorm,-5,5)
+
+```
+
+# 正規分布
+```{r}
+x=seq(5,15,0.01)
+m=10
+s=5
+
+y=(1/(sqrt(2*pi)*s^2))*exp(-((x-m)^2/2*s^2))
+plot(x,y)
+
+```
+```{r}
+library(readxl)
+height <- read_excel("height.xlsx")
+hist(height$h)
+
+#正規分布
+mean(height$h)
+sd(height$h)
+x=seq(147,187,1)
+y=dnorm(x,167.5,9.3)
+plot(x,y)
+
+```
+

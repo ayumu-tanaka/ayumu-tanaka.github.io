@@ -1,0 +1,1 @@
+"0","plot(asia$pop, asia$rgdpe, log = ""xy"", xlab = ""Population"", ylab = ""GDP"")"

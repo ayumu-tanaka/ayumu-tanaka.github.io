@@ -1,0 +1,2 @@
+"0",""
+"0","barplot(pwt2019$pop, names.arg = pwt2019$countrycode)"

@@ -1,0 +1,4 @@
+"0","JPN <- subset(imf,imf$countrycode==""JPN"")"
+"0",""
+"0","olsJPN<-lm(JPN$lnFDIstock ~ JPN$lnGDP_partner)"
+"0","plot(JPN$lnGDP_partner, JPN$lnFDIstock)"

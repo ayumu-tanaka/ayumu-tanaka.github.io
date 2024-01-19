@@ -1,0 +1,3 @@
+"0",""
+"0","# 日米の折れ線グラフ"
+"0","plot(USA$year,USA$percapitaGDP,type = ""o"",ylim=c(1000,80000))"

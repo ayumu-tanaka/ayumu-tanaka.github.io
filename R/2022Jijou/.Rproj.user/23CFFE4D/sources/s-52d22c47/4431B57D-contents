@@ -1,0 +1,32 @@
+---
+title: "US and Japan"
+author: "Ayumu Tanaka"
+date: '2022-06-13'
+output: html_document
+---
+
+```{r}
+
+library(readxl)
+pwt1950 <- read_excel("pwt1950.xlsx")
+jpn<-subset(pwt1950,countrycode=="JPN")
+usa<-subset(pwt1950,countrycode=="USA")
+
+plot(usa$year,usa$percapitaGDP,type = "o",ylim = c(1000,80000))
+points(jpn$year,jpn$percapitaGDP,type = "o")
+text(1990,45000,"USA")
+text(1990,25000,"JPN")
+
+#Germany versus Japan
+deu<-subset(pwt1950,countrycode=="DEU")
+
+plot(deu$year,deu$percapitaGDP,type = "o",ylim = c(1000,80000))
+points(jpn$year,jpn$percapitaGDP,type = "o")
+text(2010,47000,"DEU")
+text(2010,35000,"JPN")
+
+
+```
+
+
+

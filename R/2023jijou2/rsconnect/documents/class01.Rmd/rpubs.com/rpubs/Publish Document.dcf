@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/1041678/3b27d782adb9460885273b6cc39999ec
+bundleId: https://api.rpubs.com/api/v1/document/1041678/3b27d782adb9460885273b6cc39999ec
+url: http://rpubs.com/ayumu/1041678
+when: 1687157458.37397
+lastSyncTime: 1687157458.37399

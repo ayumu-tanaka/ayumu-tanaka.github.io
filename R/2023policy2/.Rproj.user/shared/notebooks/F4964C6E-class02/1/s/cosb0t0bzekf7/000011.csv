@@ -1,0 +1,7 @@
+"0","library(modelsummary)"
+"0","library(ggplot2)"
+"0","library(flextable)"
+"0",""
+"0","model2<-lm(rose$ltrade~rose$ldist+rose$lrgdp)"
+"0",""
+"0","modelsummary(model2,stars = TRUE)"

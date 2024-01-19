@@ -1,0 +1,5 @@
+"0","library(leaflet)"
+"0","m <- leaflet() %>%"
+"0","addTiles() %>% # Add default OpenStreetMap map tiles"
+"0","addMarkers(lng=174.768, lat=-36.852, popup=""The birthplace of R"")"
+"0","m "

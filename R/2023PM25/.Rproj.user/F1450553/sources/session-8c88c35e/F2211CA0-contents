@@ -1,0 +1,32 @@
+---
+title: "データ切り出し"
+author: "田中 鮎夢"
+date: "2023-04-26"
+output: html_document
+---
+
+https://wustl.app.box.com/s/9073l0k8go8kehtxd5ok46dmw1q63oav
+
+```{r}
+#install.packages("raster")
+
+#install.packages('terra', repos='https://rspatial.r-universe.dev')
+library(terra)
+library(raster)
+library(rasterVis)
+library(ncdf4)
+library(lattice)
+
+```
+
+```{r}
+ncfile = ncdf4::nc_open('V5GL03.HybridPM25.China.200701-200712.nc')
+names(ncfile$var)
+```
+```{r}
+#Change the Input path.
+input_nc = 'V5GL03.HybridPM25.China.200701-200712.nc'
+varname = 'GWRPM25'
+nc2raster = raster(input_nc,varname = varname,band = 1)
+```
+

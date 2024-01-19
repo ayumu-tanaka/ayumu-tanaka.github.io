@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+envVars: rpubs.com
+hostUrl: https://api.rpubs.com/api/v1/document/954007/f1856e94f7c9418abc531d05e3b2af55
+appId: https://api.rpubs.com/api/v1/document/954007/f1856e94f7c9418abc531d05e3b2af55
+bundleId: http://rpubs.com/ayumu/954007
+url: 1702987294.66734
+version: 1
