@@ -11,6 +11,10 @@ layout: default
 <a id="R"></a>
 # R
 
+## 多数の固定効果含むモデルの推定
+
+- Laurent Berge and Grant McDermott. [fixest -- Fast Fixed-Effects Estimation: Short Introduction](https://cran.r-project.org/web/packages/fixest/vignettes/fixest_walkthrough.html#12_Clustering_the_standard-errors)
+
 ## Excelデータの読み込み、書き出し
 
 ```
