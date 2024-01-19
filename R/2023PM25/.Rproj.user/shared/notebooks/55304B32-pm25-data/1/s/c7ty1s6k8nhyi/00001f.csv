@@ -1,6 +1,0 @@
-"0","#install.packages(""raster"")"
-"0",""
-"0","#install.packages('terra', repos='https://rspatial.r-universe.dev')"
-"0","library(terra)"
-"2","Error in library(terra) : there is no package called ‘terra’
-"

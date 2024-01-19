@@ -1,6 +1,0 @@
-"0","ncfile = ncdf4::nc_open('V5GL03.HybridPM25.China.200701-200712.nc')"
-"0","names(ncfile$var)"
-"1","[1]"
-"1"," ""GWRPM25"""
-"1","
-"

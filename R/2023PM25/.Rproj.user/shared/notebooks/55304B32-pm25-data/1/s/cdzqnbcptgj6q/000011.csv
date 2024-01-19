@@ -1,7 +1,0 @@
-"0","#Change the Input path."
-"0","input_nc = 'V5GL03.HybridPM25.China.200701-200712.nc'"
-"0","varname = 'GWRPM25'"
-"0","nc2raster = raster(input_nc,varname = varname,band = 1)"
-"2","Error in raster(input_nc, varname = varname, band = 1) : 
-  could not find function ""raster""
-"
