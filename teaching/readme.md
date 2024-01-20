@@ -39,7 +39,7 @@ layout: default
 
 - [世界経済論（2022前期）](https://rpubs.com/ayumu/916734)
 - [世界経済論（2022後期）](https://rpubs.com/ayumu/949456)
-    - [伝統的な重力方程式の推定](https://rpubs.com/ayumu21/gravity_traditional)
+    - [伝統的な重力方程式の推定](https://rpubs.com/ayumu21/gravity_explanation)
     - [Rマークダウン](gravity_R.zip)  [zip]
 - [経済金融事情（国際）（2022前期）](https://rpubs.com/ayumu/916735)
 - [公共地域政策論（国際）（2022前期）](https://rpubs.com/ayumu/914338)
