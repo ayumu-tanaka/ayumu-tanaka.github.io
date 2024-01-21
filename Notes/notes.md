@@ -11,6 +11,10 @@ layout: default
 <a id="R"></a>
 # R
 
+## RMarkdown目次生成
+
+- [RMarkdownで目次と見出しの通し番号を自動生成](https://qiita.com/kazutan/items/fee51e475c3e900e4faa)
+
 ## 多数の固定効果含むモデルの推定
 
 - Laurent Berge and Grant McDermott. [fixest -- Fast Fixed-Effects Estimation: Short Introduction](https://cran.r-project.org/web/packages/fixest/vignettes/fixest_walkthrough.html#12_Clustering_the_standard-errors)
