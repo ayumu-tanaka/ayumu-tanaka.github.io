@@ -11,6 +11,13 @@ layout: default
 <a id="R"></a>
 # R
 
+## Stata to R
+
+- [Stata to R :: CHEAT SHEET](https://raw.githubusercontent.com/rstudio/cheatsheets/master/stata2r.pdf) チートシート
+- [Getting Started in R<->Stata]() 
+- [Translating Stata to R](https://stata2r.github.io/) fixestなどのみ
+- [Translating Stata to R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　詳細
+
 ## RMarkdown目次生成
 
 - [RMarkdownで目次と見出しの通し番号を自動生成](https://qiita.com/kazutan/items/fee51e475c3e900e4faa)
