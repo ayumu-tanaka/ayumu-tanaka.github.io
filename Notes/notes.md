@@ -16,8 +16,8 @@ layout: default
 - [Stata to R :: CHEAT SHEET](https://raw.githubusercontent.com/rstudio/cheatsheets/master/stata2r.pdf) チートシート
 - [Getting Started in R<->Stata](https://www.princeton.edu/~otorres/RStata.pdf) 2010年版。昔ながらのRコード。
 - [R FOR STATA USERS](https://www.matthieugomez.com/statar/) tidyverseを使った現代的なRコード。
-- [Translating Stata to R](https://stata2r.github.io/) fixestなどのみ
-- [Translating Stata to R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　詳細
+- [Translating Stata to R](https://stata2r.github.io/) data.tableによるデータ処理、fixestを使った推定を中心とした解説。
+- [Translating Stata to R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　アルファベット順のコード解説。
 
 ## RMarkdown目次生成
 
