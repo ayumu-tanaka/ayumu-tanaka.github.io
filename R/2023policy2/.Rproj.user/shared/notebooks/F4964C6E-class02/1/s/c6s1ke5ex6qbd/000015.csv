@@ -1,3 +1,0 @@
-"0","japan <- subset(rose,rose$cty1name==""Japan"")"
-"0","model1<- lm(japan$ltrade ~ japan$ldist)"
-"0","plot(japan$ldist, japan$ltrade, xlab=""log Distance"", ylab = ""Log Trade"")"

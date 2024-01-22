@@ -1,3 +1,0 @@
-"0","library(readxl)"
-"0","rose <- read_excel(""rose.xlsx"")"
-"0","head(rose)"

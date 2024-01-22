@@ -1,6 +1,0 @@
-"0","m <- leaflet(states) %>%"
-"0","  setView(-96, 37.8, 4) %>%"
-"0","  addProviderTiles(""MapBox"", options = providerTileOptions("
-"0","    id = ""mapbox.light"","
-"0","    accessToken = Sys.getenv('MAPBOX_ACCESS_TOKEN')))"
-"0",""

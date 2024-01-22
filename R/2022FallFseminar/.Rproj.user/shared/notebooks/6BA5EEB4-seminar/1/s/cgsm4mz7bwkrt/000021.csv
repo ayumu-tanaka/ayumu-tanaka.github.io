@@ -1,4 +1,0 @@
-"0","library(readxl)"
-"0","time <- read_excel(""time.xlsx"")"
-"0",""
-"0","hist(time$time)"

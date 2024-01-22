@@ -1,3 +1,0 @@
-"0",""
-"0","plot(pwt2019$percapitaGDP,pwt2019$pop, log = ""xy"", xlab = ""Percapita GDP"", ylab = ""Population"")"
-"0",""

@@ -1,5 +1,0 @@
-"0","library(readxl)"
-"0","covid <- read_excel(""covid.xlsx"")"
-"0","result<-lm(total_deaths~total_cases,data = covid)"
-"0",""
-"0","plot(covid$total_cases,covid$total_deaths)"

@@ -1,2 +1,0 @@
-"0","ols <- lm(rose$ltrade~rose$ldist)"
-"0","abline(ols)"

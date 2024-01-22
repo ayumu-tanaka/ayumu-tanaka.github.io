@@ -58,7 +58,9 @@ layout: default
 - [日本語論文の設定](#日本語論文の設定)
 
 
+<!--
 [R](#R) | [Stata](#Stata) | [Overleaf](#Overleaf)
+-->
 
 
 <a id="R"></a>

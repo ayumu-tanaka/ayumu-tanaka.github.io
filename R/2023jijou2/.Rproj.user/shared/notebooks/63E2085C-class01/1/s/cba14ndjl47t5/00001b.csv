@@ -1,1 +1,0 @@
-"0","plot(USA$year,USA$percapitaGDP,type = ""o"",ylim = c(1000,80000),col=4)"

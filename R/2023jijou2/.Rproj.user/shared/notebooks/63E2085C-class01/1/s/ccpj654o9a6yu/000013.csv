@@ -1,3 +1,0 @@
-"0","library(readxl)"
-"0","pwt2019 <- read_excel(""pwt2019.xlsx"")"
-"0","head(pwt2019)"

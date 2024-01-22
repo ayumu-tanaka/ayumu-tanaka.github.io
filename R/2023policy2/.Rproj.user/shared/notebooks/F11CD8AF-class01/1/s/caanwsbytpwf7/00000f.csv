@@ -1,3 +1,0 @@
-"0","library(readxl)"
-"0","asia <- read_excel(""asia.xlsx"")"
-"0","head(asia)"
