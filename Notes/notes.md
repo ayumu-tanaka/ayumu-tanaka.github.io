@@ -55,7 +55,7 @@ layout: default
   - [２画面表示](#２画面表示)
 - [Overleaf](#overleaf)
   - [マルチカーソル](#マルチカーソル)
-- [日本語論文の設定](#日本語論文の設定)
+  - [日本語論文の設定](#日本語論文の設定)
 
 
 <!--
@@ -842,7 +842,7 @@ postfoot("\hline\hline \end{tabular} \begin{tablenotes} \footnotesize \item Note
 - hold down Option and drag the cursor.
 - Hold down Command (⌘) and click
 
-# 日本語論文の設定
+## 日本語論文の設定
 
 ドキュメントクラスは以下のいずれかにする
 ```
