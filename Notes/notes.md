@@ -80,6 +80,7 @@ layout: default
 
 例) 
 
+```
 ---
 title: "伝統的な重力方程式の推定"
 author: "田中 鮎夢"
@@ -89,7 +90,7 @@ output:
     toc: true
     toc_float: true
 ---
-
+```
 
 ## 多数の固定効果含むモデルの推定
 
