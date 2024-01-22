@@ -74,11 +74,11 @@ layout: default
 - [Translating Stata to R](https://stata2r.github.io/) data.tableによるデータ処理、fixestを使った推定を中心とした解説。
 - [Translating Stata to R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　アルファベット順のコード解説。
 
-## RMarkdown目次生成
+## RMarkdownとQuatroでの目次自動生成
 - 「toc: true」を記載。オプションは種々ある。[参考](https://bookdown.org/yihui/rmarkdown/html-document.html)
 - 「html_document:」のように「html_document」の後ろに「:」を入れる。「:」を入れ忘れるとエラーになるので注意。
 
-例) 
+例) RMarkdownの場合
 
 ```
 ---
@@ -91,6 +91,20 @@ output:
     toc_float: true
 ---
 ```
+
+例) Quatroの場合
+```
+---
+title: "ユニクロの縫製工場の地図 (ggplot2)"
+author: "Ayumu Tanaka"
+format: html
+toc: true
+toc_float: true
+number-sections: true
+editor: visual
+---
+```
+
 
 ## 多数の固定効果含むモデルの推定
 
