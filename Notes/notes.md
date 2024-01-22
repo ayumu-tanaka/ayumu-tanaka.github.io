@@ -75,8 +75,21 @@ layout: default
 - [Translating Stata to R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　アルファベット順のコード解説。
 
 ## RMarkdown目次生成
+- 「toc: true」を記載。オプションは種々ある。[参考](https://bookdown.org/yihui/rmarkdown/html-document.html)
+- 「html_document:」のように「html_document」の後ろに「:」を入れる。「:」を入れ忘れるとエラーになるので注意。
 
-- [RMarkdownで目次と見出しの通し番号を自動生成](https://qiita.com/kazutan/items/fee51e475c3e900e4faa)
+例) 
+
+---
+title: "伝統的な重力方程式の推定"
+author: "田中 鮎夢"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
 
 ## 多数の固定効果含むモデルの推定
 
