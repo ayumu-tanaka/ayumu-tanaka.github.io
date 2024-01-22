@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -7,7 +8,7 @@ layout: default
 - [研究メモ](#研究メモ)
 - [R](#r)
   - [Stata to R](#stata-to-r)
-  - [RMarkdown目次生成](#rmarkdown目次生成)
+  - [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
   - [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
   - [Excelデータの読み込み、書き出し](#excelデータの読み込み書き出し)
   - [特定の文字列の言語の識別](#特定の文字列の言語の識別)
