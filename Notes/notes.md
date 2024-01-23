@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [2x2の表をLaTex形式でエクスポート](#2x2の表をlatex形式でエクスポート)
   - [パネルデータの欠損値の穴埋め](#パネルデータの欠損値の穴埋め)
   - [データのチェック](#データのチェック)
   - [January2013から、Januaryを抜き出す](#january2013からjanuaryを抜き出す)
@@ -211,6 +212,31 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 2x2の表をLaTex形式でエクスポート
+
+- tableで2x2の表を作成した後、Table builderでカスタマイズすることができる。
+- Table builderの使い方は、Youtubeの解説でわかる。
+
+コード例）
+```
+* 2x2の表を作成
+table ( year ) ( foreign_owned ) () if provinceorstateaddressofincorp=="CA", statistic(frequency)
+
+* タイトル追加
+collect title "Foreign owned firms in CA, USA \label{tab:CA}"
+* Notes追加
+collect notes `"Notes: A foreign-owned firm is defined as one whose global ultimate owner belongs to a foreign country."'
+* 縦線削除
+collect style cell, border( right, pattern(nil) )
+* 表頭のラベル変更
+collect label dim foreign_owned "Foregin owned firm", modify
+collect label levels foreign_owned 0 "No", modify
+collect label levels foreign_owned 1 "Yes", modify
+* 表を出力
+collect export "../Tables/CA.tex", replace tableonly 
+```
+
 
 ## パネルデータの欠損値の穴埋め
 
