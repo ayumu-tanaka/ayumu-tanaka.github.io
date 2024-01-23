@@ -7,6 +7,7 @@ layout: default
 
 - [研究メモ](#研究メモ)
 - [R](#r)
+  - [RPubs](#rpubs)
   - [Stata to R](#stata-to-r)
   - [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
   - [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
@@ -66,6 +67,10 @@ layout: default
 
 <a id="R"></a>
 # R
+
+## RPubs
+
+- [RPubs](https://rpubs.com/ayumuR)
 
 ## Stata to R
 
