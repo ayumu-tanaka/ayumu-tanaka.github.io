@@ -94,8 +94,9 @@ author: "田中 鮎夢"
 date: "`r Sys.Date()`"
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: yes
+    toc_float: yes
+    number_sections: yes
 ---
 ```
 
