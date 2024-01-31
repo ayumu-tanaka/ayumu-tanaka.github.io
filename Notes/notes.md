@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [政府統計のエンコード変換](#政府統計のエンコード変換)
   - [2x2の表をLaTex形式でエクスポート](#2x2の表をlatex形式でエクスポート)
   - [パネルデータの欠損値の穴埋め](#パネルデータの欠損値の穴埋め)
   - [データのチェック](#データのチェック)
@@ -213,6 +214,29 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 政府統計のエンコード変換
+
+- 政府統計はShift_JISのテキストファイルで提供されていることが多い。
+- 原則Unicodeとなっている最近のStataでShift_JISのテキストファイルを読み込むと、日本語部分に文字化けが生じる。
+- そのため、DTAファイルとして保存したあと、エンコードをUnicodeに変換する必要がある。
+
+ - ＜Unicode変換のコマンド例＞
+
+```
+* 最初にデータを空にする必要がある
+clear
+
+* エンコード変更のために作業フォルダをデータがあるフォルダ（例/Users/XXX/Desktop）とする
+cd /Users/XXX/Desktop
+* 元々のエンコードがShift_JISであることを設定
+unicode encoding set Shift_JIS
+* エンコード変更（全てのDTAファイル）
+unicode translate *.dta
+```
+- 参考：[Unicodeへの変換](http://www.math-koubou.jp/tb033.html)
+
+
 
 ## 2x2の表をLaTex形式でエクスポート
 
