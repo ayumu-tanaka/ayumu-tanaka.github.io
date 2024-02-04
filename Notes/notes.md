@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [Stataの文字列関数](#stataの文字列関数)
   - [他の変数の値を使って、変数ラベルを付与する（labmask）](#他の変数の値を使って変数ラベルを付与するlabmask)
   - [whileを使った繰り返し](#whileを使った繰り返し)
   - [政府統計のエンコード変換](#政府統計のエンコード変換)
@@ -216,6 +217,21 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## Stataの文字列関数
+
+- ヘルプ
+```
+help string_functions
+```
+
+- 文字列の一部置換(ustrregexrf)
+- コード例
+```
+replace KSFNationNameAlph = ustrregexrf(KSFNationNameAlph, "Kingdom of ", "")
+replace KSFNationNameAlph = ustrregexrf(KSFNationNameAlph, "Republic of ", "")
+```
+
 
 ## 他の変数の値を使って、変数ラベルを付与する（labmask）
 
