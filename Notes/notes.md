@@ -18,7 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
-  - [他の変数の値を使って、変数ラベルを付与する](#他の変数の値を使って変数ラベルを付与する)
+  - [他の変数の値を使って、変数ラベルを付与する（labmask）](#他の変数の値を使って変数ラベルを付与するlabmask)
   - [whileを使った繰り返し](#whileを使った繰り返し)
   - [政府統計のエンコード変換](#政府統計のエンコード変換)
   - [2x2の表をLaTex形式でエクスポート](#2x2の表をlatex形式でエクスポート)
@@ -217,14 +217,15 @@ getwd()
 <a id="Stata"></a>
 # Stata
 
-## 他の変数の値を使って、変数ラベルを付与する
+## 他の変数の値を使って、変数ラベルを付与する（labmask）
 
 - コード例
 - 例えば、KSFNationCode = 304 に KSFNationNameAlph = United States というラベルを付与する。
 ```
 labmask KSFNationCode, values(KSFNationNameAlph)
 ```
-
+- [ HOW DO I ASSIGN THE VALUES OF ONE VARIABLE AS THE VALUE LABELS FOR ANOTHER 
+ VARIABLE?](https://stats.oarc.ucla.edu/stata/faq/how-do-i-assign-the-values-of-one-variable-as-the-value-labels-for-another-variable/)
 
 ## whileを使った繰り返し
 
