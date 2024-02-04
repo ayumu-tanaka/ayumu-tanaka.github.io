@@ -18,6 +18,8 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [他の変数の値を使って、変数ラベルを付与する](#他の変数の値を使って変数ラベルを付与する)
+  - [whileを使った繰り返し](#whileを使った繰り返し)
   - [政府統計のエンコード変換](#政府統計のエンコード変換)
   - [2x2の表をLaTex形式でエクスポート](#2x2の表をlatex形式でエクスポート)
   - [パネルデータの欠損値の穴埋め](#パネルデータの欠損値の穴埋め)
@@ -214,6 +216,26 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 他の変数の値を使って、変数ラベルを付与する
+
+- コード例
+- 例えば、KSFNationCode = 304 に KSFNationNameAlph = United States というラベルを付与する。
+```
+labmask KSFNationCode, values(KSFNationNameAlph)
+```
+
+
+## whileを使った繰り返し
+
+- コード例
+```
+local i=0
+while `i'<=2 {
+local i=`i'+1
+	by KSFNationCode, sort:replace KSFNationNameAlph=KSFNationNameAlph[_n+1] if year<2018
+}
+```
 
 ## 政府統計のエンコード変換
 
