@@ -18,6 +18,11 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する](#変数の平均もしくは中央値と信頼区間もしくは箱ひげ図の推移を可視化する)
+    - [boxpanelを用いる方法](#boxpanelを用いる方法)
+    - [stripplotを使う方法](#stripplotを使う方法)
+    - [PLOT\_CONFIDENTLYを使う方法](#plot_confidentlyを使う方法)
+    - [自力でコード書く方法](#自力でコード書く方法)
   - [Stataの文字列関数](#stataの文字列関数)
   - [他の変数の値を使って、変数ラベルを付与する（labmask）](#他の変数の値を使って変数ラベルを付与するlabmask)
   - [whileを使った繰り返し](#whileを使った繰り返し)
@@ -217,6 +222,59 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する
+
+### boxpanelを用いる方法
+- 中央値を繋いだ箱ひげ図。 オプションのjoinmedianで中央値をつなげることができる。
+
+```
+* パッケージのインストール
+ssc install boxpanel
+* データの読み込み
+use https://www.stata-press.com/data/r17/nlswork.dta,clear
+boxpanel ln_wage year, joinmedian
+```
+
+### stripplotを使う方法
+```
+* パッケージのインストール
+ssc install stripplot
+* データ読み込み
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+*平均値の作成
+bys year: egen meanln_wage=mean(ln_wage)
+*グラフ作成
+*ここで、addplot(connect mean rep78,sort)で、平均値をつなげるグラフを追加している
+*オプションのboxは箱を作成している。
+stripplot ln_wage, over(year) box ms(none) vertical addplot(connect meanln_wage year,sort)
+```
+
+### PLOT_CONFIDENTLYを使う方法
+- 指定した変数の平均と信頼区間を可視化するStataモジュール
+- 注意：デフォルトでは、x軸のラベルが、0, 5, 10, 15になっているため、x軸のラベル`xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983")'と年次に変換している。
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+ssc install PLOT_CONFIDENTLY
+plot_confidently ln_wage, over(year2) graphopts(vertical xtitle(year) ytitle(ln_wage) mlabgap(relative3p5) xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983"))
+```
+
+### 自力でコード書く方法
+- 平均値の推移をグラフにするだけなら、以下のコードで可能。
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+bys year: egen meanln_wage=mean(ln_wage)
+
+format %12.1f meanln_wage 
+
+twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) mlabgap(relative1p5)), xlabel(68(5)88)
+
+twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) mlabgap(relative1p5))
+```
+
+- その他の方法
+  - [Line chart with 95% confidence interval in Stata](https://mbounthavong.github.io/Stata_line_plot_95-percent_CI/)
+
 
 ## Stataの文字列関数
 
