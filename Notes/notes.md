@@ -252,7 +252,8 @@ stripplot ln_wage, over(year) box ms(none) vertical addplot(connect meanln_wage 
 
 ### PLOT_CONFIDENTLYを使う方法
 - 指定した変数の平均と信頼区間を可視化するStataモジュール
-- 注意：デフォルトでは、x軸のラベルが、0, 5, 10, 15になっているため、x軸のラベル`xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983")'と年次に変換している。
+- 注意：デフォルトでは、x軸のラベルが、0, 5, 10, 15になっているため、x軸のラベルxlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983")と年次に変換している。
+
 ```
 use https://www.stata-press.com/data/r18/nlswork.dta, clear
 ssc install PLOT_CONFIDENTLY
