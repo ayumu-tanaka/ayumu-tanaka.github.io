@@ -262,14 +262,12 @@ plot_confidently ln_wage, over(year2) graphopts(vertical xtitle(year) ytitle(ln_
 
 ### 自力でコード書く方法
 - 平均値の推移をグラフにするだけなら、以下のコードで可能。
+
 ```
 use https://www.stata-press.com/data/r18/nlswork.dta, clear
 bys year: egen meanln_wage=mean(ln_wage)
-
-format %12.1f meanln_wage 
-
+	format %12.1f meanln_wage 
 twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) mlabgap(relative1p5)), xlabel(68(5)88)
-
 twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) mlabgap(relative1p5))
 ```
 
