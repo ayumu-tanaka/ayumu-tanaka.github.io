@@ -72,8 +72,10 @@ layout: default
 ## LaTeX, Stata, R
 
 ### LaTeX/Overleaf 
-- [日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+- [Overleaf 日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+- [MacTeX - TeXShop で 日本語を使う方法](https://medemanabu.net/latex/mactex-texshop-ptex-platex/)
 - 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
+
 
 ### Stata
 - [The Stata-to-LaTeX guide](https://medium.com/the-stata-guide/the-stata-to-latex-guide-6e7ed5622856)
