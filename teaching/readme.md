@@ -33,8 +33,8 @@ layout: default
 
 ## 2023年度「基礎演習」
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
-- [RPubs 第1章「イントロ」](https://rpubs.com/ayumu21/qss01)
-- [RPubs 第2章「因果関係」](https://rpubs.com/ayumu21/qss02)
+- [RPubs 第1章「イントロ」](https://rpubs.com/ayumuR/qss01)
+- [RPubs 第2章「因果関係」](https://rpubs.com/ayumuR/qss02)
 
 ## 2023年度「グローバル経済A」
 - [期末レポート雛形](global_economy_report.pdf)
@@ -60,7 +60,7 @@ layout: default
 
 - [世界経済論（2022前期）](https://rpubs.com/ayumu/916734)
 - [世界経済論（2022後期）](https://rpubs.com/ayumu/949456)
-    - [伝統的な重力方程式の推定](https://rpubs.com/ayumu21/gravity_explanation)
+    - [伝統的な重力方程式の推定](https://rpubs.com/ayumuR/gravity_explanation)
     - [Rマークダウン](gravity_R.zip)  [zip]
 - [経済金融事情（国際）（2022前期）](https://rpubs.com/ayumu/916735)
 - [公共地域政策論（国際）（2022前期）](https://rpubs.com/ayumu/914338)
