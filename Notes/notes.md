@@ -373,17 +373,15 @@ foreach var in  ymd y  res yyyymm isin firmnameJ firmname {
 例2)
 ```
 * パネルデータで欠けている値の補完
-* 後方補完
-sort stock_code ym
-foreach var in  timing  firmnameJ firmname {
-	bys stock_code: replace `var' = `var'[_n-1] if missing(`var')
-}
-
-* 前方補完
-sort stock_code ym
-foreach var in   firmnameJ firmname {
-	while missing(`var') {
-	bys stock_code: replace `var' = `var'[_n+1] if missing(`var')
+sort iso_code year
+foreach var in  country countyjp eu_accession eu_exit {
+	local i=0
+	while `i'<=75 {
+	local i=`i'+1
+	* 後方補完
+	bys iso_code : replace `var' = `var'[_n-1] if missing(`var')
+	* 前方補完
+	bys iso_code : replace `var' = `var'[_n+1] if missing(`var')
 	}
 }
 ```
