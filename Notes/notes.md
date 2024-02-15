@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [欠損値の確認](#欠損値の確認)
   - [変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する](#変数の平均もしくは中央値と信頼区間もしくは箱ひげ図の推移を可視化する)
     - [boxpanelを用いる方法](#boxpanelを用いる方法)
     - [stripplotを使う方法](#stripplotを使う方法)
@@ -222,6 +223,17 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+
+## 欠損値の確認
+
+```
+misstable
+```
+
+```
+mdesc
+```
 
 ## 変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する
 
