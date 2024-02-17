@@ -36,8 +36,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Working Papers**
 
-1.  "FDI, financial constraint, and partial ownership," [_SocArXiv_](https://doi.org/10.31235/osf.io/9djup), February 2024. (with Tadashi Ito and Michael Ryan). _Under Revision._ [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)]
-2. "Affiliate Ownership Structure Responses to FDI Liberalization Policies" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/cdajf), November 2023. _Submitted._
+1.  "FDI, financial constraint, and partial ownership," [_SocArXiv_](https://doi.org/10.31235/osf.io/9djup), February 2024. (with Tadashi Ito and Michael Ryan). _Accepted._ [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)]
+2. "Affiliate Ownership Structure Responses to FDI Liberalization Policies" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/cdajf), November 2023. _Under Revision._
 3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
 
 
