@@ -325,6 +325,21 @@ graph export ci.png,replace
 <img src="ci.png" width="50%"> 
 
 
+- グループ別に平均値と信頼区間の推移をグラフにする
+
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+collapse (mean) mean= ln_wage (sd)sd=ln_wage (count) n=ln_wage, by(year collgrad)
+format %12.2f mean
+g ub= mean+(1.96*sd)/sqrt(n)
+g lb= mean-(1.96*sd)/sqrt(n)
+rename collgrad group
+twoway (connected mean year if group ==0, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==0, sort) ///
+(connected mean year if group ==1, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==1, sort) ///
+ , legend(order(1 "group0: Mean" 2 "group0: 95%CI" 3 "group1: Mean" 4 "group1: 95%CI") position(6) rows(2)) xline(1998)
+
+```
+
 
 - その他の方法
   - [Line chart with 95% confidence interval in Stata](https://mbounthavong.github.io/Stata_line_plot_95-percent_CI/)
