@@ -284,6 +284,7 @@ twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) ml
 ```
 
 - 平均値と25/75パーセンタイルの推移をグラフにする。
+  
 ```
 use https://www.stata-press.com/data/r18/nlswork.dta, clear
 bys year: egen meanln_wage=mean(ln_wage)
@@ -297,6 +298,30 @@ graph export percentile.png,replace
 
 <img src="percentile.png" width=70%>
 
+- 平均値と信頼区間の推移をグラフにする
+
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+bys year: egen meanln_wage=mean(ln_wage)
+format %12.1f meanln_wage 
+
+* 信頼区間をciで計算する。
+g ln_wageub=.
+g ln_wagelb=.
+
+forval i = 68/88 {
+	ci means ln_wage if year==`i'
+	replace ln_wageub=`r(ub)' if  year==`i'
+	replace ln_wagelb=`r(lb)' if  year==`i'
+	
+}
+
+twoway (connected meanln_wage year, mlabel(meanln_wage) mlabposition(1) mlabgap(relative1p5)) (rcap ln_wagelb ln_wageub year, sort), legend(order(1 "Mean" 2 "") position(6))
+graph export ci.png,replace
+
+```
+
+<img src="ci.png" width=70%>
 
 - その他の方法
   - [Line chart with 95% confidence interval in Stata](https://mbounthavong.github.io/Stata_line_plot_95-percent_CI/)
