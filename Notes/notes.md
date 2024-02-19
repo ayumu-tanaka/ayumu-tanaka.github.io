@@ -283,6 +283,21 @@ twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) ml
 twoway (connected meanln_wage year, sort mlabel(meanln_wage) mlabposition(12) mlabgap(relative1p5))
 ```
 
+- 平均値と25/75パーセンタイルの推移をグラフにする。
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+bys year: egen meanln_wage=mean(ln_wage)
+format %12.1f meanln_wage 
+bys year: egen ln_wage75=pctile(ln_wage), p(75)
+bys year: egen ln_wage25=pctile(ln_wage), p(25)
+twoway (connected meanln_wage year, mlabel(meanln_wage) mlabposition(1) mlabgap(relative1p5)) (rcap ln_wage25 ln_wage75 year, sort), legend(order(1 "Mean" 2 "25th and 75th percentiles") position(6))
+graph export percentile.png,replace
+
+```
+
+<img src="percentile.png" width=70%>
+
+
 - その他の方法
   - [Line chart with 95% confidence interval in Stata](https://mbounthavong.github.io/Stata_line_plot_95-percent_CI/)
 
