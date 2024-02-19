@@ -296,7 +296,8 @@ graph export percentile.png,replace
 
 ```
 
-<img src="percentile.png" width=70%>
+<img src="percentile.png" width="50%"> 
+
 
 - 平均値と信頼区間の推移をグラフにする
 
@@ -321,7 +322,9 @@ graph export ci.png,replace
 
 ```
 
-<img src="ci.png" width=70%>
+<img src="ci.png" width="50%"> 
+
+
 
 - その他の方法
   - [Line chart with 95% confidence interval in Stata](https://mbounthavong.github.io/Stata_line_plot_95-percent_CI/)
@@ -610,6 +613,7 @@ di $mpg_mean_neat
 hist mpg, title(Mean=$mpg_mean_neat)
 graph export hist.png,replace
 ```
+
 <img src="hist.png" width="50%"> 
 
 
