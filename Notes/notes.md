@@ -316,7 +316,7 @@ forval i = 68/88 {
 	
 }
 
-twoway (connected meanln_wage year, mlabel(meanln_wage) mlabposition(1) mlabgap(relative1p5)) (rcap ln_wagelb ln_wageub year, sort), legend(order(1 "Mean" 2 "") position(6))
+twoway (connected meanln_wage year, mlabel(meanln_wage) mlabposition(1) mlabgap(relative1p5)) (rcap ln_wagelb ln_wageub year, sort), legend(order(1 "Mean" 2 "95% CI") position(6))
 graph export ci.png,replace
 
 ```
