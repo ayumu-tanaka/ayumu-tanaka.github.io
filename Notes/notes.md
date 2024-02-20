@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [変数の値をローカルに保存し、繰り返し実行 (levelsof)](#変数の値をローカルに保存し繰り返し実行-levelsof)
   - [欠損値の確認](#欠損値の確認)
   - [変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する](#変数の平均もしくは中央値と信頼区間もしくは箱ひげ図の推移を可視化する)
     - [boxpanelを用いる方法](#boxpanelを用いる方法)
@@ -223,6 +224,23 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 変数の値をローカルに保存し、繰り返し実行 (levelsof)
+
+- コード例
+
+```
+sysuse auto,clear
+levelsof foreign, local(type)
+foreach i of local type {
+su mpg if foreign==`i'
+scalar mean_`i'=r(mean) 
+}
+di mean_0
+di mean_1
+```
+
+- levelsofは、dsと似ているが、用途がやや違う。
 
 
 ## 欠損値の確認
