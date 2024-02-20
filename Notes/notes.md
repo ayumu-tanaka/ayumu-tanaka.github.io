@@ -268,9 +268,33 @@ stripplot ln_wage, over(year) box ms(none) vertical addplot(connect meanln_wage 
 
 ```
 use https://www.stata-press.com/data/r18/nlswork.dta, clear
-ssc install PLOT_CONFIDENTLY
-plot_confidently ln_wage, over(year2) graphopts(vertical xtitle(year) ytitle(ln_wage) mlabgap(relative3p5) xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983"))
+ssc install plot_confidently
+plot_confidently ln_wage, over(year) /// 
+graphopts(vertical xtitle(year) ytitle(ln_wage) mlabgap(relative3p5) ///
+xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983"))
 ```
+
+- グループ別の推移
+
+```
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+ssc install plot_confidently
+
+* ラベルの値を定義しておかないとエラーになる
+label define collgrad 0 "High School" 1 "Colledge"
+label values collgrad collgrad
+
+* グラフ
+plot_confidently ln_wage, over(year) by(collgrad) ///
+graphopts(vertical xtitle(year) ytitle(ln_wage) mlabgap(relative3p5) ///
+ xlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983"))  
+graph export plot_confidently2.png,replace
+
+```
+
+<img src="plot_confidently2.png" width=70%>
+
+
 
 ### 自力でコード書く方法
 - 平均値の推移をグラフにするだけなら、以下のコードで可能。
