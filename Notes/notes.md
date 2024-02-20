@@ -269,7 +269,7 @@ boxpanel ln_wage year, joinmedian
 ### stripplotを使う方法
 ```
 * パッケージのインストール
-ssc install stripplot
+*ssc install stripplot
 * データ読み込み
 use https://www.stata-press.com/data/r18/nlswork.dta, clear
 *平均値の作成
@@ -277,8 +277,13 @@ bys year: egen meanln_wage=mean(ln_wage)
 *グラフ作成
 *ここで、addplot(connect mean rep78,sort)で、平均値をつなげるグラフを追加している
 *オプションのboxは箱を作成している。
-stripplot ln_wage, over(year) box ms(none) vertical addplot(connect meanln_wage year,sort)
+stripplot ln_wage, over(year) box ms(none) vertical addplot(connect meanln_wage year,sort ) 
+graph export stripplot.png,replace
+
 ```
+
+<img src="stripplot.png" width=70%>
+
 
 ### PLOT_CONFIDENTLYを使う方法
 - 指定した変数の平均と信頼区間を可視化するStataモジュール
