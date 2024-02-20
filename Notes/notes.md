@@ -358,11 +358,18 @@ format %12.2f mean
 g ub= mean+(1.96*sd)/sqrt(n)
 g lb= mean-(1.96*sd)/sqrt(n)
 rename collgrad group
+global group0 "Control"
+global group1 "Treatment"
+
 twoway (connected mean year if group ==0, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==0, sort) ///
 (connected mean year if group ==1, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==1, sort) ///
- , legend(order(1 "group0: Mean" 2 "group0: 95%CI" 3 "group1: Mean" 4 "group1: 95%CI") position(6) rows(2)) xline(1998)
+ , legend(order(1 "$group0: Mean" 2 "$group0: 95%CI" 3 "$group1: Mean" 4 "$group1: 95%CI") position(6) rows(2)) xline(1998)
 
+ graph export ci2.png
+ 
 ```
+
+<img src="ci2.png" width="50%"> 
 
 
 - その他の方法
