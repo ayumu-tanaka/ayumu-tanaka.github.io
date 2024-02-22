@@ -121,6 +121,7 @@ layout: default
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
 - [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
 - [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。
+- [Nguyen (2019)](https://github.com/a3guyen/PAPER_2019_Intensive_Extensive_FDI_TWE)
 
 ### 貿易政策、RTA
 - [Mario Larch's Regional Trade Agreements Database](https://www.ewf.uni-bayreuth.de/en/research/RTA-data/index.html) &rarr; 無料。RTAデータベース。
