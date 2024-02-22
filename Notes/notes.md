@@ -1081,8 +1081,9 @@ gen year_of_birth = year(month_year_of_birth)
 ## 相関行列のLatex形式のテーブル
 
 ```
+sysuse auto,clear
 estpost correlate price mpg rep78, matrix listwise
-esttab using correlationresults.csv, replace unstack not noobs compress b(2) nonote label
+esttab using correlationresults.csv, replace unstack not noobs compress b(2) nonote label star(* 0.1 ** 0.05 *** 0.01)
 ```
 
 - [https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/](https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/)
