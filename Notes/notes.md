@@ -1083,7 +1083,9 @@ gen year_of_birth = year(month_year_of_birth)
 ```
 sysuse auto,clear
 estpost correlate price mpg rep78, matrix listwise
-esttab using correlationresults.csv, replace unstack not noobs compress b(2) nonote label star(* 0.1 ** 0.05 *** 0.01)
+esttab using correlationresults.tex, replace unstack not noobs compress b(2) ///
+ label star(* 0.1 ** 0.05 *** 0.01) nonote ///
+  note(Note: \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\))
 ```
 
 - [https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/](https://thedatahall.com/reporting-publication-style-correlation-tables-in-stata/)
