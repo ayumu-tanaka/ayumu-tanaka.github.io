@@ -18,6 +18,9 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [おしゃれなグラフ](#おしゃれなグラフ)
+    - [`modern`](#modern)
+    - [`plotplain`](#plotplain)
   - [変数の値をローカルに保存し、繰り返し実行 (levelsof)](#変数の値をローカルに保存し繰り返し実行-levelsof)
   - [欠損値の確認](#欠損値の確認)
   - [変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する](#変数の平均もしくは中央値と信頼区間もしくは箱ひげ図の推移を可視化する)
@@ -224,6 +227,38 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## おしゃれなグラフ
+
+### `modern`
+
+- `scheme-modern`は、以下のようにインストール、セットできる。
+
+```
+net install scheme-modern, from("https://raw.githubusercontent.com/mdroste/stata-scheme-modern/master/")
+set scheme modern
+```
+
+- コード例
+
+```
+sysuse auto,clear
+twoway (scatter price mpg), scheme(modern)
+graph export modern.png
+```
+
+<img src=modern.png width=70%>
+
+### `plotplain`
+
+```
+sysuse auto,clear
+twoway (scatter price mpg), scheme(plotplain)
+graph export plotplain.png
+```
+
+<img src=plotplain.png width=70%>
+
 
 ## 変数の値をローカルに保存し、繰り返し実行 (levelsof)
 
