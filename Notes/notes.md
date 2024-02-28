@@ -247,7 +247,7 @@ twoway (scatter price mpg), scheme(modern)
 graph export modern.png
 ```
 
-<img src=modern.png width=70%>
+<img src="modern.png" width=70%>
 
 ### `plotplain`
 
@@ -257,7 +257,7 @@ twoway (scatter price mpg), scheme(plotplain)
 graph export plotplain.png
 ```
 
-<img src=plotplain.png width=70%>
+<img src="plotplain.png" width=70%>
 
 
 ## 変数の値をローカルに保存し、繰り返し実行 (levelsof)
