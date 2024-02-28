@@ -247,7 +247,7 @@ twoway (scatter price mpg), scheme(modern)
 graph export modern.png
 ```
 
-<img src="modern.png" width=70%>
+<img src="img/modern.png" width=70%>
 
 ### `plotplain`
 
@@ -257,7 +257,7 @@ twoway (scatter price mpg), scheme(plotplain)
 graph export plotplain.png
 ```
 
-<img src="plotplain.png" width=70%>
+<img src="img/plotplain.png" width=70%>
 
 
 ## 変数の値をローカルに保存し、繰り返し実行 (levelsof)
@@ -318,7 +318,7 @@ graph export stripplot.png,replace
 
 ```
 
-<img src="stripplot.png" width=70%>
+<img src="img/stripplot.png" width=70%>
 
 
 ### PLOT_CONFIDENTLYを使う方法
@@ -351,7 +351,7 @@ graph export plot_confidently2.png,replace
 
 ```
 
-<img src="plot_confidently2.png" width=70%>
+<img src="img/plot_confidently2.png" width=70%>
 
 
 
@@ -379,7 +379,7 @@ graph export percentile.png,replace
 
 ```
 
-<img src="percentile.png" width="50%"> 
+<img src="img/percentile.png" width="50%"> 
 
 
 - 平均値と信頼区間の推移をグラフにする
@@ -405,7 +405,7 @@ graph export ci.png,replace
 
 ```
 
-<img src="ci.png" width="50%"> 
+<img src="img/ci.png" width="50%"> 
 
 
 - グループ別に平均値と信頼区間の推移をグラフにする
@@ -428,7 +428,7 @@ twoway (connected mean year if group ==0, mlabel(mean) mlabposition(1) mlabgap(r
  
 ```
 
-<img src="ci2.png" width="50%"> 
+<img src="img/ci2.png" width="50%"> 
 
 
 - その他の方法
@@ -719,7 +719,7 @@ hist mpg, title(Mean=$mpg_mean_neat)
 graph export hist.png,replace
 ```
 
-<img src="hist.png" width="50%"> 
+<img src="img/hist.png" width="50%"> 
 
 
 ## 会社名、企業名検索
