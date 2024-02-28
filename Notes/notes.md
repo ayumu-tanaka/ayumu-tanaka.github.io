@@ -21,47 +21,47 @@ layout: default
   - [おしゃれなグラフ](#おしゃれなグラフ)
     - [`modern`](#modern)
     - [`plotplain`](#plotplain)
-  - [変数の値をローカルに保存し、繰り返し実行 (levelsof)](#変数の値をローカルに保存し繰り返し実行-levelsof)
-  - [欠損値の確認](#欠損値の確認)
+  - [変数の値をローカルに保存し、繰り返し実行 (`levelsof`)](#変数の値をローカルに保存し繰り返し実行-levelsof)
+  - [欠損値の確認: `misstable`、`mdesc`](#欠損値の確認-misstablemdesc)
   - [変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する](#変数の平均もしくは中央値と信頼区間もしくは箱ひげ図の推移を可視化する)
-    - [boxpanelを用いる方法](#boxpanelを用いる方法)
-    - [stripplotを使う方法](#stripplotを使う方法)
-    - [PLOT\_CONFIDENTLYを使う方法](#plot_confidentlyを使う方法)
+    - [`boxpanel`を用いる方法](#boxpanelを用いる方法)
+    - [`stripplot`を使う方法](#stripplotを使う方法)
+    - [`plot_confidently`を使う方法](#plot_confidentlyを使う方法)
     - [自力でコード書く方法](#自力でコード書く方法)
   - [Stataの文字列関数](#stataの文字列関数)
-  - [他の変数の値を使って、変数ラベルを付与する（labmask）](#他の変数の値を使って変数ラベルを付与するlabmask)
-  - [whileを使った繰り返し](#whileを使った繰り返し)
-  - [政府統計のエンコード変換](#政府統計のエンコード変換)
-  - [2x2の表をLaTex形式でエクスポート](#2x2の表をlatex形式でエクスポート)
+  - [他の変数の値を使って、変数ラベルを付与する（`labmask`）](#他の変数の値を使って変数ラベルを付与するlabmask)
+  - [`while`を使った繰り返し](#whileを使った繰り返し)
+  - [政府統計のエンコード変換: `unicode`](#政府統計のエンコード変換-unicode)
+  - [2x2の表をLaTex形式でエクスポート: `collect`](#2x2の表をlatex形式でエクスポート-collect)
   - [パネルデータの欠損値の穴埋め](#パネルデータの欠損値の穴埋め)
   - [データのチェック](#データのチェック)
-  - [January2013から、Januaryを抜き出す](#january2013からjanuaryを抜き出す)
-  - [文字列の抜き出し](#文字列の抜き出し)
-  - [変数ラベル、変数名に特定の文字列を含む変数を探す。](#変数ラベル変数名に特定の文字列を含む変数を探す)
+  - [文字列の抜き出し: `substr`](#文字列の抜き出し-substr)
+  - [変数ラベル、変数名に特定の文字列を含む変数を探す。`ds`、`lookfor`](#変数ラベル変数名に特定の文字列を含む変数を探すdslookfor)
   - [特定の文字列を変数ラベルから除去する](#特定の文字列を変数ラベルから除去する)
   - [変数ラベルに特定の文字列を追加する](#変数ラベルに特定の文字列を追加する)
   - [アンバランスド・パネルをバランスド・パネルに変換する](#アンバランスドパネルをバランスドパネルに変換する)
-  - [個体数が多すぎてencodeで使えない場合の対処策](#個体数が多すぎてencodeで使えない場合の対処策)
-  - [geoplot](#geoplot)
-  - [結合したグラフでX軸/Y軸のタイトルを共通にする](#結合したグラフでx軸y軸のタイトルを共通にする)
+  - [個体数が多すぎて`encode`を使えない場合の対処策](#個体数が多すぎてencodeを使えない場合の対処策)
+  - [`geoplot`](#geoplot)
+  - [結合したグラフでX軸/Y軸のタイトルを共通にする: `graph combine`](#結合したグラフでx軸y軸のタイトルを共通にする-graph-combine)
   - [globalの数値桁数を指定して、グラフに表示する](#globalの数値桁数を指定してグラフに表示する)
-  - [会社名、企業名検索](#会社名企業名検索)
+  - [会社名、企業名検索: `ustrpos`](#会社名企業名検索-ustrpos)
   - [変数ラベル使って変数名変更](#変数ラベル使って変数名変更)
   - [文字列n.a.を除き、変数を数値化(1)](#文字列naを除き変数を数値化1)
   - [文字列n.a.を除き、変数を数値化(2)](#文字列naを除き変数を数値化2)
   - [変数名使って変数ラベル変更](#変数名使って変数ラベル変更)
   - [変数名リストをExcelに出力](#変数名リストをexcelに出力)
-  - [graph combine / grc1leg: 複数のグラフの結合。](#graph-combine--grc1leg-複数のグラフの結合)
+  - [`graph combine` / `grc1leg`: 複数のグラフの結合。](#graph-combine--grc1leg-複数のグラフの結合)
   - [texで複数のグラフを配置](#texで複数のグラフを配置)
     - [コード例1)２つのグラフ](#コード例1２つのグラフ)
     - [コード例2)４つのグラフ](#コード例2４つのグラフ)
-  - [国名から国名コード（ISO3など）の変数作成](#国名から国名コードiso3などの変数作成)
+  - [国名から国名コード（ISO3など）の変数作成: `kountry`](#国名から国名コードiso3などの変数作成-kountry)
     - [例1](#例1)
     - [例2](#例2)
   - [Stataの時間処理](#stataの時間処理)
     - [英語の月名の数値変換](#英語の月名の数値変換)
     - [Stata: 日付、年月の処理](#stata-日付年月の処理)
     - [weekly data](#weekly-data)
+    - [January2013から、Januaryを抜き出す: `substr`](#january2013からjanuaryを抜き出す-substr)
     - [Stata: 年齢や日数計算](#stata-年齢や日数計算)
     - [Stata: Excelのシリアル値形式の日付の変換](#stata-excelのシリアル値形式の日付の変換)
   - [Stata VS codeからの実行](#stata-vs-codeからの実行)
@@ -264,7 +264,7 @@ graph export plotplain.png
 
 
 
-## 変数の値をローカルに保存し、繰り返し実行 (levelsof)
+## 変数の値をローカルに保存し、繰り返し実行 (`levelsof`)
 
 - コード例
 
@@ -282,10 +282,11 @@ di mean_1
 - levelsofは、dsと似ているが、用途がやや違う。
 
 
-## 欠損値の確認
+## 欠損値の確認: `misstable`、`mdesc`
 
 ```
-misstable
+use https://www.stata-press.com/data/r18/nlswork.dta, clear
+misstable summarize
 ```
 
 ```
@@ -294,7 +295,7 @@ mdesc
 
 ## 変数の平均(もしくは中央値)と信頼区間（もしくは箱ひげ図）の推移を可視化する
 
-### boxpanelを用いる方法
+### `boxpanel`を用いる方法
 - 中央値を繋いだ箱ひげ図。 オプションのjoinmedianで中央値をつなげることができる。
 - コンピューターへの負荷が大きい。
 
@@ -306,7 +307,7 @@ use https://www.stata-press.com/data/r17/nlswork.dta,clear
 boxpanel ln_wage year, joinmedian
 ```
 
-### stripplotを使う方法
+### `stripplot`を使う方法
 ```
 * パッケージのインストール
 *ssc install stripplot
@@ -325,7 +326,7 @@ graph export stripplot.png,replace
 <img src="img/stripplot.png" width=70%>
 
 
-### PLOT_CONFIDENTLYを使う方法
+### `plot_confidently`を使う方法
 - 指定した変数の平均と信頼区間を可視化するStataモジュール
 - 注意：デフォルトでは、x軸のラベルが、0, 5, 10, 15になっているため、x軸のラベルxlabel(0 "1968" 5 "1973" 10 "1978" 15 "1983")と年次に変換している。
 
@@ -424,8 +425,11 @@ rename collgrad group
 global group0 "Control"
 global group1 "Treatment"
 
-twoway (connected mean year if group ==0, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==0, sort) ///
-(connected mean year if group ==1, mlabel(mean) mlabposition(1) mlabgap(relative1p5)) (rcap lb ub year if group ==1, sort) ///
+
+g year2=year+0.5 //グループ別のグラフが重ならないように横軸をずらす
+
+twoway (connected mean year if group ==0, mlabel(mean) mlabposition(12) mlabgap(relative3p)) (rcap lb ub year if group ==0, sort) ///
+(connected mean year2 if group ==1, mlabel(mean) mlabposition(12) mlabgap(relative3p)) (rcap lb ub year2 if group ==1, sort) ///
  , legend(order(1 "$group0: Mean" 2 "$group0: 95%CI" 3 "$group1: Mean" 4 "$group1: 95%CI") position(6) rows(2)) xline(1998)
 
  graph export ci2.png
@@ -446,7 +450,7 @@ twoway (connected mean year if group ==0, mlabel(mean) mlabposition(1) mlabgap(r
 help string_functions
 ```
 
-- 文字列の一部置換(ustrregexrf)
+- 文字列の一部置換(`ustrregexrf`)
 - コード例
 ```
 replace KSFNationNameAlph = ustrregexrf(KSFNationNameAlph, "Kingdom of ", "")
@@ -454,7 +458,7 @@ replace KSFNationNameAlph = ustrregexrf(KSFNationNameAlph, "Republic of ", "")
 ```
 
 
-## 他の変数の値を使って、変数ラベルを付与する（labmask）
+## 他の変数の値を使って、変数ラベルを付与する（`labmask`）
 
 - コード例
 - 例えば、KSFNationCode = 304 に KSFNationNameAlph = United States というラベルを付与する。
@@ -464,7 +468,7 @@ labmask KSFNationCode, values(KSFNationNameAlph)
 - [ HOW DO I ASSIGN THE VALUES OF ONE VARIABLE AS THE VALUE LABELS FOR ANOTHER 
  VARIABLE?](https://stats.oarc.ucla.edu/stata/faq/how-do-i-assign-the-values-of-one-variable-as-the-value-labels-for-another-variable/)
 
-## whileを使った繰り返し
+## `while`を使った繰り返し
 
 - コード例
 ```
@@ -475,7 +479,7 @@ local i=`i'+1
 }
 ```
 
-## 政府統計のエンコード変換
+## 政府統計のエンコード変換: `unicode`
 
 - 政府統計はShift_JISのテキストファイルで提供されていることが多い。
 - 原則Unicodeとなっている最近のStataでShift_JISのテキストファイルを読み込むと、日本語部分に文字化けが生じる。
@@ -498,7 +502,7 @@ unicode translate *.dta
 
 
 
-## 2x2の表をLaTex形式でエクスポート
+## 2x2の表をLaTex形式でエクスポート: `collect`
 
 - tableで2x2の表を作成した後、Table builderでカスタマイズすることができる。
 - Table builderの使い方は、Youtubeの解説でわかる。
@@ -553,7 +557,7 @@ foreach var in  country countyjp eu_accession eu_exit {
 
 ## データのチェック
 
-- **assert**: 間違いがあれば、以後のプログラムを停止する
+- `assert`: 間違いがあれば、以後のプログラムを停止する
   
 ```
 . sysuse bplong,clear
@@ -570,17 +574,8 @@ r(9);
 ```
 
 
-## January2013から、Januaryを抜き出す
 
-- 変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
-
-```
-g m=substr(myear, 1, strpos(myear,"2")-1)
-```
-- strpos()は、strpos("this","is") = 3　のように、第１引数において第２引数が何文字目に出現するかを返す。
-- substr()は、substr("abcdef",2,3) = "bcd"のように、第１引数において第２引数から３文字目までを取り出す。
-
-## 文字列の抜き出し
+## 文字列の抜き出し: `substr`
 
 - 文字列の左から３文字目から抜き出す
 ```
@@ -603,7 +598,7 @@ g m=substr(myear, 1, strpos(myear,"2")-1)
 
 
 
-## 変数ラベル、変数名に特定の文字列を含む変数を探す。
+## 変数ラベル、変数名に特定の文字列を含む変数を探す。`ds`、`lookfor`
 - 変数ラベルの文字列の場合
 ```
 ds, has(varl 文字列*)
@@ -647,7 +642,7 @@ label variable `var' "`variable_label2'" //変数ラベルの付与
 	drop ny
 ```
 
-例）パッケージ（xtpattern）を使って、すべての年次に観測がある個体のみを残す。
+例）パッケージ（`xtpattern`）を使って、すべての年次に観測がある個体のみを残す。
 ```
 tsset id year
 xtpattern, gen(pat)
@@ -667,7 +662,7 @@ tab _fillin
 ```
 
 
-## 個体数が多すぎてencodeで使えない場合の対処策
+## 個体数が多すぎて`encode`を使えない場合の対処策
 
 例）以下のように企業ID（文字変数: bvdidnumber）の値の種類が多すぎると、encodeはエラーになる。
 ```
@@ -682,7 +677,7 @@ too many values
 ```
 - [Error message: too many values when using encode command](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
 
-## geoplot
+## `geoplot`
 - [ベン・ジャンの公式ページ](https://github.com/benjann/geoplot)
 - [ベン・ジャンのスライド](https://www.stata.com/meeting/uk23/slides/UK23_Jann.pdf)
 
@@ -701,7 +696,7 @@ geoframe create rivers `url'Italy-Rivers.dta, feature(water)
 geoplot (area regions) (line country, lwidth(medthick)), tight
 ```
 
-## 結合したグラフでX軸/Y軸のタイトルを共通にする
+## 結合したグラフでX軸/Y軸のタイトルを共通にする: `graph combine`
 
 ```
 sysuse auto
@@ -726,7 +721,7 @@ graph export hist.png,replace
 <img src="img/hist.png" width="50%"> 
 
 
-## 会社名、企業名検索
+## 会社名、企業名検索: `ustrpos`
 
 企業名変数=name、従業員数=Lのとき
 ```
@@ -792,7 +787,7 @@ export excel using varlist.xlsx,replace first(variables)
 
 
 
-## graph combine / grc1leg: 複数のグラフの結合。
+## `graph combine` / `grc1leg`: 複数のグラフの結合。
 
 legendが同じ時は、grc1legが便利。それ以外は、graph combineで良い。
 
@@ -906,7 +901,7 @@ grc1leg "../Figures/Unmatched/eventdd_procure_employment.gph" ///
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
 
-## 国名から国名コード（ISO3など）の変数作成
+## 国名から国名コード（ISO3など）の変数作成: `kountry`
 ### 例1
 ```
 ssc install kountry
@@ -1080,6 +1075,18 @@ tsset ymd
 ```
 
 参考）[How to declare weekly data as time series data in Stata 15](https://www.statalist.org/forums/forum/general-stata-discussion/general/1481482-how-to-declare-weekly-data-as-time-series-data-in-stata-15)
+
+
+### January2013から、Januaryを抜き出す: `substr`
+
+- 変数myearにJanuary2013が値として含まれているとき、新規変数mにJanuaryを入れる。
+
+```
+g m=substr(myear, 1, strpos(myear,"2")-1)
+```
+- strpos()は、strpos("this","is") = 3　のように、第１引数において第２引数が何文字目に出現するかを返す。
+- substr()は、substr("abcdef",2,3) = "bcd"のように、第１引数において第２引数から３文字目までを取り出す。
+
 
 ### Stata: 年齢や日数計算
 
