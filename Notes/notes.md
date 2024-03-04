@@ -405,6 +405,7 @@ forval i = 68/88 {
 	
 }
 
+
 twoway (connected meanln_wage year, mlabel(meanln_wage) mlabposition(1) mlabgap(relative1p5)) (rcap ln_wagelb ln_wageub year, sort), legend(order(1 "Mean" 2 "95% CI") position(6))
 graph export ci.png,replace
 
@@ -428,12 +429,16 @@ global group1 "Treatment"
 
 g year2=year+0.5 //グループ別のグラフが重ならないように横軸をずらす
 
+* 簡単なコード
 twoway (connected mean year if group ==0, mlabel(mean) mlabposition(12) mlabgap(relative3p)) (rcap lb ub year if group ==0, sort) ///
 (connected mean year2 if group ==1, mlabel(mean) mlabposition(12) mlabgap(relative3p)) (rcap lb ub year2 if group ==1, sort) ///
  , legend(order(1 "$group0: Mean" 2 "$group0: 95%CI" 3 "$group1: Mean" 4 "$group1: 95%CI") position(6) rows(2)) xline(1998)
 
  graph export ci2.png
  
+* 色を揃えたコード
+twoway (connected mean year if group ==0, mlabel(mean) mlabposition(12) mlabgap(relative3p) mlabcolor(blue) mcolor(blue) lcolor(blue)) (rcap lb ub year if group ==0, sort mcolor(blue) lcolor(blue)) (connected mean year2 if group ==1, mlabel(mean) mlabposition(12) mlabgap(relative3p)  mlabcolor(black)  mcolor(black) lcolor(black)) (rcap lb ub year2 if group ==1, sort mcolor(black) lcolor(black)) , legend(order(1 "$group0: Mean" 2 "$group0: 95%CI" 3 "$group1: Mean" 4 "$group1: 95%CI") position(6) rows(2)) xline(1998)
+
 ```
 
 <img src="img/ci2.png" width="50%"> 
