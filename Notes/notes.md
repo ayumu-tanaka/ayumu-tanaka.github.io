@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [半透明のグラフを重ねる。](#半透明のグラフを重ねる)
   - [おしゃれなグラフ](#おしゃれなグラフ)
     - [`modern`](#modern)
     - [`plotplain`](#plotplain)
@@ -227,6 +228,15 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 半透明のグラフを重ねる。
+
+```
+sysuse auto,clear
+histogram mpg if foreign==0, bin(10) fcolor(blue%30) barwidth(2) addplot((histogram mpg if foreign==1, bin(10) fcolor(red%30))) legend(order(1 "domestic" 2 "foreign"))
+```
+
+
 
 ## おしゃれなグラフ
 
