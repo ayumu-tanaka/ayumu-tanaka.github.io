@@ -18,6 +18,7 @@ layout: default
   - [data.table](#datatable)
   - [here](#here)
 - [Stata](#stata)
+  - [外挿 `ipolate`](#外挿-ipolate)
   - [半透明のグラフを重ねる。](#半透明のグラフを重ねる)
   - [おしゃれなグラフ](#おしゃれなグラフ)
     - [`modern`](#modern)
@@ -228,6 +229,15 @@ getwd()
 
 <a id="Stata"></a>
 # Stata
+
+## 外挿 `ipolate`
+
+`ipolate`のオプションにepolateを付けると、内挿だけではなく外挿もできる。
+
+```
+by KSFAffiliateCode: ipolate L1 year, gen(L) epolate
+```
+
 
 ## 半透明のグラフを重ねる。
 
