@@ -87,6 +87,20 @@ layout: default
 <a id="R"></a>
 # R
 
+## `tapply`の使い方
+
+`tapply`を使うと、属性ごとの平均値を計算できる。
+
+```
+library(dplyr)
+starwars <- starwars
+height_mean <- tapply(starwars$height, starwars$sex, mean, na.rm=TRUE)
+head(height_mean)
+
+        female hermaphroditic           male           none 
+      171.5714       175.0000       179.1228       131.2000 
+```
+
 ## パイプ・オペレータ（演算子）
 
 Base R では `|>` がパイプ演算子。
