@@ -7,6 +7,8 @@ layout: default
 
 - [研究メモ](#研究メモ)
 - [R](#r)
+  - [欠損値の除去](#欠損値の除去)
+  - [Rマークダウンのグローバル設定](#rマークダウンのグローバル設定)
   - [RPubs](#rpubs)
   - [Stata to R](#stata-to-r)
   - [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
@@ -85,6 +87,34 @@ layout: default
 <a id="R"></a>
 # R
 
+## Rでデータをcollapseする方法
+
+```
+library(doBy)
+hsb2 <- read.table("https://stats.idre.ucla.edu/wp-content/uploads/2016/02/hsb2-1.csv", header=T, sep=",")
+collapse1 <- summaryBy(socst + math ~ prog + ses + female, FUN=c(mean,sd), data=hsb2)
+collapse1 
+```
+-[HOW CAN I “COLLAPSE” MY DATA IN R? | R FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
+
+## 欠損値の除去
+- 変数のない行を削除
+dat2 <- subset(dat, !(is.na(dat$変数)))
+
+- NAがある行はすべて削除
+dat2 <- na.omit(dat)
+
+## Rマークダウンのグローバル設定
+
+```
+```{r setup-chunk, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, #コードを表示
+                      cache = FALSE, #キャッシュを残さない
+                      message=FALSE, warning=FALSE)
+
+```
+```
+
 ## RPubs
 
 - [RPubs](https://rpubs.com/ayumuR)
@@ -113,6 +143,8 @@ output:
     toc: yes
     toc_float: yes
     number_sections: yes
+bibliography: ref.bib
+link-citations: yes
 ---
 ```
 
