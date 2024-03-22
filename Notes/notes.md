@@ -98,6 +98,21 @@ layout: default
 
 ## Rでデータをcollapseする方法
 
+方法1
+
+- `aggregate`関数を使えば、集計量を計算できる。
+
+```
+A <- state.x77
+a <- aggregate(state.x77, list(Region = state.region), mean)
+
+C <- warpbreaks
+c <- aggregate(breaks ~ wool + tension, data = warpbreaks, mean)
+```
+
+
+方法2
+
 ```
 library(doBy)
 hsb2 <- read.table("https://stats.idre.ucla.edu/wp-content/uploads/2016/02/hsb2-1.csv", header=T, sep=",")
