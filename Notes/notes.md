@@ -96,6 +96,40 @@ layout: default
 - 演算子 / は省略記法を提供し、a / b は a + b %in% a と等価である。つまり、a + a:bと解釈できる。
 - 演算子 - は指定された項を削除するので、(a+b+c)^2 - a:b は a + b + c + b:c + a:c と同じである。
 
+
+## `mutate`の使い方
+
+`mutate`は既存の変数に操作を加えて、新しい変数を作成する関数。
+
+```
+library(dplyr)
+
+starwars %>%
+  select(name, mass) %>%
+  mutate(
+    mass2 = mass * 2,
+    mass2_squared = mass2 * mass2
+  )
+```
+
+
+```
+library(dplyr)
+
+starwars <- starwars
+head(starwars) 
+
+starwars2 <- starwars %>% 
+  select(name, mass, species) %>%
+  group_by(species) %>%
+  mutate(mass_norm = mass / mean(mass, na.rm = TRUE))
+  
+head(starwars2)
+```
+
+ここで、`group_by`は、指定した変数ごとに後の`mutate`で平均を計算することを指示するもので、それ自体ではデータに変化を及ぼさない。
+
+
 ## Rでデータをcollapseする方法
 
 方法1
