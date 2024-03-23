@@ -90,6 +90,9 @@ layout: default
 <a id="R"></a>
 # R
 
+## メモ
+- [メモ](https://ayumu-tanaka.github.io/Notes/Rnotes/)
+
 ## `tapply`の使い方
 
 `tapply`を使うと、属性ごとの平均値を計算できる。
