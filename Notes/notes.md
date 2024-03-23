@@ -5,16 +5,17 @@ layout: default
 # 研究メモ
 ---
 
+- [研究メモ](#研究メモ)
 - [R](#r)
+  - [メモ](#メモ)
   - [`tapply`の使い方](#tapplyの使い方)
-  - [パイプ・オペレータ](#パイプ・オペレータ)
+  - [パイプ・オペレータ](#パイプオペレータ)
   - [交差項](#交差項)
   - [`mutate`の使い方](#mutateの使い方)
   - [Rでデータをcollapseする方法](#rでデータをcollapseする方法)
   - [欠損値の除去](#欠損値の除去)
   - [RPubs](#rpubs)
   - [Stata to R](#stata-to-r)
-  - [Rマークダウンのグローバル設定](#rマークダウンのグローバル設定)
   - [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
   - [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
   - [Excelデータの読み込み、書き出し](#excelデータの読み込み書き出し)
@@ -196,16 +197,7 @@ dat2 <- subset(dat, !(is.na(dat$変数)))
 - NAがある行はすべて削除
 dat2 <- na.omit(dat)
 
-## Rマークダウンのグローバル設定
 
-```
-```{r setup-chunk, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, #コードを表示
-                      cache = FALSE, #キャッシュを残さない
-                      message=FALSE, warning=FALSE)
-
-```
-```
 
 ## RPubs
 
