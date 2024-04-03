@@ -23,6 +23,13 @@ YAMLの例
       dpi = 300
       )
 
+    knitr::opts_chunk$set(echo = TRUE, #コードを表示
+                          cache = FALSE, #キャッシュを残さない
+                          fig.path = "figures/fig-",
+                          out.width = "100%",
+                          dpi = 300,
+                          message=FALSE, warning=FALSE)
+
 # パイプ・オペレータの使い方
 
 ``` r
