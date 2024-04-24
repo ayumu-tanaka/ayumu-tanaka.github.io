@@ -8,6 +8,8 @@ layout: default
 - [研究メモ](#研究メモ)
 - [R](#r)
   - [メモ](#メモ)
+  - [データ名称を変更する: `assign`](#データ名称を変更する-assign)
+  - [Stataの`forvalues`と同じようにループで連番データを読み込む](#stataのforvaluesと同じようにループで連番データを読み込む)
   - [`tapply`の使い方](#tapplyの使い方)
   - [パイプ・オペレータ](#パイプオペレータ)
   - [交差項](#交差項)
@@ -93,6 +95,34 @@ layout: default
 
 ## メモ
 - [メモ](https://ayumu-tanaka.github.io/Notes/Rnotes/)
+
+
+## データ名称を変更する: `assign`
+
+```
+assign("data_new", data)
+rm(data)
+```
+
+
+## Stataの`forvalues`と同じようにループで連番データを読み込む
+
+```
+# 2019年から2023年の役員データを読み込む
+for (i in 2019:2023) {
+  # Construct file names
+  file_name <- paste0("yakuin_data_", i, ".csv")
+  file_name_new <- paste0("yakuin_data_", i, ".RData")
+  
+  # Read the data
+  data <- read.csv(file_name, header = T, fileEncoding = "Shift-JIS")
+  
+  # Assign data to a variable with its original name
+  assign(paste0("data", i), data)
+  
+}
+```
+
 
 ## `tapply`の使い方
 
