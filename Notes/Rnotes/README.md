@@ -19,6 +19,25 @@ Rメモ
     - [まず普通のグラフを作成](#まず普通のグラフを作成)
     - [x軸の小数点を消す](#x軸の小数点を消す)
     - [参考](#参考-1)
+- [データ名称を変更する: `assign`](#データ名称を変更する-assign)
+- [Stataの`forvalues`と同じようにループで連番データを読み込む](#stataのforvaluesと同じようにループで連番データを読み込む)
+- [`tapply`の使い方](#tapplyの使い方)
+- [パイプ・オペレータ](#パイプオペレータ)
+- [交差項](#交差項)
+- [`mutate`の使い方](#mutateの使い方)
+- [Rでデータをcollapseする方法](#rでデータをcollapseする方法)
+- [欠損値の除去](#欠損値の除去)
+- [RPubs](#rpubs)
+- [Stata to R](#stata-to-r)
+- [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
+- [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
+- [Excelデータの読み込み、書き出し](#excelデータの読み込み書き出し)
+- [特定の文字列の言語の識別](#特定の文字列の言語の識別)
+- [特定の文字の前後の文字列の切り出し](#特定の文字の前後の文字列の切り出し)
+- [R MarkdownでのBibTexの使用](#r-markdownでのbibtexの使用)
+- [data.table](#datatable)
+- [here](#here)
+
 
 # `$`と`[[]]`の使い方
 
@@ -269,3 +288,258 @@ g2
 
 - [How to avoid default conversion of year into decimals when
   plotting?](https://stackoverflow.com/questions/70596445/how-to-avoid-default-conversion-of-year-into-decimals-when-plotting)
+
+# データ名称を変更する: `assign`
+
+    assign("data_new", data)
+    rm(data)
+
+# Stataの`forvalues`と同じようにループで連番データを読み込む
+
+    # 2019年から2023年の役員データを読み込む
+    for (i in 2019:2023) {
+      # Construct file names
+      file_name <- paste0("yakuin_data_", i, ".csv")
+      file_name_new <- paste0("yakuin_data_", i, ".RData")
+      
+      # Read the data
+      data <- read.csv(file_name, header = T, fileEncoding = "Shift-JIS")
+      
+      # Assign data to a variable with its original name
+      assign(paste0("data", i), data)
+      
+    }
+
+# `tapply`の使い方
+
+`tapply`を使うと、属性ごとの平均値を計算できる。
+
+    library(dplyr)
+    starwars <- starwars
+    height_mean <- tapply(starwars$height, starwars$sex, mean, na.rm=TRUE)
+    head(height_mean)
+
+            female hermaphroditic           male           none 
+          171.5714       175.0000       179.1228       131.2000 
+
+# パイプ・オペレータ
+
+Base R では `|>` がパイプ演算子。
+
+    1:2 |> mean()
+
+モダンなR（tidyverse）では `%>%` がパイプ演算子。Control + Shift +
+m　がショートカット。
+
+    1:2 %>% mean()
+
+ともに左辺が右辺の第一引数となる。
+
+# 交差項
+
+`?formula`で説明がある。
+
+- a\*bは、a + b + a:bと解釈される。
+- in%演算子は、 a + b %in% a は a + a:b という式に展開される。
+- 演算子 / は省略記法を提供し、a / b は a + b %in% a
+  と等価である。つまり、a + a:bと解釈できる。
+- 演算子 - は指定された項を削除するので、(a+b+c)^2 - a:b は a + b + c +
+  b:c + a:c と同じである。
+
+# `mutate`の使い方
+
+`mutate`は既存の変数に操作を加えて、新しい変数を作成する関数。
+
+    library(dplyr)
+
+    starwars %>%
+      select(name, mass) %>%
+      mutate(
+        mass2 = mass * 2,
+        mass2_squared = mass2 * mass2
+      )
+
+    library(dplyr)
+
+    starwars <- starwars
+    head(starwars) 
+
+    starwars2 <- starwars %>% 
+      select(name, mass, species) %>%
+      group_by(species) %>%
+      mutate(mass_norm = mass / mean(mass, na.rm = TRUE))
+      
+    head(starwars2)
+
+ここで、`group_by`は、指定した変数ごとに後の`mutate`で平均を計算することを指示するもので、それ自体ではデータに変化を及ぼさない。
+
+# Rでデータをcollapseする方法
+
+方法1
+
+- `aggregate`関数を使えば、集計量を計算できる。
+
+<!-- -->
+
+    A <- state.x77
+    a <- aggregate(state.x77, list(Region = state.region), mean)
+
+    C <- warpbreaks
+    c <- aggregate(breaks ~ wool + tension, data = warpbreaks, mean)
+
+方法2
+
+    library(doBy)
+    hsb2 <- read.table("https://stats.idre.ucla.edu/wp-content/uploads/2016/02/hsb2-1.csv", header=T, sep=",")
+    collapse1 <- summaryBy(socst + math ~ prog + ses + female, FUN=c(mean,sd), data=hsb2)
+    collapse1 
+
+\-[HOW CAN I “COLLAPSE” MY DATA IN R? \| R
+FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
+
+# 欠損値の除去
+
+- 変数のない行を削除 dat2 \<- subset(dat, !(is.na(dat\$変数)))
+
+- NAがある行はすべて削除 dat2 \<- na.omit(dat)
+
+# RPubs
+
+- [RPubs](https://rpubs.com/ayumuR)
+
+# Stata to R
+
+- [Stata to R :: CHEAT
+  SHEET](https://raw.githubusercontent.com/rstudio/cheatsheets/master/stata2r.pdf)
+  チートシート
+- [Getting Started in
+  R\<-\>Stata](https://www.princeton.edu/~otorres/RStata.pdf)
+  2010年版。昔ながらのRコード。
+- [R FOR STATA USERS](https://www.matthieugomez.com/statar/)
+  tidyverseを使った現代的なRコード。
+- [Translating Stata to R](https://stata2r.github.io/)
+  data.tableによるデータ処理、fixestを使った推定を中心とした解説。
+- [Translating Stata to
+  R](https://epi-stats.github.io/Rtutorials/Stata_to_R)　アルファベット順のコード解説。
+
+# RMarkdownとQuatroでの目次自動生成
+
+- 「toc:
+  true」を記載。オプションは種々ある。[参考](https://bookdown.org/yihui/rmarkdown/html-document.html)
+- 「html_document:」のように「html_document」の後ろに「:」を入れる。「:」を入れ忘れるとエラーになるので注意。
+
+例) RMarkdownの場合
+
+    ---
+    title: "伝統的な重力方程式の推定"
+    author: "田中 鮎夢"
+    date: "2024-04-25"
+    output:
+      html_document:
+        toc: yes
+        toc_float: yes
+        number_sections: yes
+    bibliography: ref.bib
+    link-citations: yes
+    ---
+
+例) Quatroの場合
+
+    ---
+    title: "ユニクロの縫製工場の地図 (ggplot2)"
+    author: "Ayumu Tanaka"
+    format: html
+    toc: true
+    toc_float: true
+    number-sections: true
+    editor: visual
+    ---
+
+# 多数の固定効果含むモデルの推定
+
+- Laurent Berge and Grant McDermott. [fixest – Fast Fixed-Effects
+  Estimation: Short
+  Introduction](https://cran.r-project.org/web/packages/fixest/vignettes/fixest_walkthrough.html#12_Clustering_the_standard-errors)
+
+- [使い方](https://rpubs.com/ayumu21/fixest_walkthrough)
+
+# Excelデータの読み込み、書き出し
+
+    library(readxl)
+    ABCD <- read_excel("ABCD.xlsx")
+
+    library("openxlsx")
+    write.xlsx(ABCD, "ABCD.xlsx")
+
+# 特定の文字列の言語の識別
+
+    library(cld3)
+    detect_language("日本語")
+
+- 言語コードは、[cld3](https://github.com/google/cld3#readme)に記載あり。
+
+# 特定の文字の前後の文字列の切り出し
+
+[特定の文字の前後を抜き出す](https://rpubs.com/dfirr/1029033)
+
+例) 「stringr」パッケージを用いて、「//」の後の文字列を切り出す。
+
+    library(stringr)
+    JPN <- str_split_i("The Antique: Secret of the Old Books // ビブリア古書堂の事件手帖", "//", i = -1)
+
+# R MarkdownでのBibTexの使用
+
+- 冒頭に、「bibliography: ref.bib」と書き入れておく。
+- 「ref.bib」ファイルに文献情報を記載しておく。
+- 本文で文献を引用するときは、「@joseph2022effect」のように「@key」とする。
+- 自動的に文献リストが生成される。
+- 参考) [4.5
+  参考文献と引用](https://gedevan-aleksizde.github.io/rmarkdown-cookbook/bibliography.html)
+
+例）
+
+    ---
+    title: "Bibtexの練習"
+    author: "田中鮎夢"
+    date: "2023-12-12"
+    output:
+      html_document: default
+    bibliography: ref.bib
+    ---
+
+    @joseph2022effect はハイチの研究
+
+    # 参考文献
+
+# data.table
+
+- 大規模データの読み込み
+- <https://okumuralab.org/~okumura/stat/datatable.html>
+- <http://kohske.github.io/ESTRELA/201410/index.html>
+
+# here
+
+- パッケージhereは、相対パスを使うためのもの。
+- Posit Cloudでは、hereはルートディレクトリーを”/cloud/project”と認識。
+- 例えば、“/cloud/project/qss/INTRO/UNpop.csv”を読み込む時は、以下のようにする。
+
+<!-- -->
+
+    #データの読み込み例
+    library(here)
+    a <- read.csv(here("qss", "INTRO", "UNpop.csv"))
+
+- 作業ディレクトリ自体をサブフォルダ”/cloud/project/qss/INTRO”に変更するには、以下のようにする。
+
+<!-- -->
+
+    #作業ディレクトリの変更(1)
+    library(here)
+    setwd(here("qss", "INTRO"))
+    getwd()
+
+    #作業ディレクトリの変更(2)
+    library(here)
+    i_am("qss/INTRO/chap01.Rmd") #Rマークダウンがある場所をルートディレクトリからの相対パスとして表現
+    setwd(here("qss", "INTRO"))
+    getwd()
