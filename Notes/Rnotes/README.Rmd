@@ -16,6 +16,57 @@ knitr::opts_chunk$set(
 ```
 
 
+# `$`と`[[]]`の使い方
+
+- `$`と`[[]]`のいずれを使っても、データの中の特定の変数を指定できる。
+- どちらもBase Rのオペレーター。
+- 既存変数の対数を作成する例。
+- `[[]]`を使う場合、変数名を引用符で囲む必要があることに注意。例）"wage"
+
+```{r}
+# AERパッケージのデータを使う
+library(AER)
+data("CPS1985")
+
+# `$`を用いた変数の指定
+CPS1985$lnwage1 = log(CPS1985$wage)
+
+head(CPS1985$lnwage1)
+
+# [[]]を用いた変数の指定
+CPS1985[["lnwage2"]] = log(CPS1985[["wage"]])
+
+head(CPS1985$lnwage2)
+```
+
+# 複数の変数の対数をとる。
+
+```{r}
+# 既存データを一旦削除
+rm(list =ls())
+
+# AERパッケージのデータを使う
+library(AER)
+data("CPS1985")
+
+# 対数変換したい変数のリスト
+variables <- c("age", "wage")
+
+for (var in variables) {
+  # 新しい変数名
+  new_var_name <- paste0("ln", var) 
+  # 対数変換
+  CPS1985[[new_var_name]] <- log(CPS1985[[var]])
+}
+
+head(CPS1985$lnwage)
+
+head(CPS1985$lnage)
+
+#CPS1985 <- data.frame(CPS1985) 
+```
+
+
 
 # Rマークダウンからマークダウンを生成
 

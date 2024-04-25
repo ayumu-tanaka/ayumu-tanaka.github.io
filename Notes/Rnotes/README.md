@@ -3,6 +3,71 @@ Rメモ
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+# `$`と`[[]]`の使い方
+
+- `$`と`[[]]`のいずれを使っても、データの中の特定の変数を指定できる。
+- どちらもBase Rのオペレーター。
+- 既存変数の対数を作成する例。
+- `[[]]`を使う場合、変数名を引用符で囲む必要があることに注意。例）“wage”
+
+``` r
+# AERパッケージのデータを使う
+library(AER)
+#> Loading required package: car
+#> Loading required package: carData
+#> Loading required package: lmtest
+#> Loading required package: zoo
+#> 
+#> Attaching package: 'zoo'
+#> The following objects are masked from 'package:base':
+#> 
+#>     as.Date, as.Date.numeric
+#> Loading required package: sandwich
+#> Loading required package: survival
+data("CPS1985")
+
+# `$`を用いた変数の指定
+CPS1985$lnwage1 = log(CPS1985$wage)
+
+head(CPS1985$lnwage1)
+#> [1] 1.629241 1.599388 1.897620 1.386294 2.014903 2.570320
+
+# [[]]を用いた変数の指定
+CPS1985[["lnwage2"]] = log(CPS1985[["wage"]])
+
+head(CPS1985$lnwage2)
+#> [1] 1.629241 1.599388 1.897620 1.386294 2.014903 2.570320
+```
+
+# 複数の変数の対数をとる。
+
+``` r
+# 既存データを一旦削除
+rm(list =ls())
+
+# AERパッケージのデータを使う
+library(AER)
+data("CPS1985")
+
+# 対数変換したい変数のリスト
+variables <- c("age", "wage")
+
+for (var in variables) {
+  # 新しい変数名
+  new_var_name <- paste0("ln", var) 
+  # 対数変換
+  CPS1985[[new_var_name]] <- log(CPS1985[[var]])
+}
+
+head(CPS1985$lnwage)
+#> [1] 1.629241 1.599388 1.897620 1.386294 2.014903 2.570320
+
+head(CPS1985$lnage)
+#> [1] 3.555348 4.043051 2.944439 3.091042 3.555348 3.332205
+
+#CPS1985 <- data.frame(CPS1985) 
+```
+
 # Rマークダウンからマークダウンを生成
 
 YAMLの例
@@ -54,6 +119,9 @@ plot(1:5, 6:10)
 library(dplyr)
 #> 
 #> Attaching package: 'dplyr'
+#> The following object is masked from 'package:car':
+#> 
+#>     recode
 #> The following objects are masked from 'package:stats':
 #> 
 #>     filter, lag
