@@ -171,3 +171,84 @@ summary(wageModel)
 #> Multiple R-squared:  0.316,  Adjusted R-squared:  0.3121 
 #> F-statistic: 80.39 on 3 and 522 DF,  p-value: < 2.2e-16
 ```
+
+# x軸のラベルの不要な小数点の除去
+
+## plot()関数
+
+Rのplot関数でグラフ作成すると、x軸のラベルに不要な小数点がついてしまうことがある。例）2005.0,
+2005.5, 2006.0
+
+``` r
+year <- c(2005,2006,2007)
+y <- c(1,2,3)
+plot(year,y)
+```
+
+<img src="figures/fig-unnamed-chunk-6-1.png" width="100%" />
+
+x軸の変数の値を増やすことで、小数点を避けられる場合もあるようだが、以下のようにうまくいかない場合もある。
+
+``` r
+year2 <- c(2005,2006,2007,2008)
+y2 <- c(1,2,3,4)
+plot(year2,y2)
+```
+
+<img src="figures/fig-unnamed-chunk-7-1.png" width="100%" />
+
+その他の方法として、x軸のラベルをplot関数では指定せずに、後から、axis関数で追加する方法がある。
+
+``` r
+year <- c(2005,2006,2007)
+y <- c(1,2,3)
+plot(year,y, xaxt = "n")
+# axisの最初の引数1は、x軸を意味する。
+axis(1, 2005:2007)
+```
+
+<img src="figures/fig-unnamed-chunk-8-1.png" width="100%" />
+
+yearを時間変数とする方法もある。
+
+### 参考
+
+- [How to get rid of the decimal digits on the x
+  axis](https://stackoverflow.com/questions/7556791/how-to-get-rid-of-the-decimal-digits-on-the-x-axis)
+
+## ggplot()関数
+
+- コード例
+
+### データを作成
+
+``` r
+x <- 2010:2020
+y <- 1:11
+data1 <- data.frame(x, y)
+```
+
+### まず普通のグラフを作成
+
+``` r
+library(ggplot2)
+g1 <- ggplot(data = data1) +
+  geom_point(mapping = aes(x = x, y = y)) 
+g1 
+```
+
+<img src="figures/fig-unnamed-chunk-10-1.png" width="100%" />
+
+### x軸の小数点を消す
+
+``` r
+g2 <- g1 + scale_x_continuous(breaks = ~ axisTicks(., log = FALSE)) 
+g2
+```
+
+<img src="figures/fig-unnamed-chunk-11-1.png" width="100%" />
+
+### 参考
+
+- [How to avoid default conversion of year into decimals when
+  plotting?](https://stackoverflow.com/questions/70596445/how-to-avoid-default-conversion-of-year-into-decimals-when-plotting)
