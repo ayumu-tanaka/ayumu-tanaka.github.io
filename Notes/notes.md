@@ -404,6 +404,7 @@ collect label levels foreign_owned 1 "Yes", modify
 collect export "../Tables/CA.tex", replace tableonly 
 ```
 
+- [Stataでの表のLaTex出力の方法](Stata_table_LaTex.docx)
 
 ## パネルデータの欠損値の穴埋め
 
