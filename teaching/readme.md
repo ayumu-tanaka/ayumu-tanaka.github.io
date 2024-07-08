@@ -5,12 +5,10 @@ layout: default
 
 # 講義資料
 
+<!--
 - [講義資料](#講義資料)
   - [大学院進学予定者へ](#大学院進学予定者へ)
   - [2023年度「基礎演習」](#2023年度基礎演習)
-  - [2023年度「グローバル経済A」](#2023年度グローバル経済a)
-  - [2023年度「経済・金融事情（国際）」](#2023年度経済金融事情国際)
-  - [2023年度「公共地域政策論（国際）」](#2023年度公共地域政策論国際)
   - [過去の資料](#過去の資料)
   - [LaTeX, Stata, R](#latex-stata-r)
     - [LaTeX/Overleaf](#latexoverleaf)
@@ -23,7 +21,7 @@ layout: default
     - [外国直接投資](#外国直接投資)
     - [貿易政策、RTA](#貿易政策rta)
     - [観光](#観光)
-
+-->
 
 <!-- [過去の資料](#過去の資料) | [LaTeX, Stata, R](#LaTeX/Stata/R) | [データ](#データ)
 -->
@@ -35,37 +33,7 @@ layout: default
 テキスト：今井耕介 (2018)『社会科学のためのデータ分析入門 （上）』岩波書店。
 - [RPubs 第1章「イントロ」](https://rpubs.com/ayumuR/qss01)
 - [RPubs 第2章「因果関係」](https://rpubs.com/ayumuR/qss02)
-
-## 2023年度「グローバル経済A」
-- [期末レポート雛形](global_economy_report.pdf)
-- [データ IMFv3_2018.xlsx](IMFv3_2018.xlsx)
-
-## 2023年度「経済・金融事情（国際）」
-- [Posit Cloudデータ](2023jijou.zip) [zip]
-- [RPubs R課題](https://rpubs.com/ayumu/1023208)
-- [RPubs 期末レポート雛形](https://rpubs.com/ayumu/jijo2023_report)
-- [課題資料](https://drive.google.com/drive/folders/1EcYoT1YKLeUUGBdKy_exUWp5WhKn6CCN?usp=sharing)
-- データ
-    - [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en)
-    - [IMF Data](https://data.imf.org/): Coordinated Direct Investment Survey (CDIS)を使っています。
-
-## 2023年度「公共地域政策論（国際）」
-- [Posit Cloudデータ](2023policy.zip)  [zip]
-- [RPubs R課題](https://rpubs.com/ayumu/policy)
-- [RPubs 期末レポート雛形](https://rpubs.com/ayumu/1055113)
-- [課題資料](https://drive.google.com/drive/folders/1M-1ZTKMhmwpeyJY_dsZI6WHUTQrQfCn2?usp=sharing)
-
-<a id="過去の資料"></a>
-## 過去の資料
-
-- [世界経済論（2022前期）](https://rpubs.com/ayumu/916734)
-- [世界経済論（2022後期）](https://rpubs.com/ayumu/949456)
-    - [伝統的な重力方程式の推定](https://rpubs.com/ayumuR/gravity_explanation)
-    - [Rマークダウン](gravity_R.zip)  [zip]
-- [経済金融事情（国際）（2022前期）](https://rpubs.com/ayumu/916735)
-- [公共地域政策論（国際）（2022前期）](https://rpubs.com/ayumu/914338)
-- [フレッシャーズ・セミナー（2022前期）](https://rpubs.com/ayumu/914433)
-- [フレッシャーズ・セミナー（2022後期）](https://rpubs.com/ayumu/990560)
+- [RPubs 第3章「測定」](https://rpubs.com/ayumuR/qss03)
 
 ---
 <a id="LaTeX/Stata/R"></a>
