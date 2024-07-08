@@ -34,6 +34,8 @@ layout: default
 - [RPubs 第1章「イントロ」](https://rpubs.com/ayumuR/qss01)
 - [RPubs 第2章「因果関係」](https://rpubs.com/ayumuR/qss02)
 - [RPubs 第3章「測定」](https://rpubs.com/ayumuR/qss03)
+- [RPubs 第4章「予測」](https://rpubs.com/ayumuR/qss04)
+
 
 ---
 <a id="LaTeX/Stata/R"></a>
