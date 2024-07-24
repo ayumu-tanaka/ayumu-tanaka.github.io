@@ -19,7 +19,6 @@ layout: default
 
 **学外**  
 2013-現在 独立行政法人 経済産業研究所 [リサーチアソシエイト](https://www.rieti.go.jp/users/tanaka-ayumu/)（非常勤）  
-2011-現在 京都大学大学院経済学研究科プロジェクトセンター [リサーチフェロー](http://www.econ.kyoto-u.ac.jp/projectcenter/fellow/)（非常勤）  
 
 **連絡先**  
 住所: 〒150-8366 東京都渋谷区渋谷4-4-25　 [青山キャンパス](https://www.aoyama.ac.jp/outline/campus/aoyama.html)  
