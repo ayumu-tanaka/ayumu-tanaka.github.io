@@ -9,6 +9,7 @@ layout: default
 - [R](#r)
   - [メモ](#メモ)
 - [Stata](#stata)
+  - [変数ラベルをグラフのタイトルに用いる](#変数ラベルをグラフのタイトルに用いる)
   - [外挿 `ipolate`](#外挿-ipolate)
   - [半透明のグラフを重ねる。](#半透明のグラフを重ねる)
   - [おしゃれなグラフ](#おしゃれなグラフ)
@@ -83,6 +84,19 @@ layout: default
 <a id="Stata"></a>
 # Stata
 
+## 変数ラベルをグラフのタイトルに用いる
+
+- コード例
+
+```
+sysuse auto,clear
+foreach v of var weight length { 
+twoway (scatter `v' price, sort), title(Scatter plot for `: variable label `v'')
+} 
+```
+
+
+
 ## 外挿 `ipolate`
 
 `ipolate`のオプションにepolateを付けると、内挿だけではなく外挿もできる。
@@ -99,6 +113,7 @@ sysuse auto,clear
 histogram mpg if foreign==0, bin(10) fcolor(blue%30) barwidth(2) addplot((histogram mpg if foreign==1, bin(10) fcolor(red%30))) legend(order(1 "domestic" 2 "foreign"))
 ```
 
+[Including variable labels in graph titles](https://www.stata.com/statalist/archive/2006-10/msg00909.html)
 
 
 ## おしゃれなグラフ
