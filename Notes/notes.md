@@ -96,6 +96,8 @@ twoway (scatter `v' price, sort), title(Scatter plot for `: variable label `v'')
 ```
 
 
+[Including variable labels in graph titles](https://www.stata.com/statalist/archive/2006-10/msg00909.html)
+
 
 ## 外挿 `ipolate`
 
@@ -112,8 +114,6 @@ by KSFAffiliateCode: ipolate L1 year, gen(L) epolate
 sysuse auto,clear
 histogram mpg if foreign==0, bin(10) fcolor(blue%30) barwidth(2) addplot((histogram mpg if foreign==1, bin(10) fcolor(red%30))) legend(order(1 "domestic" 2 "foreign"))
 ```
-
-[Including variable labels in graph titles](https://www.stata.com/statalist/archive/2006-10/msg00909.html)
 
 
 ## おしゃれなグラフ
