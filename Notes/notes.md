@@ -89,6 +89,10 @@ layout: default
 - コード例
 
 ```
+twoway (scatter weight price, sort), title(Scatter plot for `: variable label weight')
+```
+
+```
 sysuse auto,clear
 foreach v of var weight length { 
 twoway (scatter `v' price, sort), title(Scatter plot for `: variable label `v'')
