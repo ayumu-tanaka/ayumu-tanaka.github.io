@@ -15,7 +15,7 @@ layout: default
 [researchmap](https://researchmap.jp/ayumu-tanaka)
 
 **現職**  
-2016-現在 青山学院大学 経済学部 [准教授](https://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymboyooyggy)  
+2021-現在 青山学院大学 経済学部 [准教授](https://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymboyooyggy)  
 
 **学外**  
 2013-現在 独立行政法人 経済産業研究所 [リサーチアソシエイト](https://www.rieti.go.jp/users/tanaka-ayumu/)（非常勤）  
