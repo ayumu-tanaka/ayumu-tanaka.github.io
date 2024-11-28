@@ -52,14 +52,14 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 
 **Book**  
-Ryuhei Wakasugi ed. (2014). "_[Internationalization of Japanese Firms: Evidence from Firm-level Data](https://dx.doi.org/10.1007/978-4-431-54532-3)_," Springer (173pages).  
+Ryuhei Wakasugi ed. (2014). "_[Internationalization of Japanese Firms: Evidence from Firm-level Data](https://dx.doi.org/10.1007/978-4-431-54532-3)_," Springer (173pages).  
   
 **Referee services**  
-Review of International Economics (2011), Japanese Economic Review (2013), Japan and the World Economy (2013, 2018, 2020, 2021), Journal of Economic Geography (2017),  Journal of Cultural Economics (2020, 2021), European Journal of Political Economy (2020), Journal of International Trade & Economic Development (2021), Economic Analysis and Policy (2021), Journal of the Japanese and International Economies (2021, 2023, 2024), Review of Development Economics (2021, 2022--2023), Asian Economic Journal (2022), Journal of the Asia Pacific Economy (2023), Regional Studies (2023), Singapore Economic Review (2023), Empirica (2024), Asia Europe Journal (2024), Economic Modelling (2024).
+Review of International Economics (2011), Japanese Economic Review (2013), Japan and the World Economy (2013, 2018, 2020, 2021), Journal of Economic Geography (2017), Journal of Cultural Economics (2020, 2021), European Journal of Political Economy (2020), Journal of International Trade & Economic Development (2021), Economic Analysis and Policy (2021), Journal of the Japanese and International Economies (2021, 2023, 2024), Review of Development Economics (2021, 2022--2023), Asian Economic Journal (2022), Journal of the Asia Pacific Economy (2023), Regional Studies (2023), Singapore Economic Review (2023), Empirica (2024), Asia Europe Journal (2024), Economic Modelling (2024), Journal of Regional Science (2024).
 
 **Links**  
 [https://orcid.org/0000-0001-9858-9236](https://orcid.org/0000-0001-9858-9236)  
-[Scopus](https://www.scopus.com/authid/detail.uri?authorId=55792392300) | [Google Scholar](https://scholar.google.co.jp/citations?user=7o9PsBoAAAAJ&hl=en)  
-[IDEAS](http://ideas.repec.org/f/pta352.html) | [EconPapers](http://econpapers.repec.org/RAS/pta352.htm) | [ResearchGate](https://www.researchgate.net/profile/Ayumu_Tanaka/) | [Academia.edu](https://publons.com/researcher/4668250/ayumu-tanaka/) | [Publons](https://publons.com/researcher/4668250/ayumu-tanaka/) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4610439) | 
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=55792392300) | [Google Scholar](https://scholar.google.co.jp/citations?user=7o9PsBoAAAAJ&hl=en)  
+[IDEAS](http://ideas.repec.org/f/pta352.html) | [EconPapers](http://econpapers.repec.org/RAS/pta352.htm) | [ResearchGate](https://www.researchgate.net/profile/Ayumu_Tanaka/) | [Academia.edu](https://publons.com/researcher/4668250/ayumu-tanaka/) | [Publons](https://publons.com/researcher/4668250/ayumu-tanaka/) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4610439) | 
 [Web of Science](https://www.webofscience.com/wos/author/record/ABE-8642-2021) | [OSF](https://osf.io/ne73u/) 
 
