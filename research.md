@@ -16,7 +16,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 **Journal Articles**
 
 
-1. Tadashi Ito, Michael Ryan, and Ayumu Tanaka. (2024). FDI, Financial Constraint and Partial Ownership. **_[The World Economy](https://doi.org/10.1111/twec.13561)_**, forthcoming. [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] [[SocArXiv](https://doi.org/10.31235/osf.io/9djup)]
+1. Tadashi Ito, Michael Ryan, and Ayumu Tanaka. (2024). FDI, Financial Constraint and Partial Ownership. **_[The World Economy](https://doi.org/10.1111/twec.13561)_**, Vol.47, No.7, pp.2789-2827. [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] [[SocArXiv](https://doi.org/10.31235/osf.io/9djup)]
 2. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**, Vol.88. [[SSRN](https://ssrn.com/abstract=4221913)]
 3.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, Vol. 66.
 4.  Ayumu Tanaka. (2023). “Geographic Concentration of Foreign Visitors: Evidence from Japan,” **_[International Journal of Economic Policy Studies](https://doi.org/10.1007/s42495-022-00099-0)_**, Vol. 17, pp.211–222. [[SharedIt link](https://rdcu.be/c1Io7)]
