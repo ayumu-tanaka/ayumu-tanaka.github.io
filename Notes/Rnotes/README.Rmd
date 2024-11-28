@@ -374,10 +374,6 @@ dat2 <- na.omit(dat)
 
 
 
-# RPubs
-
-- [RPubs](https://rpubs.com/ayumuR)
-
 # Stata to R
 
 - [Stata to R :: CHEAT SHEET](https://raw.githubusercontent.com/rstudio/cheatsheets/master/stata2r.pdf) チートシート

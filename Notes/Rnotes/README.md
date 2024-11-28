@@ -27,7 +27,6 @@ Rメモ
 - [`mutate`の使い方](#mutateの使い方)
 - [Rでデータをcollapseする方法](#rでデータをcollapseする方法)
 - [欠損値の除去](#欠損値の除去)
-- [RPubs](#rpubs)
 - [Stata to R](#stata-to-r)
 - [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
 - [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
@@ -403,10 +402,6 @@ FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
 
 - NAがある行はすべて削除 dat2 \<- na.omit(dat)
 
-# RPubs
-
-- [RPubs](https://rpubs.com/ayumuR)
-
 # Stata to R
 
 - [Stata to R :: CHEAT
@@ -433,7 +428,7 @@ FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
     ---
     title: "伝統的な重力方程式の推定"
     author: "田中 鮎夢"
-    date: "2024-04-25"
+    date: "2024-11-28"
     output:
       html_document:
         toc: yes
