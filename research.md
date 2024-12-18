@@ -39,12 +39,13 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 **Working Papers**
 
 1. "Multinational Firms' Responses to a Host Country Financial Crisis: The Case of Korea" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/cdajf), September 2024. _Accepted._
-2. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
- 
+2.  "No-Exit Brexit: Multinational Firms’ Exit and Divestment in the UK" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/yx7as), December 2024. _Submitted._
+3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
+
 
 
 **Work in Progress**
-1.  "No-Exit Brexit: Japanese Affiliate Exit and Divestment in Post-Brexit UK" (with Michael Ryan).
+1.  Research on Japanese Firms' FDI. (with Michael Ryan)
 
 
 **Projects**
