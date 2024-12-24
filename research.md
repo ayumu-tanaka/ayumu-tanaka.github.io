@@ -15,31 +15,30 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Journal Articles**
 
-
-1. Tadashi Ito, Michael Ryan, and Ayumu Tanaka. (2024). FDI, Financial Constraint and Partial Ownership. **_[The World Economy](https://doi.org/10.1111/twec.13561)_**, Vol.47, No.7, pp.2789-2827. [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] [[SocArXiv](https://doi.org/10.31235/osf.io/9djup)]
-2. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**, Vol.88. [[SSRN](https://ssrn.com/abstract=4221913)]
-3.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, Vol. 66.
-4.  Ayumu Tanaka. (2023). “Geographic Concentration of Foreign Visitors: Evidence from Japan,” **_[International Journal of Economic Policy Studies](https://doi.org/10.1007/s42495-022-00099-0)_**, Vol. 17, pp.211–222. [[SharedIt link](https://rdcu.be/c1Io7)]
-5.  Tadashi Ito and Ayumu Tanaka. (2022). “FDI, Ownership Structure, and Productivity,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2022.101158)_**, Vol. 64.
-6.  Ayumu Tanaka. (2022). “Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data,” **_[International Economics and Economic Policy](https://doi.org/10.1007/s10368-021-00517-2)_**, Vol. 19, pp. 51–78. [[SharedIt link](https://rdcu.be/cwL22)]
-7.  Theresa M. Greaney and Ayumu Tanaka. (2021). "Foreign Ownership, Exporting and Gender Wage Gaps: Evidence from Japanese Linked Employer-Employee Data," **_[Journal of the Japanese and International Economies](https://doi.org/10.1016/j.jjie.2021.101151)_**, Vol. 61.
-8.  Naoto Jinji and Ayumu Tanaka. (2020). "How Does UNESCO's Convention on Cultural Diversity Affect Trade in Cultural Goods?," **_[Journal of Cultural Economics](https://doi.org/10.1007/s10824-020-09380-6)_**, Vol. 44, pp.625–660. [[SharedIt link](https://rdcu.be/cw4lh)]
-9.  Ayumu Tanaka, Banri Ito, and Ryuhei Wakasugi. (2019). "How Do Exporters Respond to Exogenous Shocks: Evidence from Japanese Firm-Level Data," **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2019.100962)_**, Vol. 51.
-10. Ayumu Tanaka. (2017). "Foreign Direct Investment and Temporary Workers in Japan," **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2016.10.004)_**, Vol. 48, pp.87–99.
-11. Banri Ito and Ayumu Tanaka. (2016). "External R&D, Productivity, and Export: Evidence from Japanese Firms," **_[Review of World Economics](https://dx.doi.org/10.1007/s10290-015-0240-y)_**, Vol. 152, No.3, pp.577–596. [[SharedIt link](https://rdcu.be/cw4lp)]
-12. Ryuhei Wakasugi and Ayumu Tanaka. (2015) "Recovery of the Supply Chain after the 2011 Mega-quake in Japan,” **_[Millennial Asia](http://doi.org/10.1177%2F0976399614563221)_**, Vol.6, No.1, pp. 1–18. 
-13. Ayumu Tanaka. (2015). "The Impacts of Natural Disasters on Plants' Growth: Evidence from the Great Hanshin-Awaji (Kobe) Earthquake," **_[Regional Science and Urban Economics](https://dx.doi.org/10.1016/j.regsciurbeco.2014.11.002)_**, Vol. 50, pp.31–41. 
-14. Ayumu Tanaka. (2013). "The Causal Effects of Exporting on Domestic Workers: A Firm-Level Analysis using Japanese Data," **_[Japan and the World Economy](https://dx.doi.org/10.1016/j.japwor.2013.06.003)_**, Vol. 28, pp.13-23.
-15. Ayumu Tanaka. (2012). "Firm Productivity and the Number of FDI Destinations: Evidence from a Non-parametric Test," **_[Economics Letters](https://dx.doi.org/10.1016/j.econlet.2012.04.079)_**, Vol. 117, No.1, pp.1-3. 
-16. Ryuhei Wakasugi and Ayumu Tanaka. (2012). "Productivity Heterogeneity and Internationalization: Evidence from Japanese Firms,” **_[Millennial Asia](http://doi.org/10.1177%2F097639961200300103)_**, Vol.3, No.1, pp.45–70.  
-17. Ryuhei Wakasugi and Ayumu Tanaka. (2010). "Activities of Japanese Multinationals with Productivity Heterogeneity,” **_[The International Economy](http://doi.org/10.5652/internationaleconomy.ie2010.08.w.t)_**, No. 14, pp. 128–142. 
+1. Michael Ryan and Ayumu Tanaka. (2024). "Multinational Firms' Responses to a Host Country Financial Crisis: The Case of Korea" (with Michael Ryan). **_[Review of World Economics](https://doi.org/10.1007/s10290-024-00578-w)_**, forthcoming. [[SocArXiv](https://doi.org/10.31235/osf.io/cdajf)]
+2. Tadashi Ito, Michael Ryan, and Ayumu Tanaka. (2024). FDI, Financial Constraint and Partial Ownership. **_[The World Economy](https://doi.org/10.1111/twec.13561)_**, Vol.47, No.7, pp.2789-2827. [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] [[SocArXiv](https://doi.org/10.31235/osf.io/9djup)]
+3. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**, Vol.88. [[SSRN](https://ssrn.com/abstract=4221913)]
+4.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, Vol. 66.
+5.  Ayumu Tanaka. (2023). “Geographic Concentration of Foreign Visitors: Evidence from Japan,” **_[International Journal of Economic Policy Studies](https://doi.org/10.1007/s42495-022-00099-0)_**, Vol. 17, pp.211–222. [[SharedIt link](https://rdcu.be/c1Io7)]
+6.  Tadashi Ito and Ayumu Tanaka. (2022). “FDI, Ownership Structure, and Productivity,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2022.101158)_**, Vol. 64.
+7.  Ayumu Tanaka. (2022). “Higher Wages in Exporters and Multinational Firms: Evidence from Linked Employer–Employee Data,” **_[International Economics and Economic Policy](https://doi.org/10.1007/s10368-021-00517-2)_**, Vol. 19, pp. 51–78. [[SharedIt link](https://rdcu.be/cwL22)]
+8.  Theresa M. Greaney and Ayumu Tanaka. (2021). "Foreign Ownership, Exporting and Gender Wage Gaps: Evidence from Japanese Linked Employer-Employee Data," **_[Journal of the Japanese and International Economies](https://doi.org/10.1016/j.jjie.2021.101151)_**, Vol. 61.
+9.  Naoto Jinji and Ayumu Tanaka. (2020). "How Does UNESCO's Convention on Cultural Diversity Affect Trade in Cultural Goods?," **_[Journal of Cultural Economics](https://doi.org/10.1007/s10824-020-09380-6)_**, Vol. 44, pp.625–660. [[SharedIt link](https://rdcu.be/cw4lh)]
+10. Ayumu Tanaka, Banri Ito, and Ryuhei Wakasugi. (2019). "How Do Exporters Respond to Exogenous Shocks: Evidence from Japanese Firm-Level Data," **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2019.100962)_**, Vol. 51.
+11. Ayumu Tanaka. (2017). "Foreign Direct Investment and Temporary Workers in Japan," **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2016.10.004)_**, Vol. 48, pp.87–99.
+12. Banri Ito and Ayumu Tanaka. (2016). "External R&D, Productivity, and Export: Evidence from Japanese Firms," **_[Review of World Economics](https://dx.doi.org/10.1007/s10290-015-0240-y)_**, Vol. 152, No.3, pp.577–596. [[SharedIt link](https://rdcu.be/cw4lp)]
+13. Ryuhei Wakasugi and Ayumu Tanaka. (2015) "Recovery of the Supply Chain after the 2011 Mega-quake in Japan,” **_[Millennial Asia](http://doi.org/10.1177%2F0976399614563221)_**, Vol.6, No.1, pp. 1–18. 
+14. Ayumu Tanaka. (2015). "The Impacts of Natural Disasters on Plants' Growth: Evidence from the Great Hanshin-Awaji (Kobe) Earthquake," **_[Regional Science and Urban Economics](https://dx.doi.org/10.1016/j.regsciurbeco.2014.11.002)_**, Vol. 50, pp.31–41. 
+15. Ayumu Tanaka. (2013). "The Causal Effects of Exporting on Domestic Workers: A Firm-Level Analysis using Japanese Data," **_[Japan and the World Economy](https://dx.doi.org/10.1016/j.japwor.2013.06.003)_**, Vol. 28, pp.13-23.
+16. Ayumu Tanaka. (2012). "Firm Productivity and the Number of FDI Destinations: Evidence from a Non-parametric Test," **_[Economics Letters](https://dx.doi.org/10.1016/j.econlet.2012.04.079)_**, Vol. 117, No.1, pp.1-3. 
+17. Ryuhei Wakasugi and Ayumu Tanaka. (2012). "Productivity Heterogeneity and Internationalization: Evidence from Japanese Firms,” **_[Millennial Asia](http://doi.org/10.1177%2F097639961200300103)_**, Vol.3, No.1, pp.45–70.  
+18. Ryuhei Wakasugi and Ayumu Tanaka. (2010). "Activities of Japanese Multinationals with Productivity Heterogeneity,” **_[The International Economy](http://doi.org/10.5652/internationaleconomy.ie2010.08.w.t)_**, No. 14, pp. 128–142. 
 
 
 
 **Working Papers**
 
-1. "Multinational Firms' Responses to a Host Country Financial Crisis: The Case of Korea" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/cdajf), September 2024. _Accepted._
-2.  "No-Exit Brexit: Multinational Firms’ Exit and Divestment in the UK" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/yx7as), December 2024. _Submitted._
+1.  "No-Exit Brexit: Multinational Firms’ Exit and Divestment in the UK" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/yx7as), December 2024. _Submitted._
 3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
 
 
