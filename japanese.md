@@ -17,8 +17,6 @@ layout: default
 **現職**  
 2021-現在 青山学院大学 経済学部 [准教授](https://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymboyooyggy)  
 
-**学外**  
-2013-現在 独立行政法人 経済産業研究所 [リサーチアソシエイト](https://www.rieti.go.jp/users/tanaka-ayumu/)（非常勤）  
 
 **連絡先**  
 住所: 〒150-8366 東京都渋谷区渋谷4-4-25　 [青山キャンパス](https://www.aoyama.ac.jp/outline/campus/aoyama.html)  

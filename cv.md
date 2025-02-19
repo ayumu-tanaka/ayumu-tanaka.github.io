@@ -19,7 +19,6 @@ Ayumu Tanaka, Ph.D.
 
 **Current Position**  
 2021- Associate Professor, College of Economics, Aoyama Gakuin University, Tokyo, Japan  
-2013- [Research Associate](http://www.rieti.go.jp/users/tanaka-ayumu/index_en.html), [Research Institute of Economy, Trade and Industry (RIETI)](http://www.rieti.go.jp/en/), Tokyo, Japan  
 
 
 **Previous Position**  
