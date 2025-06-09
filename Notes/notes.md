@@ -4,8 +4,6 @@ layout: default
 
 # 研究メモ
 
-## 目次
-
 
 - [Stataについてのメモ](StataNotes/README.md)
   - [Stata: 最低賃金の若年雇用への影響](https://rpubs.com/ayumuR/DiD-Stata-Wage)
