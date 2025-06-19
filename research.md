@@ -38,8 +38,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Working Papers**
 
-1.  "No-Exit Brexit: Multinational Firms’ Exit and Divestment in the UK" (with Michael Ryan). [_SocArXiv_](https://doi.org/10.31235/osf.io/yx7as), December 2024. _Submitted._
-3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
+1.  "Anchored Abroad: Sunk Costs, Asset Specificity, and Japanese Affiliate Exit from Brexit Britain" (with Michael Ryan),  June 2025. _Submitted._
+2. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
 
 
 
