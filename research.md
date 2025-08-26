@@ -15,7 +15,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 **Journal Articles**
 
-1. Michael Ryan and Ayumu Tanaka. (2024). "Multinational Firms' Responses to a Host Country Financial Crisis: The Case of Korea," **_[Review of World Economics](https://doi.org/10.1007/s10290-024-00578-w)_**, forthcoming. [[SocArXiv](https://doi.org/10.31235/osf.io/cdajf)]
+1. Michael Ryan and Ayumu Tanaka. (2025). "Multinational Firms' Responses to a Host Country Financial Crisis: The Case of Korea," **_[Review of World Economics](https://doi.org/10.1007/s10290-024-00578-w)_**, Vol.161, pp.997–1033. [[SocArXiv](https://doi.org/10.31235/osf.io/cdajf)]
 2. Tadashi Ito, Michael Ryan, and Ayumu Tanaka. (2024). "FDI, Financial Constraint and Partial Ownership," **_[The World Economy](https://doi.org/10.1111/twec.13561)_**, Vol.47, No.7, pp.2789-2827. [[VOXEU COLUMN](https://cepr.org/voxeu/columns/partial-ownership-financial-constraints-and-foreign-direct-investment)] [[SocArXiv](https://doi.org/10.31235/osf.io/9djup)]
 3. Ayumu Tanaka, Banri Ito, and Naoto Jinji. (2023). "Individual Preferences Toward Inward Foreign Direct Investment: A Survey Experiment,"  **_[Journal of Asian Economics](https://doi.org/10.1016/j.asieco.2023.101644)_**, Vol.88. [[SSRN](https://ssrn.com/abstract=4221913)]
 4.  Banri Ito, Ayumu Tanaka, and Naoto Jinji. (2023). “Why do People Oppose Foreign Acquisitions? Evidence from Japanese Individual-level Data,” **_[Japan and the World Economy](https://doi.org/10.1016/j.japwor.2023.101187)_**, Vol. 66.
