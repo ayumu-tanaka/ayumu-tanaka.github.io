@@ -9,10 +9,11 @@ layout: default
 RESEARCH
 --------
 
-**Research Interest**  
-International Trade; Foreign Direct Investment; Natural Disasters; Cultural Economics
+**[Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)**
 
-[Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
+
+**Research Interest**  
+International Trade; Foreign Direct Investment; Natural Disasters; Cultural Economics; Applied Econometrics
 
 
 **Journal Articles**
