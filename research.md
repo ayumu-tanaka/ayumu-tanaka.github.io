@@ -9,9 +9,11 @@ layout: default
 RESEARCH
 --------
 
-
 **Research Interest**  
 International Trade; Foreign Direct Investment; Natural Disasters; Cultural Economics
+
+[Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=7o9PsBoAAAAJ)
+
 
 **Journal Articles**
 
@@ -39,7 +41,8 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 **Working Papers**
 
 1.  "Anchored Abroad: Sunk Costs, Asset Specificity, and Japanese Affiliate Exit from Brexit Britain" (with Michael Ryan),  June 2025. _Submitted._
-2. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
+2.  "Contrasting Effects of EU and EMU Membership on FDI: A Synthetic Difference-in-Differences Approach" (with Michael Ryan), October 2025. _Submitted._
+3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
 
 
 
@@ -48,12 +51,12 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 
 **Projects**
-1.  [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
-1.  Zengin Foundation for Studies on Economics and Finance's Grant-in-aid (No. 2210, January 2023 - March 2025) (with Tadashi Ito and Michael Ryan)
+* [JSPS's Grants-in-Aid for Scientific Research](https://nrid.nii.ac.jp/en/nrid/1000020583967/).
+
 
 
 **Book**  
-Ryuhei Wakasugi ed. (2014). "_[Internationalization of Japanese Firms: Evidence from Firm-level Data](https://dx.doi.org/10.1007/978-4-431-54532-3)_," Springer (173pages).  
+* Ryuhei Wakasugi ed. (2014). "_[Internationalization of Japanese Firms: Evidence from Firm-level Data](https://dx.doi.org/10.1007/978-4-431-54532-3)_," Springer (173pages).  
   
 **Referee services**  
 Asia Europe Journal (2024), Asian Economic Journal (2022), The Developing Economies (2025), Economic Analysis and Policy (2021, 2025), Economic Development and Cultural Change (2025), Economic Modelling (2024), Empirica (2024), European Journal of Political Economy (2020), International Economics and Economic Policy (2025), International Journal of Economic Policy Studies (2025), Japanese Economic Review (2013), Japan and the World Economy (2013, 2018, 2020, 2021), Journal of Cultural Economics (2020, 2021), Journal of Economic Geography (2017), Journal of International Trade & Economic Development (2021), Journal of Regional Science (2024), Journal of the Asia Pacific Economy (2023), Journal of the Japanese and International Economies (2021, 2023, 2024), Regional Studies (2023), Review of Development Economics (2021, 2022–2023), Review of International Economics (2011), Singapore Economic Review (2023).
