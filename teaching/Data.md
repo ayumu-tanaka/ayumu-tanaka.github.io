@@ -28,7 +28,7 @@ layout: default
 
 2国間のFDIデータは入手が難しいことが多い。以下のデータセットがあるが、利用可能性に限界がある。
 
-- [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
+- [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。過去データは国立国会図書館ワーププロジェクトで入手可能。2014--2024年。日銀では2国間のFDIデータが公開されていない（2025年10月時点）。
 - [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/en/topics/foreign-direct-investment-fdi.html) &rarr; 無料。2国間の外国直接投資データ。2005年以降。
 - [UNCTAD, World Investment Report](https://unctad.org/topic/investment/world-investment-report) &rarr; 無料。外国直接投資に関する年次報告書。Annex Tablesに基本データあり。
 - [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。2009年以降。
