@@ -25,10 +25,16 @@ layout: default
 
   
 ## 外国直接投資
+
+2国間のFDIデータは入手が難しいことが多い。以下のデータセットがあるが、利用可能性に限界がある。
+
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
-- [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
-- [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。
-- [Nguyen (2019)](https://github.com/a3guyen/PAPER_2019_Intensive_Extensive_FDI_TWE)
+- [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/en/topics/foreign-direct-investment-fdi.html) &rarr; 無料。2国間の外国直接投資データ。2005年以降。
+- [UNCTAD, World Investment Report](https://unctad.org/topic/investment/world-investment-report) &rarr; 無料。外国直接投資に関する年次報告書。Annex Tablesに基本データあり。
+- [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。2009年以降。
+- [Nguyen (2020)](https://github.com/a3guyen/PAPER_2020_Intra_Asian_FDI_EM). 2001--2012年のアジア諸国の2国間の外国直接投資データ。無料。
+- Kox (2025). [Repairing a Historical Mistake in Bilateral FDI Statistics: A New Dataset Covering 2001–2022. Review of International Economics](https://doi.org/10.1111/roie.70004). 2001--2022年の2国間の外国直接投資データ。公開予定（2025年10月時点）。
+
 
 ## 貿易政策、RTA
 - [Mario Larch's Regional Trade Agreements Database](https://www.ewf.uni-bayreuth.de/en/research/RTA-data/index.html) &rarr; 無料。RTAデータベース。
