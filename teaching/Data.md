@@ -27,7 +27,7 @@ layout: default
 ## 外国直接投資
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。
 - [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/corporate/mne/statistics.htm) &rarr; 無料。2国間の外国直接投資データ。
-- [IMF, Coordinated Direct Investment Survey (CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。
+- [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。
 - [Nguyen (2019)](https://github.com/a3guyen/PAPER_2019_Intensive_Extensive_FDI_TWE)
 
 ## 貿易政策、RTA
