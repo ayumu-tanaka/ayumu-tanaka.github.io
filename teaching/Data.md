@@ -19,21 +19,21 @@ layout: default
 - [The International Social Survey Programme (ISSP)](https://www.gesis.org/en/issp/home) &rarr; 無料。世界各国の市民対象のアンケート調査。
   
 ## 貿易
-- [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) &rarr; かつては国連貿易統計の有料プラン加入が必要だったが、現在は無料のよう。国連貿易統計を研究用に加工済みの２国間の貿易データ。
+- [CEPII, BACI](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) &rarr; 現在は無料。国連貿易統計を研究用に加工済みの２国間の貿易データ。
 - [CEPII, Gravity](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8) &rarr; 無料。２国間の距離、言語の共通性など重力方程式に必須の変数の定番データベース。
 - [財務省貿易統計](https://www.customs.go.jp/toukei/info/) &rarr; 無料。日本の国別・財別の貿易データ。csvファイル形式。
 - [Stephen J. Redding, Global Trade](https://globalcapitalallocation.s3.us-east-2.amazonaws.com/Redding_GCAP_2025_08_12+(2).pdf) &rarr; 貿易データの紹介。
   
 ## 外国直接投資
 
-2国間のFDIデータは入手が難しいことが多い。以下のデータセットがあるが、利用可能性に限界がある。
+2国間のFDIデータは入手が難しいことが多い。以下のデータセットがあるが、利用可能性に限界がある。統計基準の変更で、過去と現在のデータの互換性がない場合もある。長期の比較には注意が必要。
 
 - [財務省、対外・対内直接投資の推移](https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/bpfdi.htm) &rarr; 無料。日本の外国直接投資データ。過去データは国立国会図書館ワーププロジェクトで入手可能。2014--2024年。日銀では2国間のFDIデータが公開されていない（2025年10月時点）。
-- [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/en/topics/foreign-direct-investment-fdi.html) &rarr; 無料。2国間の外国直接投資データ。2005年以降。
+- [OECD, Foreign Direct Investment Statistics](https://www.oecd.org/en/topics/foreign-direct-investment-fdi.html) &rarr; 無料。2国間の外国直接投資データ。2005年以降。OECD Data Explorerで「FDI by counterpart area and by economic activity, BMD4 and historical BMD3」を指定すると、2国間のFDIデータが入手できる。煩雑かつ最大ダウンロード容量に制限あり。2025年10月時点。
 - [UNCTAD, World Investment Report](https://unctad.org/topic/investment/world-investment-report) &rarr; 無料。外国直接投資に関する年次報告書。Annex Tablesに基本データあり。
-- [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。2国間の外国直接投資データ。メールアドレス登録すると、一括ダウンロードできる。2009年以降。
+- [IMF, Direct Investment Positions by Counterpart Economy (formerly CDIS)](https://data.imf.org/)  &rarr; 無料。かつてはメールアドレス登録すると、一括ダウンロードできたが、現在できない。2009年以降。かつては、2国間の外国直接投資データが提供されていたが、現在は見当たらない。2025年10月時点。
 - [Nguyen (2020)](https://github.com/a3guyen/PAPER_2020_Intra_Asian_FDI_EM). 2001--2012年のアジア諸国の2国間の外国直接投資データ。無料。
-- Kox (2025). [Repairing a Historical Mistake in Bilateral FDI Statistics: A New Dataset Covering 2001–2022. Review of International Economics](https://doi.org/10.1111/roie.70004). 2001--2022年の2国間の外国直接投資データ。公開予定（2025年10月時点）。
+- Kox (2025). [Repairing a Historical Mistake in Bilateral FDI Statistics: A New Dataset Covering 2001–2022. Review of International Economics](https://doi.org/10.1111/roie.70004). 2001--2022年の2国間の外国直接投資データ。公開予定。2025年10月時点。
 - Larch and Yotov (2024). [Deep Trade Agreements and FDI in Partial and General Equilibrium: A Structural Estimation Framework](https://doi.org/10.1093/wber/lhae031). 1998--2015年の2国間の外国直接投資データ。[Dropbox](https://www.dropbox.com/scl/fo/rurwez2lzvqewqay9h3gs/AGO7T2k6gNzusg2XAFbsi-Q?rlkey=m84nzkmmb3od0nsgz3hcp3tcp&e=1&st=cnrvge8r&dl=0)でデータが公開されている。無料。
 
 
