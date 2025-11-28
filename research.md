@@ -43,7 +43,7 @@ International Trade; Foreign Direct Investment; Natural Disasters; Cultural Econ
 
 1.  "Anchored Abroad: Sunk Costs, Asset Specificity, and Japanese Affiliate Exit from Brexit Britain" (with Michael Ryan),  June 2025. _Submitted._
 2.  "Contrasting Effects of EU and EMU Membership on FDI: A Synthetic Difference-in-Differences Approach" (with Michael Ryan), October 2025. _Submitted._
-3. "Estimating the Effects of GATT/WTO Membership on Trade Using Staggered Difference-in-Differences Design.” _SocArXiv_, November 2023. _Under Revision._
+
 
 
 
