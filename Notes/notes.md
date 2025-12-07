@@ -44,6 +44,7 @@ layout: default
 - [現代的な重力方程式のパネル推定 with fixest](https://rpubs.com/ayumuR/gravity_fixest_panel)
 - [重力方程式を用いた多期間差の差推定](https://rpubs.com/ayumuR/gravity_fixest_es)
 - [重力方程式を用いた2元固定効果差の差推定](https://rpubs.com/ayumuR/gravity_fixest_twfe)
+- [日・シンガポールEPAの貿易促進効果の分析](https://rpubs.com/ayumuR/EPA01)
 
 ## **6. 差分の差法（DiD）**
 - [R: 最低賃金の若年雇用への影響](https://rpubs.com/ayumuR/DiD-Wage)
