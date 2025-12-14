@@ -7,6 +7,7 @@ layout: default
 
 ## LaTeX/Overleaf 
 - [Overleaf 日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
+- [Overleaf 日本語スライドの雛形](https://www.overleaf.com/read/kvmsnnbjvztn#9893bf)
 - [MacTeX - TeXShop で 日本語を使う方法](https://medemanabu.net/latex/mactex-texshop-ptex-platex/)
 - 武田史郎 [「経済学におけるBibTeXの利用」](https://qiita.com/shiro_takeda/items/92adf0b20c501548355e)
 
