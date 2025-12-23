@@ -60,6 +60,7 @@ layout: default
 - [日本の文化財所在地図](https://rpubs.com/ayumuR/cultural_property)
 - [都道府県別文化財数の地図](https://rpubs.com/ayumuR/cultural_property_pref)
 - [Location of Japanese affiliates in the UK.](https://rpubs.com/ayumuR/mapUK)
+- [メキシコの地図](https://rpubs.com/ayumuR/Map_Mexico)
 
 ## **9. 貿易・ネットワーク分析**
 - [貿易データの分析](https://rpubs.com/ayumuR/trade_data)
