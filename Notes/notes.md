@@ -61,6 +61,10 @@ layout: default
 - [都道府県別文化財数の地図](https://rpubs.com/ayumuR/cultural_property_pref)
 - [Location of Japanese affiliates in the UK.](https://rpubs.com/ayumuR/mapUK)
 - [メキシコの地図](https://rpubs.com/ayumuR/Map_Mexico)
+- [Rによる夜間光データの分析（1）データの切り出し](https://rpubs.com/ayumuR/NightLight01)
+- [Rによる夜間光データの分析（2）日本](https://rpubs.com/ayumuR/NightLight02)
+- [Rによる夜間光データの分析（3）市区町村データ](https://rpubs.com/ayumuR/NightLight03)
+
 
 ## **9. 貿易・ネットワーク分析**
 - [貿易データの分析](https://rpubs.com/ayumuR/trade_data)
