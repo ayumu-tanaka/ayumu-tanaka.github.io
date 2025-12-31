@@ -64,6 +64,8 @@ layout: default
 - [Rによる夜間光データの分析（1）データの切り出し](https://rpubs.com/ayumuR/NightLight01)
 - [Rによる夜間光データの分析（2）日本](https://rpubs.com/ayumuR/NightLight02)
 - [Rによる夜間光データの分析（3）市区町村データ](https://rpubs.com/ayumuR/NightLight03)
+- [Rによる夜間光データの分析（4）LRCC-DVNL NTL data](https://rpubs.com/ayumuR/NightLight04)
+- [Rによる夜間光データの分析（5）LRCC-DVNL NTL dataから1992〜2022年の日本のデータを切り出す](https://rpubs.com/ayumuR/NightLight05)
 
 
 ## **9. 貿易・ネットワーク分析**
