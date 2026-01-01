@@ -33,6 +33,23 @@ knitr::opts_chunk$set(
     - [まず普通のグラフを作成](#まず普通のグラフを作成)
     - [x軸の小数点を消す](#x軸の小数点を消す)
     - [参考](#参考-1)
+- [データ名称を変更する: `assign`](#データ名称を変更する-assign)
+- [Stataの`forvalues`と同じようにループで連番データを読み込む](#stataのforvaluesと同じようにループで連番データを読み込む)
+- [`tapply`の使い方](#tapplyの使い方)
+- [パイプ・オペレータ](#パイプオペレータ)
+- [交差項](#交差項)
+- [`mutate`の使い方](#mutateの使い方)
+- [Rでデータをcollapseする方法](#rでデータをcollapseする方法)
+- [欠損値の除去](#欠損値の除去)
+- [Stata to R](#stata-to-r)
+- [RMarkdownとQuatroでの目次自動生成](#rmarkdownとquatroでの目次自動生成)
+- [多数の固定効果含むモデルの推定](#多数の固定効果含むモデルの推定)
+- [Excelデータの読み込み、書き出し](#excelデータの読み込み書き出し)
+- [特定の文字列の言語の識別](#特定の文字列の言語の識別)
+- [特定の文字の前後の文字列の切り出し](#特定の文字の前後の文字列の切り出し)
+- [R MarkdownでのBibTexの使用](#r-markdownでのbibtexの使用)
+- [data.table](#datatable)
+- [here](#here)
 
 
 # `$`と`[[]]`の使い方
@@ -365,12 +382,39 @@ collapse1
 ```
 -[HOW CAN I “COLLAPSE” MY DATA IN R? | R FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
 
+
+方法3
+
+`dplyr`パッケージの`group_by`を使って、属性ごとに平均値などを計算する。
+
+
+```{r}
+library(dplyr)
+library(wooldridge)
+data("wage1")
+
+# 男女別・婚姻状態別の賃金の平均値・標準偏差を計算する。
+wage1_summary <- wage1 %>%
+  group_by(female, married) %>%
+  summarise(
+    mean_wage = mean(wage, na.rm = TRUE),
+    sd_wage = sd(wage, na.rm = TRUE),
+    sum_wage = sum(wage, na.rm = TRUE),
+    count = n(),
+    first = first(educ) # 例として最初の教育年数
+  )
+print(wage1_summary)
+
+```
+
+
 # 欠損値の除去
 - 変数のない行を削除
 dat2 <- subset(dat, !(is.na(dat$変数)))
 
 - NAがある行はすべて削除
 dat2 <- na.omit(dat)
+
 
 
 

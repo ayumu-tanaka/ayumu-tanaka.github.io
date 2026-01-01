@@ -396,6 +396,38 @@ m　がショートカット。
 \-[HOW CAN I “COLLAPSE” MY DATA IN R? \| R
 FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
 
+方法3
+
+`dplyr`パッケージの`group_by`を使って、属性ごとに平均値などを計算する。
+
+``` r
+library(dplyr)
+library(wooldridge)
+data("wage1")
+
+# 男女別・婚姻状態別の賃金の平均値・標準偏差を計算する。
+wage1_summary <- wage1 %>%
+  group_by(female, married) %>%
+  summarise(
+    mean_wage = mean(wage, na.rm = TRUE),
+    sd_wage = sd(wage, na.rm = TRUE),
+    sum_wage = sum(wage, na.rm = TRUE),
+    count = n(),
+    first = first(educ) # 例として最初の教育年数
+  )
+#> `summarise()` has grouped output by 'female'. You can override using the
+#> `.groups` argument.
+print(wage1_summary)
+#> # A tibble: 4 × 7
+#> # Groups:   female [2]
+#>   female married mean_wage sd_wage sum_wage count first
+#>    <int>   <int>     <dbl>   <dbl>    <dbl> <int> <int>
+#> 1      0       0      5.17    2.72     444.    86    11
+#> 2      0       1      7.98    4.41    1501.   188     8
+#> 3      1       0      4.61    3.00     553.   120    11
+#> 4      1       1      4.57    2.03     603.   132    12
+```
+
 # 欠損値の除去
 
 - 変数のない行を削除 dat2 \<- subset(dat, !(is.na(dat\$変数)))
@@ -428,7 +460,7 @@ FAQ](https://stats.oarc.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/)
     ---
     title: "伝統的な重力方程式の推定"
     author: "田中 鮎夢"
-    date: "2024-11-28"
+    date: "2026-01-01"
     output:
       html_document:
         toc: yes
