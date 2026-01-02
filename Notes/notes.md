@@ -56,7 +56,7 @@ layout: default
 
 ## **8. 地図を使った実践的分析**
 - [US map](https://rpubs.com/ayumuR/usmap01)
-- [日本の市区町村地図](https://rpubs.com/ayumuR/jpn_city_map01)
+- [日本の市区町村地図（石川県）](https://rpubs.com/ayumuR/jpn_city_map01)
 - [日本の文化財所在地図](https://rpubs.com/ayumuR/cultural_property)
 - [都道府県別文化財数の地図](https://rpubs.com/ayumuR/cultural_property_pref)
 - [Location of Japanese affiliates in the UK.](https://rpubs.com/ayumuR/mapUK)
@@ -64,9 +64,11 @@ layout: default
 - [Rによる夜間光データの分析（1）データの切り出し](https://rpubs.com/ayumuR/NightLight01)
 - [Rによる夜間光データの分析（2）日本](https://rpubs.com/ayumuR/NightLight02)
 - [Rによる夜間光データの分析（3）市区町村データ](https://rpubs.com/ayumuR/NightLight03)
-- [Rによる夜間光データの分析（4）LRCC-DVNL NTL data](https://rpubs.com/ayumuR/NightLight04)
-- [Rによる夜間光データの分析（5）LRCC-DVNL NTL dataから1992〜2022年の日本のデータを切り出す](https://rpubs.com/ayumuR/NightLight05)
-
+- [Rによる夜間光データの分析（4）LRCC](https://rpubs.com/ayumuR/NightLight04)
+- [Rによる夜間光データの分析（5）LRCCからのデータを切り出し](https://rpubs.com/ayumuR/NightLight05)
+- [日本の行政境界データ「地球地図日本」](https://rpubs.com/ayumuR/MapJapan01)
+- [日本の行政境界データ「国土数値情報」](https://rpubs.com/ayumuR/MapJapan02)
+- [日本の行政境界データ「国勢調査」](https://rpubs.com/ayumuR/MapJapan03)
 
 ## **9. 貿易・ネットワーク分析**
 - [貿易データの分析](https://rpubs.com/ayumuR/trade_data)
