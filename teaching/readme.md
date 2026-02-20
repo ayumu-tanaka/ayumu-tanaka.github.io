@@ -18,8 +18,9 @@ layout: default
 - [RPubs 第3章「測定」](https://rpubs.com/ayumuR/qss03)
 - [RPubs 第4章「予測」](https://rpubs.com/ayumuR/qss04)
 
+## ゼミ紹介
 
-
+- [ゼミ紹介](seminar.md)
 
 ## 参考資料
 
