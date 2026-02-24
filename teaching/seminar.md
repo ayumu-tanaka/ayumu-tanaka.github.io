@@ -5,7 +5,7 @@ title: ゼミ紹介
 
 # ゼミ紹介：グローバル経済とデータ分析
 
-本ゼミでは、[Posit Cloud](https://posit.cloud/)や[GitHub Copilot](https://github.com/features/copilot)などの最新環境を駆使し、学部の基礎から修士論文の高度な計量経済分析まで、一貫したデータサイエンスのスキルを身につけます。
+本ゼミでは、[Posit Cloud](https://posit.cloud/)や[GitHub Copilot](https://github.com/features/copilot)などの最新環境を駆使し、学部の基礎から卒業論文・修士論文の高度な分析まで、一貫したデータサイエンスのスキルを身につけます。
 
 
 ---
@@ -22,12 +22,19 @@ title: ゼミ紹介
 - **分析手法の深化**: 2年次の学びを継続し、より高度な因果推論やデータ処理を習得します。
 - **文献解読のサポート**: [NotebookLM](https://notebooklm.google/)等のツールを活用。[*Journal of International Economics*](https://www.sciencedirect.com/journal/journal-of-international-economics) 等のトップジャーナルに掲載された論文を、最新ツールの助けを借りて深く理解することを目指します。
 - **過去の講読論文リスト（例）**:
-    - Antràs, Redding, and Rossi-Hansberg (2023) ["Globalization and Pandemics"](https://doi.org/10.1257/aer.20201479) *American Economic Review*.
-    - Caballero, Cadena, and Kovak (2023) ["The international transmission of local economic shocks through migrant networks"](https://doi.org/10.1016/j.jinteco.2023.103832) *Journal of International Economics*.
-    - Connolly and Krueger (2006) ["Rockonomics: The Economics of Popular Music"](https://doi.org/10.1016/S1574-0676(06)01020-9) *Handbook of the Economics of Art and Culture*.
-    - Gopinath, Gourinchas, Presbitero, and Topalova (2025) ["Changing global linkages: A new Cold War?"](https://doi.org/10.1016/j.jinteco.2024.104042) *Journal of International Economics*.
-    - Korovkin and Makarin (2023) ["Conflict and Intergroup Trade: Evidence from the 2014 Russia-Ukraine Crisis"](https://doi.org/10.1257/aer.20191701) *American Economic Review*.
-    - Krueger (2005) ["The Economics of Real Superstars: The Market for Rock Concerts in the Material World"](https://doi.org/10.1086/425431) *Journal of Labor Economics*.
+- 
+<details>
+<summary>クリックして表示</summary>
+
+- Antràs, Redding, and Rossi-Hansberg (2023) ["Globalization and Pandemics"](https://doi.org/10.1257/aer.20201479) *American Economic Review*.
+- Caballero, Cadena, and Kovak (2023) ["The international transmission of local economic shocks through migrant networks"](https://doi.org/10.1016/j.jinteco.2023.103832) *Journal of International Economics*.
+- Connolly and Krueger (2006) ["Rockonomics: The Economics of Popular Music"](https://doi.org/10.1016/S1574-0676(06)01020-9) *Handbook of the Economics of Art and Culture*.
+- Gopinath, Gourinchas, Presbitero, and Topalova (2025) ["Changing global linkages: A new Cold War?"](https://doi.org/10.1016/j.jinteco.2024.104042) *Journal of International Economics*.
+- Korovkin and Makarin (2023) ["Conflict and Intergroup Trade: Evidence from the 2014 Russia-Ukraine Crisis"](https://doi.org/10.1257/aer.20191701) *American Economic Review*.
+- Krueger (2005) ["The Economics of Real Superstars: The Market for Rock Concerts in the Material World"](https://doi.org/10.1086/425431) *Journal of Labor Economics*.
+
+</details>
+
 - **再現性（Replication）の学習**: 既存研究のデータとコードを解読し、自力で分析を再現することで、卒論に活かせる実践的な手法を学びます。
 
 ### 4年前期/後期：卒業論文の執筆
