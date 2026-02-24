@@ -7,9 +7,6 @@ title: ゼミ紹介
 
 本ゼミでは、[Posit Cloud](https://posit.cloud/)や[GitHub Copilot](https://github.com/features/copilot)などの最新環境を駆使し、学部の基礎から修士論文の高度な計量経済分析まで、一貫したデータサイエンスのスキルを身につけます。
 
-> **「好奇心 (curiosity) を大切にして、勇気（courage）を持って困難な問題に挑戦すること（challenge）。必ずできるという確信（confidence）を持って、全精力を集中（concentration）し、そして諦めずに継続すること（continuation）。」**
-> —— [本庶 佑（京都大学）](https://www2.mfour.med.kyoto-u.ac.jp/essay02.html)
-
 
 ---
 
