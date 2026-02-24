@@ -21,10 +21,10 @@ title: ゼミ紹介
 ### 3年前期/後期：因果推論の実践と文献講読
 - **分析手法の深化**: 2年次の学びを継続し、より高度な因果推論やデータ処理を習得します。
 - **文献解読のサポート**: [NotebookLM](https://notebooklm.google/)等のツールを活用。[*Journal of International Economics*](https://www.sciencedirect.com/journal/journal-of-international-economics) 等のトップジャーナルに掲載された論文を、最新ツールの助けを借りて深く理解することを目指します。
-- **過去の講読論文リスト（例）**:
-- 
+- **再現性（Replication）の学習**: 既存研究のデータとコードを解読し、自力で分析を再現することで、卒論に活かせる実践的な手法を学びます。
+
 <details>
-<summary>クリックして表示</summary>
+<summary><strong>過去の講読論文リスト（例）</strong></summary>
 
 - Antràs, Redding, and Rossi-Hansberg (2023) ["Globalization and Pandemics"](https://doi.org/10.1257/aer.20201479) *American Economic Review*.
 - Caballero, Cadena, and Kovak (2023) ["The international transmission of local economic shocks through migrant networks"](https://doi.org/10.1016/j.jinteco.2023.103832) *Journal of International Economics*.
@@ -35,7 +35,7 @@ title: ゼミ紹介
 
 </details>
 
-- **再現性（Replication）の学習**: 既存研究のデータとコードを解読し、自力で分析を再現することで、卒論に活かせる実践的な手法を学びます。
+
 
 ### 4年前期/後期：卒業論文の執筆
 - **一貫したワークフロー**: データの取得から、処理、回帰分析、地図描画、執筆まで、すべてPosit Cloud上のR Markdownで行います。
