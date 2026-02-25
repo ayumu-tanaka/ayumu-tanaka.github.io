@@ -23,12 +23,11 @@ title: ゼミ紹介
 - **文献解読のサポート**: [NotebookLM](https://notebooklm.google/)等のツールを活用。[*Journal of International Economics*](https://www.sciencedirect.com/journal/journal-of-international-economics) 等のトップジャーナルに掲載された論文を、最新ツールの助けを借りて深く理解することを目指します。
 - **再現性（Replication）の学習**: 既存研究のデータとコードを解読し、自力で分析を再現することで、卒論に活かせる実践的な手法を学びます。
 
-<br>
+
 
 <details>
 <summary><strong>過去の講読論文リスト（例）</strong></summary>
 
-<br>
 
 <ul>
   <li>
