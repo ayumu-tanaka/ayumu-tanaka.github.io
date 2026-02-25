@@ -20,7 +20,8 @@ layout: default
 
 ## ゼミ紹介
 
-- [ゼミ紹介](seminar.md)
+- [学部ゼミ紹介](seminar.md)
+- [大学院ゼミ紹介](seminar2.md)
 
 ## 参考資料
 
