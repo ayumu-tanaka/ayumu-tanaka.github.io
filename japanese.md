@@ -35,13 +35,14 @@ layout: default
 
 
 
-**[研究メモ](Notes/notes.md)**
+**[研究メモ](Notes/notes.md)**<br>
 
 
-**[講義資料](teaching/readme.md)**
+**[講義資料](teaching/readme.md)**<br>
 
 
-[学部ゼミ紹介](teaching/seminar.md) | [大学院ゼミ紹介](teaching/seminar2.md) | [研究指導希望者へ](teaching/graduate.md)
+[学部ゼミ紹介](teaching/seminar.md) | [大学院ゼミ紹介](teaching/seminar2.md) | [研究指導希望者へ](teaching/graduate.md)<br>
+
 
 
 
