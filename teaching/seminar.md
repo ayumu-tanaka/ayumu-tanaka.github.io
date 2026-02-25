@@ -5,7 +5,7 @@ title: 学部ゼミ紹介
 
 # 学部ゼミ紹介：グローバル経済とデータ分析
 
-本ゼミでは、[Posit Cloud](https://posit.cloud/)や[GitHub Copilot](https://github.com/features/copilot)などの最新環境を駆使し、基礎から卒業論文の高度な分析まで、一貫したデータサイエンスのスキルを身につけます。
+本ゼミでは、[Posit Cloud](https://posit.cloud/)や[GitHub Copilot](https://github.com/features/copilot)などの最新環境を駆使し、基礎から卒業論文の高度な分析まで、Rを用いた一貫したデータサイエンスのスキルを身につけます。
 
 - [ゼミ募集要項 (PDF)](seminar2026.pdf)
 
