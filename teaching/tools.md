@@ -5,7 +5,7 @@ layout: default
 
 # LaTeX, Stata, R
 
-## LaTeX/Overleaf 
+## LaTeX / Overleaf 
 - [Overleaf 日本語論文の雛形](https://www.overleaf.com/read/pxqwmvzsfpjb)
 - [Overleaf 日本語スライドの雛形](https://www.overleaf.com/read/kvmsnnbjvztn#9893bf)
 - [MacTeX - TeXShop で 日本語を使う方法](https://medemanabu.net/latex/mactex-texshop-ptex-platex/)
@@ -30,4 +30,13 @@ layout: default
 - [Library of Statistical Techniques (LOST)](https://lost-stats.github.io)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com)
 
+
+## 統計学・計量経済学のR教材
+
+- [OpenIntro Statistics](https://www.openintro.org/book/os/) ([GitHub](https://github.com/OpenIntroStat)) 
+  - 『データ分析のための統計学入門』のRコードを提供
+- [Using R, Python and Julia for Introductory Econometrics](https://www.urfie.net) ([GitHub](https://github.com/danielbr2/U.FIE/)) 
+  - Wooldridgeの教科書のRのコードを提供
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org) ([GitHub](https://github.com/mca91/EconometricsWithR)) 
+  - Stock and Watsonの教科書のRのコードを提供
 
