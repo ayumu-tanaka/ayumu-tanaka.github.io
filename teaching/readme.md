@@ -23,6 +23,15 @@ layout: default
 - [学部ゼミ紹介](seminar.md)
 - [大学院ゼミ紹介](seminar2.md)
 
+## 講義ノート
+
+- [国際貿易論 講義資料](https://ayumu-tanaka.github.io/TradeLecture/)
+- [Stock and Watson 計量経済学講義資料](https://ayumu-tanaka.github.io/StockWatson/)
+- [Roth Econometrics 講義資料](https://ayumu-tanaka.github.io/RothEconometrics/)
+- [Quantitative Social Science (QSS) 講義資料](https://ayumu-tanaka.github.io/QSS/)
+- [Wooldridge 計量経済学講義資料](https://ayumu-tanaka.github.io/Wooldridge/)
+- [OpenIntro Statistics 日本語版講義資料](https://ayumu-tanaka.github.io/OpenIntroJP/)
+
 ## 参考資料
 
 - [LaTeX, R, Stata](tools.md)
