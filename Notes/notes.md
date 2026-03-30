@@ -69,6 +69,9 @@ layout: default
 - [日本の行政境界データ「地球地図日本」](https://rpubs.com/ayumuR/MapJapan01)
 - [日本の行政境界データ「国土数値情報」](https://rpubs.com/ayumuR/MapJapan02)
 - [日本の行政境界データ「国勢調査」](https://rpubs.com/ayumuR/MapJapan03)
+- [rayshaderによる日本の3D人口マップ](https://rpubs.com/ayumuR/rayshader01Japan)
+- [rayshaderによる東京都（島嶼部除く）の3D人口マップ](https://rpubs.com/ayumuR/rayshader02Tokyo)
+- [ggplot2による東京都（島嶼部除く）の2D人口マップ](https://rpubs.com/ayumuR/popmap)
 
 ## **9. 貿易・ネットワーク分析**
 - [貿易データの分析](https://rpubs.com/ayumuR/trade_data)
