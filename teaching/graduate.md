@@ -13,8 +13,9 @@ layout: default
  
 # For Prospective Graduate Students
 
-- I am able to supervise students who are interested in micro-econometric analysis in the fields of international trade, FDI,  natural disasters, and art and culture. 
-- I am able to supervise students in the master's program only. I am not able to supervise students in the doctoral program.
+- I can supervise students interested in micro-econometric analysis in the fields of international trade, FDI, natural disasters, and art and culture.
+- I supervise master's students only; I do not supervise doctoral students.
+
 
 
 
